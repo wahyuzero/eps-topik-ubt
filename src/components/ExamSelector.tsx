@@ -236,7 +236,7 @@ export const ExamSelector: React.FC<ExamSelectorProps> = ({
                   </span>
                 </div>
 
-                {/* Locked notice for students / guests */}
+                {/* Locked notice for students */}
                 {isLocked && !isAdmin && (
                   <div className="mt-3 p-2.5 rounded-xl bg-rose-950/40 border border-rose-500/30 flex items-start gap-2 text-rose-300 text-xs">
                     <Lock className="w-4 h-4 text-rose-400 shrink-0 mt-0.5" />

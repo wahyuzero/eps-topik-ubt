@@ -368,8 +368,8 @@ const UbtApp: React.FC = () => {
       answers,
       completedAt: new Date().toISOString(),
       userId: currentUser?.id,
-      studentName: currentUser?.name || 'Peserta Tamu',
-      userEmail: currentUser?.email || 'tamu@epstopik.com',
+      studentName: currentUser?.name || 'Peserta Ujian',
+      userEmail: currentUser?.email || '',
     };
 
     setExamResult(result);
@@ -785,7 +785,7 @@ const UbtApp: React.FC = () => {
         onClose={() => setShowQuickVocabDrawer(false)}
       />
 
-      {/* Auth Modal (Login / Register / Quick Demo) */}
+      {/* Auth Modal (Login / Register) */}
       <AuthModal />
 
       {/* Result & Scorecard Modal */}

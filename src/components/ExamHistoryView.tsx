@@ -35,7 +35,6 @@ export const ExamHistoryView: React.FC<ExamHistoryViewProps> = ({
   // Filter history based on role:
   // - If student: filter to current user's exams (by id or email)
   // - If admin: show all exams (with indicator)
-  // - If guest: show guest exams or prompt
   const userHistory = history.filter((item) => {
     if (isAdmin) return true;
     if (currentUser) {
@@ -44,8 +43,7 @@ export const ExamHistoryView: React.FC<ExamHistoryViewProps> = ({
         (item.userEmail && item.userEmail.toLowerCase() === currentUser.email.toLowerCase())
       );
     }
-    // Guest only sees exams taken in guest session
-    return !item.userId || item.userId === 'guest' || item.userEmail === 'tamu@epstopik.com';
+    return false;
   });
 
   // Filter by search & pass/fail

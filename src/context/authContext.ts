@@ -3,10 +3,9 @@ import type { User, UserRole } from '../types';
 
 export interface AuthContextType {
   currentUser: User | null;
-  role: UserRole | 'guest';
+  role: UserRole | null;
   isAdmin: boolean;
   isStudent: boolean;
-  isGuest: boolean;
   users: User[];
   lockedExamIds: string[];
   isAuthModalOpen: boolean;

@@ -352,10 +352,10 @@ export const Header: React.FC<HeaderProps> = ({
 
                 <div className="hidden sm:flex flex-col items-start leading-none">
                   <span className="font-bold text-xs truncate max-w-[90px] text-white">
-                    {currentUser ? currentUser.name : 'Tamu'}
+                    {currentUser?.name || 'Pengguna'}
                   </span>
                   <span className="text-[9px] text-slate-400 mt-0.5">
-                    {isAdmin ? 'Admin LPK' : currentUser ? 'Murid' : 'Masuk'}
+                    {isAdmin ? 'Admin LPK' : 'Murid'}
                   </span>
                 </div>
 
@@ -371,31 +371,27 @@ export const Header: React.FC<HeaderProps> = ({
                       className={`w-10 h-10 rounded-xl flex items-center justify-center text-lg font-black shrink-0 ${
                         isAdmin
                           ? 'bg-amber-500/20 text-amber-400 border border-amber-500/30'
-                          : currentUser
-                          ? 'bg-blue-600/20 text-blue-400 border border-blue-500/30'
-                          : 'bg-slate-800 text-slate-400 border border-slate-700'
+                          : 'bg-blue-600/20 text-blue-400 border border-blue-500/30'
                       }`}
                     >
-                      {isAdmin ? '👑' : currentUser ? '🎓' : '👤'}
+                      {isAdmin ? '👑' : '🎓'}
                     </div>
                     <div className="min-w-0 flex-1">
                       <div className="font-bold text-xs text-white truncate">
-                        {currentUser ? currentUser.name : 'Mode Tamu (Guest)'}
+                        {currentUser?.name || 'Profil Akun'}
                       </div>
                       <div className="text-[10px] text-slate-400 truncate">
-                        {currentUser ? currentUser.email : 'Belum Login'}
+                        {currentUser?.email || ''}
                       </div>
                       <div className="mt-1">
                         <span
                           className={`inline-block text-[9px] font-black px-2 py-0.2 rounded-full border ${
                             isAdmin
                               ? 'bg-amber-500/20 text-amber-300 border-amber-500/40'
-                              : currentUser
-                              ? 'bg-blue-500/20 text-blue-300 border-blue-500/40'
-                              : 'bg-slate-800 text-slate-400 border-slate-700'
+                              : 'bg-blue-500/20 text-blue-300 border-blue-500/40'
                           }`}
                         >
-                          {isAdmin ? '👑 Admin LPK' : currentUser ? '🎓 Murid' : '👤 Tamu'}
+                          {isAdmin ? '👑 Admin LPK' : '🎓 Murid'}
                         </span>
                       </div>
                     </div>

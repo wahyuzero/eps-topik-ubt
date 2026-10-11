@@ -447,10 +447,9 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     }
   };
 
-  const role: UserRole | 'guest' = currentUser ? currentUser.role : 'guest';
+  const role: UserRole | null = currentUser ? currentUser.role : null;
   const isAdmin = role === 'admin';
   const isStudent = role === 'student';
-  const isGuest = role === 'guest';
 
   return (
     <AuthContext.Provider
@@ -459,7 +458,6 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         role,
         isAdmin,
         isStudent,
-        isGuest,
         users,
         lockedExamIds,
         isAuthModalOpen,

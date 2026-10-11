@@ -1,0 +1,3182 @@
+[
+  {
+    "id": "0bc77d10-0a4f-42c7-95ad-90f2918e6038",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 0,
+    "title": "Chapter - 1",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:24.972Z",
+    "updatedAt": "2026-04-09T15:18:24.972Z",
+    "files": [
+      {
+        "id": "1b01958c-8f48-47f2-80ae-d1f55db78958",
+        "chapterId": "0bc77d10-0a4f-42c7-95ad-90f2918e6038",
+        "fileId": "cmnrmlh4e00bvoc2jtgqmazka",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:22:24.255Z",
+        "updatedAt": "2026-04-09T15:22:24.255Z",
+        "file": {
+          "id": "cmnrmlh4e00bvoc2jtgqmazka",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748141658-1.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748141658-1.pdf",
+          "contentType": "application/pdf",
+          "size": 468423,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:22:24.111Z",
+          "updatedAt": "2026-04-09T15:22:24.111Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748141658-1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=21aaec22eaf84b897e978ae94d86ba2f83da94cb05abd46f1469139eaac746ca&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "63fb7aee-2297-4d73-a77f-094c984ccfe1",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 1,
+    "title": "Chapter - 2",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:30.218Z",
+    "updatedAt": "2026-04-09T15:18:30.218Z",
+    "files": [
+      {
+        "id": "885f44c1-2b4e-4949-8af5-0a6e0b65bfd8",
+        "chapterId": "63fb7aee-2297-4d73-a77f-094c984ccfe1",
+        "fileId": "cmnrmlqnl00bxoc2jf04q0ukf",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:22:36.613Z",
+        "updatedAt": "2026-04-09T15:22:36.613Z",
+        "file": {
+          "id": "cmnrmlqnl00bxoc2jf04q0ukf",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748154309-2.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748154309-2.pdf",
+          "contentType": "application/pdf",
+          "size": 227250,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:22:36.465Z",
+          "updatedAt": "2026-04-09T15:22:36.465Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748154309-2.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=d162b604b01a85d53a8637d13d598cc729ca57fa370048eb75f1a704d9e42d28&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5839f292-28dd-457e-8618-e8fef3ee56f6",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 2,
+    "title": "Chapter - 3",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:34.585Z",
+    "updatedAt": "2026-04-09T15:18:34.585Z",
+    "files": [
+      {
+        "id": "cd0d7a2b-9548-4cab-8c74-ae1777636d30",
+        "chapterId": "5839f292-28dd-457e-8618-e8fef3ee56f6",
+        "fileId": "cmnrmmbmk00bzoc2jmvafwdzc",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:03.791Z",
+        "updatedAt": "2026-04-09T15:23:03.791Z",
+        "file": {
+          "id": "cmnrmmbmk00bzoc2jmvafwdzc",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748181480-3.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748181480-3.pdf",
+          "contentType": "application/pdf",
+          "size": 232438,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:03.644Z",
+          "updatedAt": "2026-04-09T15:23:03.644Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748181480-3.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=cd96d4bb11fb3b6702b782946a3808e5810157ee658eefd9f25459802e3079fd&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "9d48b718-a1c9-4052-a13d-4a0f7b2b51b3",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 3,
+    "title": "Chapter - 4",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:38.804Z",
+    "updatedAt": "2026-04-09T15:18:38.804Z",
+    "files": [
+      {
+        "id": "bfe3af5a-43a9-4ea3-9474-7bfce7204fb8",
+        "chapterId": "9d48b718-a1c9-4052-a13d-4a0f7b2b51b3",
+        "fileId": "cmnrmmiyt00c1oc2jld9t35vf",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:13.298Z",
+        "updatedAt": "2026-04-09T15:23:13.298Z",
+        "file": {
+          "id": "cmnrmmiyt00c1oc2jld9t35vf",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748190769-4.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748190769-4.pdf",
+          "contentType": "application/pdf",
+          "size": 175088,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:13.157Z",
+          "updatedAt": "2026-04-09T15:23:13.157Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748190769-4.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=f124f1f13472b7d77fa62c710ef5d6691f9705e6d057e0e68e7662d4cf72b13c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "dc5c6951-17ab-46dc-9105-e14f39b7143b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 4,
+    "title": "Chapter - 5",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:41.811Z",
+    "updatedAt": "2026-04-09T15:18:41.811Z",
+    "files": [
+      {
+        "id": "01386198-5ab6-4278-af00-18e6178bda43",
+        "chapterId": "dc5c6951-17ab-46dc-9105-e14f39b7143b",
+        "fileId": "cmnrmmp8q00c3oc2jk2cki6rd",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:21.434Z",
+        "updatedAt": "2026-04-09T15:23:21.434Z",
+        "file": {
+          "id": "cmnrmmp8q00c3oc2jk2cki6rd",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748199191-5.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748199191-5.pdf",
+          "contentType": "application/pdf",
+          "size": 182874,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:21.289Z",
+          "updatedAt": "2026-04-09T15:23:21.289Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748199191-5.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=58097ccf8d5767b084c0604d3ab19dc4f095352d0deb34a71c5e28ca42b88eff&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "9dfd5d7a-36fa-4e2d-bf46-c2af77d2ee87",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 5,
+    "title": "Chapter - 6",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:45.570Z",
+    "updatedAt": "2026-04-09T15:18:45.570Z",
+    "files": [
+      {
+        "id": "1f99cb70-9add-4cff-884a-2e382d620789",
+        "chapterId": "9dfd5d7a-36fa-4e2d-bf46-c2af77d2ee87",
+        "fileId": "cmnrmmx8o00c5oc2j4d154w5f",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:31.935Z",
+        "updatedAt": "2026-04-09T15:23:31.935Z",
+        "file": {
+          "id": "cmnrmmx8o00c5oc2j4d154w5f",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748209484-6.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748209484-6.pdf",
+          "contentType": "application/pdf",
+          "size": 181800,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:31.656Z",
+          "updatedAt": "2026-04-09T15:23:31.656Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748209484-6.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=2998363121bc485b3383dc00b52a5c91f807e6b2957b48b0d250a3da355e8520&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "bc181cfb-cf06-4364-b078-c35b5f608b1e",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 6,
+    "title": "Chapter - 7",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:48.981Z",
+    "updatedAt": "2026-04-09T15:18:48.981Z",
+    "files": [
+      {
+        "id": "590823bf-369d-40b3-8d7d-ef81448d68d6",
+        "chapterId": "bc181cfb-cf06-4364-b078-c35b5f608b1e",
+        "fileId": "cmnrmn3md00c7oc2jz4gmivfu",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:40.064Z",
+        "updatedAt": "2026-04-09T15:23:40.064Z",
+        "file": {
+          "id": "cmnrmn3md00c7oc2jz4gmivfu",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748217885-7.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748217885-7.pdf",
+          "contentType": "application/pdf",
+          "size": 184828,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:39.925Z",
+          "updatedAt": "2026-04-09T15:23:39.925Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748217885-7.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=1730c1d1155fd142036b6c85889ecba44bf3f2920573c7697188772b548ee1a2&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "4d52e4d6-e217-4e86-96fd-d1cc9e91b873",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 7,
+    "title": "Chapter - 8",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:51.931Z",
+    "updatedAt": "2026-04-09T15:18:51.931Z",
+    "files": [
+      {
+        "id": "b50210c5-95e3-401b-854a-3ef40becec3f",
+        "chapterId": "4d52e4d6-e217-4e86-96fd-d1cc9e91b873",
+        "fileId": "cmnrmnbt700c9oc2j96bs5tuc",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:50.674Z",
+        "updatedAt": "2026-04-09T15:23:50.674Z",
+        "file": {
+          "id": "cmnrmnbt700c9oc2j96bs5tuc",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748228078-8.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748228078-8.pdf",
+          "contentType": "application/pdf",
+          "size": 199648,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:50.540Z",
+          "updatedAt": "2026-04-09T15:23:50.540Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748228078-8.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=44c32ebac1d455716685db0fc5a61fd67bed95e4dff940436e6010ea32cb927e&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "45d20972-eff6-4d69-bb9b-e71cbe956067",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 8,
+    "title": "Chapter - 9",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:18:58.519Z",
+    "updatedAt": "2026-04-09T15:18:58.519Z",
+    "files": [
+      {
+        "id": "64e7f8df-900b-4dd3-9082-f3454b7efb69",
+        "chapterId": "45d20972-eff6-4d69-bb9b-e71cbe956067",
+        "fileId": "cmnrmnixf00cboc2j527k8pa0",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:23:59.917Z",
+        "updatedAt": "2026-04-09T15:23:59.917Z",
+        "file": {
+          "id": "cmnrmnixf00cboc2j527k8pa0",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748237320-9.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748237320-9.pdf",
+          "contentType": "application/pdf",
+          "size": 172574,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:23:59.763Z",
+          "updatedAt": "2026-04-09T15:23:59.763Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748237320-9.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=450fde52381c14ca1d73d37b94b250f01379928707e126245db92f48454d120a&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d9970482-4aa6-40ce-b6ad-f931b462a889",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 9,
+    "title": "Chapter - 10",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:04.135Z",
+    "updatedAt": "2026-04-09T15:19:04.135Z",
+    "files": [
+      {
+        "id": "0ad5ade9-9be5-4a7b-bb95-04f46d6398f5",
+        "chapterId": "d9970482-4aa6-40ce-b6ad-f931b462a889",
+        "fileId": "cmnrmnqu300cdoc2j6qncj5wp",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:24:10.162Z",
+        "updatedAt": "2026-04-09T15:24:10.162Z",
+        "file": {
+          "id": "cmnrmnqu300cdoc2j6qncj5wp",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748247799-10.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748247799-10.pdf",
+          "contentType": "application/pdf",
+          "size": 244208,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:24:10.011Z",
+          "updatedAt": "2026-04-09T15:24:10.011Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748247799-10.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=934a3b10cafb9e7a6d0bafc827abb464e07e5130c3723cd880f7fa0a1f598458&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "174bd6f7-0ede-4404-8088-350ec3f6fc27",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 10,
+    "title": "Chapter - 11",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:06.922Z",
+    "updatedAt": "2026-04-09T15:19:06.922Z",
+    "files": [
+      {
+        "id": "6999d7b7-2f9e-42ea-b4cf-4dab9af2f7f9",
+        "chapterId": "174bd6f7-0ede-4404-8088-350ec3f6fc27",
+        "fileId": "cmnrmnxe500cfoc2js0z4diuf",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:24:18.650Z",
+        "updatedAt": "2026-04-09T15:24:18.650Z",
+        "file": {
+          "id": "cmnrmnxe500cfoc2js0z4diuf",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748256024-11.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748256024-11.pdf",
+          "contentType": "application/pdf",
+          "size": 184178,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:24:18.509Z",
+          "updatedAt": "2026-04-09T15:24:18.509Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748256024-11.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=a95727bd506b28c7e3d0dfd41de0d5f4266c297b751e434c295113c358080664&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "81424271-d818-4d87-bdb0-9157be888001",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 11,
+    "title": "Chapter - 12",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:12.379Z",
+    "updatedAt": "2026-04-09T15:19:12.379Z",
+    "files": [
+      {
+        "id": "39e690d8-d750-4ed5-bae4-214bbadc5009",
+        "chapterId": "81424271-d818-4d87-bdb0-9157be888001",
+        "fileId": "cmnrmu74000choc2jbl9tf9jl",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:11.187Z",
+        "updatedAt": "2026-04-09T15:29:11.187Z",
+        "file": {
+          "id": "cmnrmu74000choc2jbl9tf9jl",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748548595-12.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748548595-12.pdf",
+          "contentType": "application/pdf",
+          "size": 233206,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:11.040Z",
+          "updatedAt": "2026-04-09T15:29:11.040Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748548595-12.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=ffe2e2422ec7f9b08a698fca85089588d036d0248bc2a73c5b1d0bce1c4d464e&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "fd6506de-793d-4722-89d8-5caa6c36af5a",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 12,
+    "title": "Chapter - 13",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:16.175Z",
+    "updatedAt": "2026-04-09T15:19:16.175Z",
+    "files": [
+      {
+        "id": "ce2bd71c-d7ff-48b6-84b9-d0c141f75a49",
+        "chapterId": "fd6506de-793d-4722-89d8-5caa6c36af5a",
+        "fileId": "cmnrmuexs00cjoc2jn6l0zql0",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:21.328Z",
+        "updatedAt": "2026-04-09T15:29:21.328Z",
+        "file": {
+          "id": "cmnrmuexs00cjoc2jn6l0zql0",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748558033-13.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748558033-13.pdf",
+          "contentType": "application/pdf",
+          "size": 197158,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:21.184Z",
+          "updatedAt": "2026-04-09T15:29:21.184Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748558033-13.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=61344eab49c0502fc1d0854260d97fce7a84610a4d24815b359e3b32703a8d5c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "f84a09f3-5eef-4df1-a66a-b249b00b8e5e",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 13,
+    "title": "Chapter - 14",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:20.633Z",
+    "updatedAt": "2026-04-09T15:19:20.633Z",
+    "files": [
+      {
+        "id": "8885fe1a-a428-4d4c-93c9-5ee52aed6fa6",
+        "chapterId": "f84a09f3-5eef-4df1-a66a-b249b00b8e5e",
+        "fileId": "cmnrmukwa00cloc2jjmup5mtp",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:29.043Z",
+        "updatedAt": "2026-04-09T15:29:29.043Z",
+        "file": {
+          "id": "cmnrmukwa00cloc2jjmup5mtp",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748566964-14.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748566964-14.pdf",
+          "contentType": "application/pdf",
+          "size": 192561,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:28.906Z",
+          "updatedAt": "2026-04-09T15:29:28.906Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748566964-14.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=3840b9f107e9a1c4151be074f057820d943d8ed5583ccd1ba49b029864fb3400&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "0e83df60-ce4e-452e-9e40-9ed99a01235e",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 14,
+    "title": "Chapter - 15",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:23.634Z",
+    "updatedAt": "2026-04-09T15:19:23.634Z",
+    "files": [
+      {
+        "id": "3834e174-8872-4fd0-b77b-65abfc7f257b",
+        "chapterId": "0e83df60-ce4e-452e-9e40-9ed99a01235e",
+        "fileId": "cmnrmutg700cnoc2j33pgzuk8",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:40.161Z",
+        "updatedAt": "2026-04-09T15:29:40.161Z",
+        "file": {
+          "id": "cmnrmutg700cnoc2j33pgzuk8",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748577605-15.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748577605-15.pdf",
+          "contentType": "application/pdf",
+          "size": 189682,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:39.991Z",
+          "updatedAt": "2026-04-09T15:29:39.991Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748577605-15.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=c72d2647eefb729ab2280d85d757a11afd322bff359ebab0f4de32788bacc23b&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "05c6f776-c22a-4494-8845-de8a0767f774",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 15,
+    "title": "Chapter - 16",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:28.081Z",
+    "updatedAt": "2026-04-09T15:19:28.081Z",
+    "files": [
+      {
+        "id": "3b5f4ebf-a462-404f-86aa-aa3572bdae98",
+        "chapterId": "05c6f776-c22a-4494-8845-de8a0767f774",
+        "fileId": "cmnrmv05v00cpoc2jsl37a6b7",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:48.838Z",
+        "updatedAt": "2026-04-09T15:29:48.838Z",
+        "file": {
+          "id": "cmnrmv05v00cpoc2jsl37a6b7",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748586732-16.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748586732-16.pdf",
+          "contentType": "application/pdf",
+          "size": 199359,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:48.691Z",
+          "updatedAt": "2026-04-09T15:29:48.691Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748586732-16.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=bfc53d2ec1e059a79c2c441eed3f602426883d9274f6dc2263563ec7173afee7&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "69ce7cc2-8c04-4486-a5a7-bdc4a8ca436e",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 16,
+    "title": "Chapter - 17",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:31.195Z",
+    "updatedAt": "2026-04-09T15:19:31.195Z",
+    "files": [
+      {
+        "id": "be1433cc-b387-424b-b734-6a56a282cf8c",
+        "chapterId": "69ce7cc2-8c04-4486-a5a7-bdc4a8ca436e",
+        "fileId": "cmnrmv6g000croc2js5lgv0kp",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:29:56.970Z",
+        "updatedAt": "2026-04-09T15:29:56.970Z",
+        "file": {
+          "id": "cmnrmv6g000croc2js5lgv0kp",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748594643-17.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748594643-17.pdf",
+          "contentType": "application/pdf",
+          "size": 205507,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:29:56.832Z",
+          "updatedAt": "2026-04-09T15:29:56.832Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748594643-17.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=031a0f8b22f139a8413f7507dc41e855fc4e7ca86f9a23f0bc97724f0503485a&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5aa8f498-2e33-4698-ad29-610159a6e325",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 17,
+    "title": "Chapter - 18",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:34.371Z",
+    "updatedAt": "2026-04-09T15:19:34.371Z",
+    "files": [
+      {
+        "id": "e86b5a16-aa52-4310-a542-804df1593055",
+        "chapterId": "5aa8f498-2e33-4698-ad29-610159a6e325",
+        "fileId": "cmnrmvczl00ctoc2jj0klk3mv",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:05.606Z",
+        "updatedAt": "2026-04-09T15:30:05.606Z",
+        "file": {
+          "id": "cmnrmvczl00ctoc2jj0klk3mv",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748603179-18.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748603179-18.pdf",
+          "contentType": "application/pdf",
+          "size": 186174,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:05.313Z",
+          "updatedAt": "2026-04-09T15:30:05.313Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748603179-18.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=250c44aee000d5f55b4c2102fed6f7138e12080954537c24429da6bb2aef2cb1&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "b455decc-8818-4de7-a7a7-cbd3db524761",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 18,
+    "title": "Chapter - 19",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:37.970Z",
+    "updatedAt": "2026-04-09T15:19:37.970Z",
+    "files": [
+      {
+        "id": "7ae642a8-b337-4c66-aa23-37096bc1f29d",
+        "chapterId": "b455decc-8818-4de7-a7a7-cbd3db524761",
+        "fileId": "cmnrmvj1200cvoc2ja6x2viwg",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:13.321Z",
+        "updatedAt": "2026-04-09T15:30:13.321Z",
+        "file": {
+          "id": "cmnrmvj1200cvoc2ja6x2viwg",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748611101-19.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748611101-19.pdf",
+          "contentType": "application/pdf",
+          "size": 235942,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:13.142Z",
+          "updatedAt": "2026-04-09T15:30:13.142Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748611101-19.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=97b8b378332adda08cec9181ef9d1520b5806af2ee3462aae31e62c42bd03231&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "9b236f75-90cc-4cc4-bb71-eb2186df9209",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 19,
+    "title": "Chapter - 20",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:41.663Z",
+    "updatedAt": "2026-04-09T15:19:41.663Z",
+    "files": [
+      {
+        "id": "30c607a2-a9fb-4217-ae10-12092545a722",
+        "chapterId": "9b236f75-90cc-4cc4-bb71-eb2186df9209",
+        "fileId": "cmnrmvq8r00cxoc2jdkv0oomp",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:22.653Z",
+        "updatedAt": "2026-04-09T15:30:22.653Z",
+        "file": {
+          "id": "cmnrmvq8r00cxoc2jdkv0oomp",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748620173-20.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748620173-20.pdf",
+          "contentType": "application/pdf",
+          "size": 204653,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:22.491Z",
+          "updatedAt": "2026-04-09T15:30:22.491Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748620173-20.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=d5faa5ee8537272f8b3e6d6bd5f610f71adc85dda56d09c859dbe76e306bce48&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "c11f2385-5f5c-40ca-a033-6b62a0b671ba",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 20,
+    "title": "Chapter - 21",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:45.453Z",
+    "updatedAt": "2026-04-09T15:19:45.453Z",
+    "files": [
+      {
+        "id": "c9a77c39-9cd9-4d3d-8d60-2af664fe9c86",
+        "chapterId": "c11f2385-5f5c-40ca-a033-6b62a0b671ba",
+        "fileId": "cmnrmvy3f00czoc2j1s7uhmk4",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:32.953Z",
+        "updatedAt": "2026-04-09T15:30:32.953Z",
+        "file": {
+          "id": "cmnrmvy3f00czoc2j1s7uhmk4",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748630459-21.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748630459-21.pdf",
+          "contentType": "application/pdf",
+          "size": 206281,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:32.667Z",
+          "updatedAt": "2026-04-09T15:30:32.667Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748630459-21.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=ff10fc0ca65e5e1230bf9fb00e687097af33532bcd6bca6d6aa4780442a8708a&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "2335c307-5499-4f0f-9f01-59a46b132f76",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 21,
+    "title": "Chapter - 22",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:48.313Z",
+    "updatedAt": "2026-04-09T15:19:48.313Z",
+    "files": [
+      {
+        "id": "7d0000ba-d528-486f-a5a3-88865165be9c",
+        "chapterId": "2335c307-5499-4f0f-9f01-59a46b132f76",
+        "fileId": "cmnrmw5ax00d1oc2j7wyfkifc",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:42.166Z",
+        "updatedAt": "2026-04-09T15:30:42.166Z",
+        "file": {
+          "id": "cmnrmw5ax00d1oc2j7wyfkifc",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748639753-22.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748639753-22.pdf",
+          "contentType": "application/pdf",
+          "size": 140659,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:42.009Z",
+          "updatedAt": "2026-04-09T15:30:42.009Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748639753-22.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=25a40241d1227750d82d89699269e71c8bc40289792d1d6e445b88b38ed8c769&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "0428ae85-d578-47af-b809-d5e325986b4d",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 22,
+    "title": "Chapter - 23",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:51.182Z",
+    "updatedAt": "2026-04-09T15:19:51.182Z",
+    "files": [
+      {
+        "id": "1b044b11-2c59-4199-a7e2-0912c7b95184",
+        "chapterId": "0428ae85-d578-47af-b809-d5e325986b4d",
+        "fileId": "cmnrmwcxm00d3oc2jujcwko11",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:30:52.041Z",
+        "updatedAt": "2026-04-09T15:30:52.041Z",
+        "file": {
+          "id": "cmnrmwcxm00d3oc2jujcwko11",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748649640-23.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748649640-23.pdf",
+          "contentType": "application/pdf",
+          "size": 179986,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:30:51.898Z",
+          "updatedAt": "2026-04-09T15:30:51.898Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748649640-23.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=a14b94baf956d0c702afdaff485dbc7aa10da87041d27ae182bf77762b2e39d2&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "7529461c-23d0-44a0-8545-2f978ecd9025",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 23,
+    "title": "Chapter - 24",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:53.898Z",
+    "updatedAt": "2026-04-09T15:19:53.898Z",
+    "files": [
+      {
+        "id": "c98dac06-514f-4da7-99c6-380eedcb7e8e",
+        "chapterId": "7529461c-23d0-44a0-8545-2f978ecd9025",
+        "fileId": "cmnrmwjk200d5oc2jtoci29ob",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:00.646Z",
+        "updatedAt": "2026-04-09T15:31:00.646Z",
+        "file": {
+          "id": "cmnrmwjk200d5oc2jtoci29ob",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748658145-24.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748658145-24.pdf",
+          "contentType": "application/pdf",
+          "size": 166163,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:00.482Z",
+          "updatedAt": "2026-04-09T15:31:00.482Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748658145-24.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=7c33d8c29ef497f50af4817a8bce993d6d0cb7fb3f3d06ef7523f5eecb18b056&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5f2246b4-fc4d-4181-a0fa-a06b25ea9c40",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 24,
+    "title": "Chapter - 25",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:19:56.800Z",
+    "updatedAt": "2026-04-09T15:19:56.800Z",
+    "files": [
+      {
+        "id": "14825fff-7e3e-4824-b728-cd9e197ef2e5",
+        "chapterId": "5f2246b4-fc4d-4181-a0fa-a06b25ea9c40",
+        "fileId": "cmnrmwpv700d7oc2jrl3eh7pl",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:08.804Z",
+        "updatedAt": "2026-04-09T15:31:08.804Z",
+        "file": {
+          "id": "cmnrmwpv700d7oc2jrl3eh7pl",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748666653-25.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748666653-25.pdf",
+          "contentType": "application/pdf",
+          "size": 215537,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:08.659Z",
+          "updatedAt": "2026-04-09T15:31:08.659Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748666653-25.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=bdd0137cb25d199af00cd081a38b4580c2a85ead3425a794c9f1ff0993da4655&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "a83ef776-da93-4093-b1cb-16dfa661d39c",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 25,
+    "title": "Chapter - 26",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:00.333Z",
+    "updatedAt": "2026-04-09T15:20:00.333Z",
+    "files": [
+      {
+        "id": "15e811b4-c1b6-4afa-957c-00b06d96698b",
+        "chapterId": "a83ef776-da93-4093-b1cb-16dfa661d39c",
+        "fileId": "cmnrmwzfc00d9oc2j915800nz",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:21.198Z",
+        "updatedAt": "2026-04-09T15:31:21.198Z",
+        "file": {
+          "id": "cmnrmwzfc00d9oc2j915800nz",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748678518-26.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748678518-26.pdf",
+          "contentType": "application/pdf",
+          "size": 167597,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:21.048Z",
+          "updatedAt": "2026-04-09T15:31:21.048Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748678518-26.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=e59a6e5caee238379f5eb0d76e025ca374e8326d94372bf067e8829f420181dd&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "53f191da-520c-4b39-b889-cee18e972769",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 26,
+    "title": "Chapter - 27",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:04.127Z",
+    "updatedAt": "2026-04-09T15:20:04.127Z",
+    "files": [
+      {
+        "id": "74e0bafb-29bc-4f6e-a99b-d9f41e965551",
+        "chapterId": "53f191da-520c-4b39-b889-cee18e972769",
+        "fileId": "cmnrmx60j00dboc2jrsmjg01l",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:29.725Z",
+        "updatedAt": "2026-04-09T15:31:29.725Z",
+        "file": {
+          "id": "cmnrmx60j00dboc2jrsmjg01l",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748687411-27.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748687411-27.pdf",
+          "contentType": "application/pdf",
+          "size": 185290,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:29.587Z",
+          "updatedAt": "2026-04-09T15:31:29.587Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748687411-27.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=68e7c596b9bac77713cb5f1c696e668c88b52f0920806f2658c65d038edb4aba&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "96ac824a-49b3-42de-9bff-fca7957142e6",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 27,
+    "title": "Chapter - 28",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:07.844Z",
+    "updatedAt": "2026-04-09T15:20:07.844Z",
+    "files": [
+      {
+        "id": "7e8d9cb6-64c3-462a-a1d8-3b6ad34b5ccc",
+        "chapterId": "96ac824a-49b3-42de-9bff-fca7957142e6",
+        "fileId": "cmnrmxfya00ddoc2jdbf1ya7o",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:42.624Z",
+        "updatedAt": "2026-04-09T15:31:42.624Z",
+        "file": {
+          "id": "cmnrmxfya00ddoc2jdbf1ya7o",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748700676-28.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748700676-28.pdf",
+          "contentType": "application/pdf",
+          "size": 119994,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:42.466Z",
+          "updatedAt": "2026-04-09T15:31:42.466Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748700676-28.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=f63e11064afbf57fe1288176d024dcefc170b370c8755346dd778e58b43f76e6&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "de4d4d2f-9ec0-43ed-bb1f-5f0c5104daca",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 28,
+    "title": "Chapter - 29",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:11.848Z",
+    "updatedAt": "2026-04-09T15:20:11.848Z",
+    "files": [
+      {
+        "id": "37c0b35a-96dd-420f-9c08-be7346a24b60",
+        "chapterId": "de4d4d2f-9ec0-43ed-bb1f-5f0c5104daca",
+        "fileId": "cmnrmxnlq00dfoc2jh39in5gi",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:31:52.522Z",
+        "updatedAt": "2026-04-09T15:31:52.522Z",
+        "file": {
+          "id": "cmnrmxnlq00dfoc2jh39in5gi",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748710194-29.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748710194-29.pdf",
+          "contentType": "application/pdf",
+          "size": 144574,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:31:52.382Z",
+          "updatedAt": "2026-04-09T15:31:52.382Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748710194-29.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=e976381eae23695a61067fca4c5a64d666faa501fc94a44d35890bce515e1b35&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "2f8c1392-65d0-4b3e-878e-5987890f8ce6",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 29,
+    "title": "Chapter - 30",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:16.487Z",
+    "updatedAt": "2026-04-09T15:20:16.487Z",
+    "files": [
+      {
+        "id": "e9829545-3a1e-4e7e-a268-37ff7ab05733",
+        "chapterId": "2f8c1392-65d0-4b3e-878e-5987890f8ce6",
+        "fileId": "cmnrmxtuv00dhoc2jmu6ec2we",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:00.674Z",
+        "updatedAt": "2026-04-09T15:32:00.674Z",
+        "file": {
+          "id": "cmnrmxtuv00dhoc2jmu6ec2we",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748718608-30.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748718608-30.pdf",
+          "contentType": "application/pdf",
+          "size": 135994,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:00.487Z",
+          "updatedAt": "2026-04-09T15:32:00.487Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748718608-30.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=64cff3c4d44a75ecce242ba172ad24b34d5fd42ebfed3e491ab82e190a6bd04d&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "c51d2c16-62a3-4f25-a1d6-f2459495684a",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 30,
+    "title": "Chapter - 31",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:19.457Z",
+    "updatedAt": "2026-04-09T15:20:19.457Z",
+    "files": [
+      {
+        "id": "8faee33e-eec0-4e6b-83e0-93d1ddad2cd7",
+        "chapterId": "c51d2c16-62a3-4f25-a1d6-f2459495684a",
+        "fileId": "cmnrmy0jv00djoc2jyzyseg7y",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:09.327Z",
+        "updatedAt": "2026-04-09T15:32:09.327Z",
+        "file": {
+          "id": "cmnrmy0jv00djoc2jyzyseg7y",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748727078-31.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748727078-31.pdf",
+          "contentType": "application/pdf",
+          "size": 180747,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:09.164Z",
+          "updatedAt": "2026-04-09T15:32:09.164Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748727078-31.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=6b0c9045345562398b22140c2b5918718cbfd28b53c04e3162e317cf0c2a7ece&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "dc8e192f-991a-43d4-9104-0619cb51ca43",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 31,
+    "title": "Chapter - 32",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:22.663Z",
+    "updatedAt": "2026-04-09T15:20:22.663Z",
+    "files": [
+      {
+        "id": "17acd0f9-bdcb-458a-9408-0904e2295c96",
+        "chapterId": "dc8e192f-991a-43d4-9104-0619cb51ca43",
+        "fileId": "cmnrmy6vv00dloc2jxplci1ob",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:17.512Z",
+        "updatedAt": "2026-04-09T15:32:17.512Z",
+        "file": {
+          "id": "cmnrmy6vv00dloc2jxplci1ob",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748735496-32.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748735496-32.pdf",
+          "contentType": "application/pdf",
+          "size": 98806,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:17.371Z",
+          "updatedAt": "2026-04-09T15:32:17.371Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748735496-32.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=e5bbc2d2028118e83a0eb0aa45ccc8e0cdcc567ec5485128de0cd59d813056f8&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "0fd6b36e-7345-4728-b928-0533c24ee26f",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 32,
+    "title": "Chapter - 33",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:25.877Z",
+    "updatedAt": "2026-04-09T15:20:25.877Z",
+    "files": [
+      {
+        "id": "30f0e870-ee4c-4d4e-97fd-6e9ece876abc",
+        "chapterId": "0fd6b36e-7345-4728-b928-0533c24ee26f",
+        "fileId": "cmnrmyfaw00dnoc2j75isrprd",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:28.434Z",
+        "updatedAt": "2026-04-09T15:32:28.434Z",
+        "file": {
+          "id": "cmnrmyfaw00dnoc2j75isrprd",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748746216-33.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748746216-33.pdf",
+          "contentType": "application/pdf",
+          "size": 142998,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:28.280Z",
+          "updatedAt": "2026-04-09T15:32:28.280Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748746216-33.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=4cca0d924c7777d3d234b46f1194767ec0747a03f9b84a2d37da07ad24677014&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "ccc6b4a7-5d87-4a5c-af4c-bba5347b1f79",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 33,
+    "title": "Chapter - 34",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:28.610Z",
+    "updatedAt": "2026-04-09T15:20:28.610Z",
+    "files": [
+      {
+        "id": "1ea8cf15-0e9a-484f-95f6-5d8fe8a73fb1",
+        "chapterId": "ccc6b4a7-5d87-4a5c-af4c-bba5347b1f79",
+        "fileId": "cmnrmymm100dpoc2jmr3lg5jq",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:37.910Z",
+        "updatedAt": "2026-04-09T15:32:37.910Z",
+        "file": {
+          "id": "cmnrmymm100dpoc2jmr3lg5jq",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748755581-34.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748755581-34.pdf",
+          "contentType": "application/pdf",
+          "size": 176322,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:37.753Z",
+          "updatedAt": "2026-04-09T15:32:37.753Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748755581-34.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=74ca485e53cc05efc8a085837775b8d1cc6cd0da0507e887c6e851817ff65d5c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "cbbca92a-21fa-4540-9fc3-7ea1260fb6f4",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 34,
+    "title": "Chapter - 35",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:31.603Z",
+    "updatedAt": "2026-04-09T15:20:31.603Z",
+    "files": [
+      {
+        "id": "bd4476ad-2783-4835-877a-7822b4f2a13d",
+        "chapterId": "cbbca92a-21fa-4540-9fc3-7ea1260fb6f4",
+        "fileId": "cmnrmyv6w00droc2jl87wsmrn",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:49.011Z",
+        "updatedAt": "2026-04-09T15:32:49.011Z",
+        "file": {
+          "id": "cmnrmyv6w00droc2jl87wsmrn",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748766754-35.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748766754-35.pdf",
+          "contentType": "application/pdf",
+          "size": 179024,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:48.872Z",
+          "updatedAt": "2026-04-09T15:32:48.872Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748766754-35.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=86b80fc54f43f247ee23fcdd773f3e89fb90e6c2286ac4abd1641d040b7a55db&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "47277e17-01e9-42aa-beca-41ebeef5520d",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 35,
+    "title": "Chapter - 36",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:35.252Z",
+    "updatedAt": "2026-04-09T15:20:35.252Z",
+    "files": [
+      {
+        "id": "48fc78b2-c2bf-4079-9ddf-fcb10c32d5a1",
+        "chapterId": "47277e17-01e9-42aa-beca-41ebeef5520d",
+        "fileId": "cmnrmz35s00dtoc2j4znmw6jv",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:32:59.355Z",
+        "updatedAt": "2026-04-09T15:32:59.355Z",
+        "file": {
+          "id": "cmnrmz35s00dtoc2j4znmw6jv",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748777087-36.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748777087-36.pdf",
+          "contentType": "application/pdf",
+          "size": 205180,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:32:59.200Z",
+          "updatedAt": "2026-04-09T15:32:59.200Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748777087-36.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=28dd1c4f4f93c8fafbb3362bada77df87b2862142c98cf2c9804dde9f4ba5e3e&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "eedcc0b2-3252-4230-92ea-efd8f79eb80e",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 36,
+    "title": "Chapter - 37",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:38.672Z",
+    "updatedAt": "2026-04-09T15:20:38.672Z",
+    "files": [
+      {
+        "id": "7eaa8314-e668-4ef8-9586-676a9e74a157",
+        "chapterId": "eedcc0b2-3252-4230-92ea-efd8f79eb80e",
+        "fileId": "cmnrmzgwz00dvoc2j09bp74h0",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:33:17.178Z",
+        "updatedAt": "2026-04-09T15:33:17.178Z",
+        "file": {
+          "id": "cmnrmzgwz00dvoc2j09bp74h0",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748794802-37.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748794802-37.pdf",
+          "contentType": "application/pdf",
+          "size": 218572,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:33:17.027Z",
+          "updatedAt": "2026-04-09T15:33:17.027Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748794802-37.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=6233bbb164db709e4ce62035a5caa781f3fd01d3b39eca2a0890f5032c2ad031&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "ac8f193c-fe98-4ae9-8330-51b4136dfb6f",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 37,
+    "title": "Chapter - 38",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:41.795Z",
+    "updatedAt": "2026-04-09T15:20:41.795Z",
+    "files": [
+      {
+        "id": "4b0c1b1b-6233-48f3-bfcd-cc29739dc321",
+        "chapterId": "ac8f193c-fe98-4ae9-8330-51b4136dfb6f",
+        "fileId": "cmnrmzpw700dxoc2j5ejiv9wl",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:33:28.799Z",
+        "updatedAt": "2026-04-09T15:33:28.799Z",
+        "file": {
+          "id": "cmnrmzpw700dxoc2j5ejiv9wl",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748805515-38.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748805515-38.pdf",
+          "contentType": "application/pdf",
+          "size": 210871,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:33:28.663Z",
+          "updatedAt": "2026-04-09T15:33:28.663Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748805515-38.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=23c1bbccf147db0b7ec71917d7dfa4659162b28aa4a5e53d6c313a307fc68e5c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5323b9e1-da5b-4479-999b-4d59b0fcaf1b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 38,
+    "title": "Chapter - 39",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:46.280Z",
+    "updatedAt": "2026-04-09T15:20:46.280Z",
+    "files": [
+      {
+        "id": "647211a3-680c-442a-85eb-fd5bfd455de0",
+        "chapterId": "5323b9e1-da5b-4479-999b-4d59b0fcaf1b",
+        "fileId": "cmnrn019t00dzoc2jj78qtrun",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:33:43.561Z",
+        "updatedAt": "2026-04-09T15:33:43.561Z",
+        "file": {
+          "id": "cmnrn019t00dzoc2jj78qtrun",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748821110-39.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748821110-39.pdf",
+          "contentType": "application/pdf",
+          "size": 180391,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:33:43.409Z",
+          "updatedAt": "2026-04-09T15:33:43.409Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748821110-39.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=e7a7d29d22c8ab68c6742805abe9916746898fd486c0e75d0f6bea60b66b5208&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "03189275-d195-4c34-ad50-8d6e511ac6ef",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 39,
+    "title": "Chapter - 40",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:49.572Z",
+    "updatedAt": "2026-04-09T15:20:49.572Z",
+    "files": [
+      {
+        "id": "67f9075b-5ab9-48d0-8390-28df787a989a",
+        "chapterId": "03189275-d195-4c34-ad50-8d6e511ac6ef",
+        "fileId": "cmnrn08sb00e1oc2jne0pmmzj",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:33:53.283Z",
+        "updatedAt": "2026-04-09T15:33:53.283Z",
+        "file": {
+          "id": "cmnrn08sb00e1oc2jne0pmmzj",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748830843-40.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748830843-40.pdf",
+          "contentType": "application/pdf",
+          "size": 193721,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:33:53.147Z",
+          "updatedAt": "2026-04-09T15:33:53.147Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748830843-40.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=ef2f4658bd8c46d7af141ae4f9174e92886beeef867b69b45de2cdfdf6476dd6&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "012e0324-43a6-4a0b-a849-569ca09e8169",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 40,
+    "title": "Chapter - 41",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:54.072Z",
+    "updatedAt": "2026-04-09T15:20:54.072Z",
+    "files": [
+      {
+        "id": "d0ac002d-440a-400d-961f-745744ca5408",
+        "chapterId": "012e0324-43a6-4a0b-a849-569ca09e8169",
+        "fileId": "cmnrn0kat00e3oc2jmvw557ju",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:34:08.211Z",
+        "updatedAt": "2026-04-09T15:34:08.211Z",
+        "file": {
+          "id": "cmnrn0kat00e3oc2jmvw557ju",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748845949-41.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748845949-41.pdf",
+          "contentType": "application/pdf",
+          "size": 237737,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:34:08.069Z",
+          "updatedAt": "2026-04-09T15:34:08.069Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748845949-41.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=d1cf32b9fc65112ae4a11a9f06f52702b69a1f380ab1c2e2f4896f671658b9fc&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "6aafa688-9621-4d94-94b1-4d67c0fd5260",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 41,
+    "title": "Chapter - 42",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:20:57.304Z",
+    "updatedAt": "2026-04-09T15:20:57.304Z",
+    "files": [
+      {
+        "id": "f89ffaa4-04ed-472d-b7b7-d81d14d17cb3",
+        "chapterId": "6aafa688-9621-4d94-94b1-4d67c0fd5260",
+        "fileId": "cmnrn0tyw00e5oc2jho6ua8sc",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:34:20.800Z",
+        "updatedAt": "2026-04-09T15:34:20.800Z",
+        "file": {
+          "id": "cmnrn0tyw00e5oc2jho6ua8sc",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748858294-42.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748858294-42.pdf",
+          "contentType": "application/pdf",
+          "size": 198863,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:34:20.600Z",
+          "updatedAt": "2026-04-09T15:34:20.600Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748858294-42.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=5867fa9d6220f8f9a3460cf16289a643ed0836f2b1d2126dc6ff7149f27200e5&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "971daf8b-a741-4d4f-b7bd-d14756547e93",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 42,
+    "title": "Chapter - 43",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:00.268Z",
+    "updatedAt": "2026-04-09T15:21:00.268Z",
+    "files": [
+      {
+        "id": "e76d4a88-0616-4389-bc14-d9f28e95133f",
+        "chapterId": "971daf8b-a741-4d4f-b7bd-d14756547e93",
+        "fileId": "cmnrn1l7w00e7oc2juh1sax66",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:34:56.055Z",
+        "updatedAt": "2026-04-09T15:34:56.055Z",
+        "file": {
+          "id": "cmnrn1l7w00e7oc2juh1sax66",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748893743-43.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748893743-43.pdf",
+          "contentType": "application/pdf",
+          "size": 169954,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:34:55.916Z",
+          "updatedAt": "2026-04-09T15:34:55.916Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748893743-43.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=c4f95cd1bef0bfb8dd035f56169eec4b25f7d78f66ea7ec9c9959fd1ff28c093&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d793ba45-2806-4305-b376-248c27ffd57b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 43,
+    "title": "Chapter - 44",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:03.360Z",
+    "updatedAt": "2026-04-09T15:21:03.360Z",
+    "files": [
+      {
+        "id": "7a3f7544-f99c-452e-a3ef-38ef1d2a58e1",
+        "chapterId": "d793ba45-2806-4305-b376-248c27ffd57b",
+        "fileId": "cmnrn1sai00e9oc2jilkepno5",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:05.257Z",
+        "updatedAt": "2026-04-09T15:35:05.257Z",
+        "file": {
+          "id": "cmnrn1sai00e9oc2jilkepno5",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748902888-44.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748902888-44.pdf",
+          "contentType": "application/pdf",
+          "size": 208652,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:05.082Z",
+          "updatedAt": "2026-04-09T15:35:05.082Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748902888-44.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=5228adabcaf9fe33a5c33fcf4afa041239a77b5cc6ac0562c96e5f60bdb45807&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "53ed77c0-fdfc-455f-b848-4d7c97bbc1a8",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 44,
+    "title": "Chapter - 45",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:06.889Z",
+    "updatedAt": "2026-04-09T15:21:06.889Z",
+    "files": [
+      {
+        "id": "5c1abe7c-d65f-472b-a7f3-27fb6852ae26",
+        "chapterId": "53ed77c0-fdfc-455f-b848-4d7c97bbc1a8",
+        "fileId": "cmnrn1zhj00eboc2ji18u8cia",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:14.549Z",
+        "updatedAt": "2026-04-09T15:35:14.549Z",
+        "file": {
+          "id": "cmnrn1zhj00eboc2ji18u8cia",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748912149-45.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748912149-45.pdf",
+          "contentType": "application/pdf",
+          "size": 169411,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:14.407Z",
+          "updatedAt": "2026-04-09T15:35:14.407Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748912149-45.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=0c9bed863ffae7ad338b5d7449066360017bed25c4742d096615828eb3693390&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "c99d1e49-7a9d-45ab-9f2c-32d06bb883e4",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 45,
+    "title": "Chapter - 46",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:10.208Z",
+    "updatedAt": "2026-04-09T15:21:10.208Z",
+    "files": [
+      {
+        "id": "b8e57fa1-cabf-4834-a929-fee817c001bd",
+        "chapterId": "c99d1e49-7a9d-45ab-9f2c-32d06bb883e4",
+        "fileId": "cmnrn26u000edoc2joqzfchnx",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:24.063Z",
+        "updatedAt": "2026-04-09T15:35:24.063Z",
+        "file": {
+          "id": "cmnrn26u000edoc2joqzfchnx",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748921792-46.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748921792-46.pdf",
+          "contentType": "application/pdf",
+          "size": 146642,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:23.928Z",
+          "updatedAt": "2026-04-09T15:35:23.928Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748921792-46.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=f97c0d49484dc361697d548240bab9e4daefec804cba4d9a48d42542e2a40603&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5ec373ba-2f07-497b-aca7-d755f5d01bd0",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 46,
+    "title": "Chapter - 47",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:13.735Z",
+    "updatedAt": "2026-04-09T15:21:13.735Z",
+    "files": [
+      {
+        "id": "dda5102c-7797-4a62-acb0-6b215f17c6c0",
+        "chapterId": "5ec373ba-2f07-497b-aca7-d755f5d01bd0",
+        "fileId": "cmnrn2ea100efoc2j9ty70s6q",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:33.722Z",
+        "updatedAt": "2026-04-09T15:35:33.722Z",
+        "file": {
+          "id": "cmnrn2ea100efoc2j9ty70s6q",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748931504-47.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748931504-47.pdf",
+          "contentType": "application/pdf",
+          "size": 207162,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:33.577Z",
+          "updatedAt": "2026-04-09T15:35:33.577Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748931504-47.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=168020452ab22f8aa5997c0ee5d16acb66439564bc1ad668141c5e2a985102a7&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5f0e1cb5-8c6b-4b1d-a7ae-3b2ab193c9d4",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 47,
+    "title": "Chapter - 48",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:17.426Z",
+    "updatedAt": "2026-04-09T15:21:17.426Z",
+    "files": [
+      {
+        "id": "e4e54ee0-4dd2-4b40-8103-4297515c339b",
+        "chapterId": "5f0e1cb5-8c6b-4b1d-a7ae-3b2ab193c9d4",
+        "fileId": "cmnrn2kqf00ehoc2j5rqdu1hp",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:42.151Z",
+        "updatedAt": "2026-04-09T15:35:42.151Z",
+        "file": {
+          "id": "cmnrn2kqf00ehoc2j5rqdu1hp",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748939182-48.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748939182-48.pdf",
+          "contentType": "application/pdf",
+          "size": 235897,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:41.943Z",
+          "updatedAt": "2026-04-09T15:35:41.943Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748939182-48.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=4ba809d97be952a8bc9e6aae084af25231a8979d499df4bb9007098286fcf681&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "793a7e37-def5-4e67-9ad1-7d9565e0a173",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 48,
+    "title": "Chapter - 49",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:21.328Z",
+    "updatedAt": "2026-04-09T15:21:21.328Z",
+    "files": [
+      {
+        "id": "a3439fd7-6efc-493e-8158-cdfd7d43d536",
+        "chapterId": "793a7e37-def5-4e67-9ad1-7d9565e0a173",
+        "fileId": "cmnrn2t2700ejoc2j4em19nsh",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:35:52.897Z",
+        "updatedAt": "2026-04-09T15:35:52.897Z",
+        "file": {
+          "id": "cmnrn2t2700ejoc2j4em19nsh",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748950455-49.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748950455-49.pdf",
+          "contentType": "application/pdf",
+          "size": 162202,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:35:52.735Z",
+          "updatedAt": "2026-04-09T15:35:52.735Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748950455-49.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=b3cef054716caa96bb2c3f1b4892a73a31aa95b2e99233af06764f115afe8fb2&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "20c33861-e413-41a3-aaa0-0695cc37f2b0",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 49,
+    "title": "Chapter - 50",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:24.642Z",
+    "updatedAt": "2026-04-09T15:21:24.642Z",
+    "files": [
+      {
+        "id": "da86a7f9-cc51-45dd-baed-2aea97b00020",
+        "chapterId": "20c33861-e413-41a3-aaa0-0695cc37f2b0",
+        "fileId": "cmnrn39ao00eloc2jgn5hfpad",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:36:13.905Z",
+        "updatedAt": "2026-04-09T15:36:13.905Z",
+        "file": {
+          "id": "cmnrn39ao00eloc2jgn5hfpad",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748971591-50.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748971591-50.pdf",
+          "contentType": "application/pdf",
+          "size": 199915,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:13.776Z",
+          "updatedAt": "2026-04-09T15:36:13.776Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748971591-50.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=bb3aa35566d9d5f5da5253b68db540dc731b31061951d2845ca01209c188cbcd&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "75bb0e59-2d93-45ce-84ff-acb2ba3880e5",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 50,
+    "title": "Chapter - 51",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:28.111Z",
+    "updatedAt": "2026-04-09T15:21:28.111Z",
+    "files": [
+      {
+        "id": "7b5d6f79-370f-4d88-8761-fbbb29aa3e31",
+        "chapterId": "75bb0e59-2d93-45ce-84ff-acb2ba3880e5",
+        "fileId": "cmnrn3gs300enoc2jpmejr0ja",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:36:23.624Z",
+        "updatedAt": "2026-04-09T15:36:23.624Z",
+        "file": {
+          "id": "cmnrn3gs300enoc2jpmejr0ja",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748981178-51.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748981178-51.pdf",
+          "contentType": "application/pdf",
+          "size": 230834,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:23.475Z",
+          "updatedAt": "2026-04-09T15:36:23.475Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748981178-51.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=bb819de89310764470b55b387aa1ece466c29ac88ea4d4f20c0c19abb49c6986&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d71e0575-3518-44bd-857f-8783570bcf0b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 51,
+    "title": "Chapter - 52",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:31.793Z",
+    "updatedAt": "2026-04-09T15:21:31.793Z",
+    "files": [
+      {
+        "id": "25c0d45d-1f46-4855-984c-80a54ec88618",
+        "chapterId": "d71e0575-3518-44bd-857f-8783570bcf0b",
+        "fileId": "cmnrn3nq100epoc2jcweqcgl4",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:36:32.785Z",
+        "updatedAt": "2026-04-09T15:36:32.785Z",
+        "file": {
+          "id": "cmnrn3nq100epoc2jcweqcgl4",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748990161-52.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748990161-52.pdf",
+          "contentType": "application/pdf",
+          "size": 207449,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:32.473Z",
+          "updatedAt": "2026-04-09T15:36:32.473Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748990161-52.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=d3d5b003fa46cfaef34459e371c5e9af713753cec8f61e2ccccfa166dcf68c17&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "15acc22a-6d86-44a7-be73-80412bd49f66",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 52,
+    "title": "Chapter - 53",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:36.249Z",
+    "updatedAt": "2026-04-09T15:21:36.249Z",
+    "files": [
+      {
+        "id": "0766d0b6-4cbe-4f6c-ae21-0c3547a3e05a",
+        "chapterId": "15acc22a-6d86-44a7-be73-80412bd49f66",
+        "fileId": "cmnrn3ugp00eroc2j9tf30sgy",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:36:41.375Z",
+        "updatedAt": "2026-04-09T15:36:41.375Z",
+        "file": {
+          "id": "cmnrn3ugp00eroc2j9tf30sgy",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748999091-53.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748999091-53.pdf",
+          "contentType": "application/pdf",
+          "size": 189442,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:41.209Z",
+          "updatedAt": "2026-04-09T15:36:41.209Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775748999091-53.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=be5f02d2439a942c9890c3432624f4be098be95eb03ede5e735e83129a70c1c3&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "3bcd33d4-1251-4947-8c7e-84f48643a146",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 53,
+    "title": "Chapter - 54",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:41.770Z",
+    "updatedAt": "2026-04-09T15:21:41.770Z",
+    "files": [
+      {
+        "id": "d1fc7370-62ba-4315-b3d8-dc0e26adfa36",
+        "chapterId": "3bcd33d4-1251-4947-8c7e-84f48643a146",
+        "fileId": "cmnrn42ng00etoc2j8mff2onq",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:36:51.953Z",
+        "updatedAt": "2026-04-09T15:36:51.953Z",
+        "file": {
+          "id": "cmnrn42ng00etoc2j8mff2onq",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749009427-54.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749009427-54.pdf",
+          "contentType": "application/pdf",
+          "size": 216285,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:51.820Z",
+          "updatedAt": "2026-04-09T15:36:51.820Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749009427-54.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=66706d6eb849f8c7924359370591f4a94e7c8e6e21ed58baafb5ee085adb714c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "4d60af45-b482-41d3-b542-fa6bcbc15c08",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 54,
+    "title": "Chapter - 55",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:44.309Z",
+    "updatedAt": "2026-04-09T15:21:44.309Z",
+    "files": [
+      {
+        "id": "aae9a9fa-77fe-4cc2-ba17-5a2baed08729",
+        "chapterId": "4d60af45-b482-41d3-b542-fa6bcbc15c08",
+        "fileId": "cmnrn48x700evoc2jfj352bsl",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:00.106Z",
+        "updatedAt": "2026-04-09T15:37:00.106Z",
+        "file": {
+          "id": "cmnrn48x700evoc2jfj352bsl",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749017324-55.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749017324-55.pdf",
+          "contentType": "application/pdf",
+          "size": 232442,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:36:59.947Z",
+          "updatedAt": "2026-04-09T15:36:59.947Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749017324-55.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=9c8fb174bb8ae94314d60aee335ea2057b3d791cf61a7b421c15892fb3c2c72c&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "a981d1f9-4d50-44d2-8f79-4677b7d584ba",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 55,
+    "title": "Chapter - 56",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:47.419Z",
+    "updatedAt": "2026-04-09T15:21:47.419Z",
+    "files": [
+      {
+        "id": "bc756c4f-0e1f-45eb-be4e-9788c251c8ca",
+        "chapterId": "a981d1f9-4d50-44d2-8f79-4677b7d584ba",
+        "fileId": "cmnrn4fxg00exoc2jyrutk8xg",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:09.174Z",
+        "updatedAt": "2026-04-09T15:37:09.174Z",
+        "file": {
+          "id": "cmnrn4fxg00exoc2jyrutk8xg",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749027134-56.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749027134-56.pdf",
+          "contentType": "application/pdf",
+          "size": 150613,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:37:09.028Z",
+          "updatedAt": "2026-04-09T15:37:09.028Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749027134-56.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=5409547add59b2c86f3a221cf9a2a9ff244fabb542e23229268c8a22e0c4f5d8&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d02c2676-80ed-4f9b-8558-1fdabbd7ea1b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 56,
+    "title": "Chapter - 57",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:51.667Z",
+    "updatedAt": "2026-04-09T15:21:51.667Z",
+    "files": [
+      {
+        "id": "b0ec4096-1f68-41b7-a956-4178b42fd1f7",
+        "chapterId": "d02c2676-80ed-4f9b-8558-1fdabbd7ea1b",
+        "fileId": "cmnrn4mqv00ezoc2jxfgby0tk",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:18.057Z",
+        "updatedAt": "2026-04-09T15:37:18.057Z",
+        "file": {
+          "id": "cmnrn4mqv00ezoc2jxfgby0tk",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749035468-57.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749035468-57.pdf",
+          "contentType": "application/pdf",
+          "size": 201522,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:37:17.863Z",
+          "updatedAt": "2026-04-09T15:37:17.863Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749035468-57.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=edabed4b6ec576b6baff85771099beada43de5ce47a2085c216f48d5c8503d1d&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "6aff9987-8b13-4df2-af89-df4e14663b07",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 57,
+    "title": "Chapter - 58",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:55.348Z",
+    "updatedAt": "2026-04-09T15:21:55.348Z",
+    "files": [
+      {
+        "id": "2a45ebb0-1404-4aa9-92e5-affad8645889",
+        "chapterId": "6aff9987-8b13-4df2-af89-df4e14663b07",
+        "fileId": "cmnrn4t3t00f1oc2jkcl5b1s7",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:26.241Z",
+        "updatedAt": "2026-04-09T15:37:26.241Z",
+        "file": {
+          "id": "cmnrn4t3t00f1oc2jkcl5b1s7",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749043741-58.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749043741-58.pdf",
+          "contentType": "application/pdf",
+          "size": 144393,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:37:26.105Z",
+          "updatedAt": "2026-04-09T15:37:26.105Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749043741-58.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=27707d049add66cc5377f9d8719d9bd226a5b8960706d235b1c3c06a4f3fc538&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "e32847ba-3e18-4f27-ab42-562b6ba3463f",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 58,
+    "title": "Chapter - 59",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:21:58.967Z",
+    "updatedAt": "2026-04-09T15:21:58.967Z",
+    "files": [
+      {
+        "id": "a2bb9c3d-d873-4f21-9a98-99767af46b97",
+        "chapterId": "e32847ba-3e18-4f27-ab42-562b6ba3463f",
+        "fileId": "cmnrn4zew00f3oc2jpi4m2kt8",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:34.425Z",
+        "updatedAt": "2026-04-09T15:37:34.425Z",
+        "file": {
+          "id": "cmnrn4zew00f3oc2jpi4m2kt8",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749052399-59.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749052399-59.pdf",
+          "contentType": "application/pdf",
+          "size": 147720,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:37:34.280Z",
+          "updatedAt": "2026-04-09T15:37:34.280Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749052399-59.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=8ab3f1015ce2453868a954b84a71ac9448ecc8c63cf64a0a8d7ca05494c00a6d&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "5a4c49fe-8a00-46db-b1b3-51f017d6581b",
+    "studyMaterialId": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+    "parentChapterId": null,
+    "orderIndex": 59,
+    "title": "Chapter - 60",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-04-09T15:22:02.105Z",
+    "updatedAt": "2026-04-09T15:22:02.105Z",
+    "files": [
+      {
+        "id": "aae5eeed-ba7a-49b4-9981-7d6208d8a019",
+        "chapterId": "5a4c49fe-8a00-46db-b1b3-51f017d6581b",
+        "fileId": "cmnrn55ug00f5oc2jikgfj18y",
+        "title": null,
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-04-09T15:37:42.751Z",
+        "updatedAt": "2026-04-09T15:37:42.751Z",
+        "file": {
+          "id": "cmnrn55ug00f5oc2jikgfj18y",
+          "bucket": "korean-prod",
+          "objectName": "tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749060514-60.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749060514-60.pdf",
+          "contentType": "application/pdf",
+          "size": 133457,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": "SUPERADMIN",
+          "isPublic": false,
+          "createdAt": "2026-04-09T15:37:42.616Z",
+          "updatedAt": "2026-04-09T15:37:42.616Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/tenants/7739592a-1450-40a8-9b83-2c72bf470887/asset/1775749060514-60.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T180614Z&X-Amz-Expires=180000&X-Amz-Signature=53c66ff957f047f75e18344fefc5d32c42c62b08570e073516027720f67d6340&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "0191b889-efa7-45cd-9fe9-c4c0790e37cd",
+      "accessType": "PRIVATE",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  }
+]

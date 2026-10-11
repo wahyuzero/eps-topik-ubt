@@ -1,0 +1,474 @@
+[
+  {
+    "id": "9f0cc0c0-c497-4092-9858-14ef673699e5",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 0,
+    "title": "Chemical",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:03.899Z",
+    "updatedAt": "2025-11-27T13:45:03.899Z",
+    "files": [
+      {
+        "id": "3b0d7123-10c5-4ed3-b65f-717e0611cb18",
+        "chapterId": "9f0cc0c0-c497-4092-9858-14ef673699e5",
+        "fileId": "cmihhk14j00dbm00ijc6s2a3r",
+        "title": "Chemical",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:05.206Z",
+        "updatedAt": "2025-11-27T13:45:05.206Z",
+        "file": {
+          "id": "cmihhk14j00dbm00ijc6s2a3r",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251104253-312fd0f9-314c-4b92-bded-e5773454ef11.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251104253-312fd0f9-314c-4b92-bded-e5773454ef11.pdf",
+          "contentType": "application/pdf",
+          "size": 268462,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:05.203Z",
+          "updatedAt": "2025-12-24T13:57:55.171Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251104253-312fd0f9-314c-4b92-bded-e5773454ef11.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=1883c738681e9a432f8fd2837b9dc5638a44a3bc72d4ddbd86930b0e4054bf3e&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "b62dcc3a-928c-4282-b4d7-9d7acb2aa148",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 1,
+    "title": "electronic and electricity",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:03.899Z",
+    "updatedAt": "2025-11-27T13:45:03.899Z",
+    "files": [
+      {
+        "id": "d12edc69-8974-49bd-8d61-0f1441d1f463",
+        "chapterId": "b62dcc3a-928c-4282-b4d7-9d7acb2aa148",
+        "fileId": "cmihhk0se00dam00io06idgct",
+        "title": "electronic and electricity",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:04.771Z",
+        "updatedAt": "2025-11-27T13:45:04.771Z",
+        "file": {
+          "id": "cmihhk0se00dam00io06idgct",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251104250-d696899d-b396-420e-b74c-c10eabce02d5.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251104250-d696899d-b396-420e-b74c-c10eabce02d5.pdf",
+          "contentType": "application/pdf",
+          "size": 365863,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:04.766Z",
+          "updatedAt": "2025-12-24T13:57:55.169Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251104250-d696899d-b396-420e-b74c-c10eabce02d5.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=c10c9bd6751761830898e339b3b8a3848b7fb13af5a4b6773e5042a1a28ed9ac&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "8e835353-7f0d-4549-82a1-adb118c834f8",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 2,
+    "title": "Fibre and Sewing",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:03.897Z",
+    "updatedAt": "2025-11-27T13:45:03.897Z",
+    "files": [
+      {
+        "id": "4c9ac311-7d5e-455d-ba78-37577ef45e42",
+        "chapterId": "8e835353-7f0d-4549-82a1-adb118c834f8",
+        "fileId": "cmihhk0lg00d9m00ijtj501by",
+        "title": "Fibre and Sewing",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:04.522Z",
+        "updatedAt": "2025-11-27T13:45:04.522Z",
+        "file": {
+          "id": "cmihhk0lg00d9m00ijtj501by",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251104058-d790113a-8f28-4362-b50b-4898b9e7e2b6.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251104058-d790113a-8f28-4362-b50b-4898b9e7e2b6.pdf",
+          "contentType": "application/pdf",
+          "size": 258322,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:04.516Z",
+          "updatedAt": "2025-12-24T13:57:55.167Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251104058-d790113a-8f28-4362-b50b-4898b9e7e2b6.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=703b2d56cb67e85adcf0d23aa75795dcccb2a257fec0d5bbd21a106709fd1e66&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "cc9d7a2a-091b-4e30-adf6-459e1f513cbf",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 3,
+    "title": "Food and beverage",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:06.715Z",
+    "updatedAt": "2025-11-27T13:45:06.715Z",
+    "files": [
+      {
+        "id": "5d94960d-6327-4b73-8827-cadbc9a14fc7",
+        "chapterId": "cc9d7a2a-091b-4e30-adf6-459e1f513cbf",
+        "fileId": "cmihhk31p00ddm00iyv9aqzea",
+        "title": "Food and beverage",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:07.696Z",
+        "updatedAt": "2025-11-27T13:45:07.696Z",
+        "file": {
+          "id": "cmihhk31p00ddm00iyv9aqzea",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251106954-854f07c2-dfa3-4a0c-8da1-1d00f7d6d849.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251106954-854f07c2-dfa3-4a0c-8da1-1d00f7d6d849.pdf",
+          "contentType": "application/pdf",
+          "size": 244501,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:07.694Z",
+          "updatedAt": "2025-12-24T13:57:55.098Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251106954-854f07c2-dfa3-4a0c-8da1-1d00f7d6d849.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=bdfdf462f4b497b10835ebd4c53a89e9643b1c0aff763267b2043565734158e0&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d0f75978-2492-45bf-afdd-c958a8b75aa9",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 4,
+    "title": "Machine moulding",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:06.716Z",
+    "updatedAt": "2025-11-27T13:45:06.716Z",
+    "files": [
+      {
+        "id": "8735e860-94ba-4c2f-9008-0b88c3142768",
+        "chapterId": "d0f75978-2492-45bf-afdd-c958a8b75aa9",
+        "fileId": "cmihhk31l00dcm00ifwucjnq5",
+        "title": "Machine moulding",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:07.692Z",
+        "updatedAt": "2025-11-27T13:45:07.692Z",
+        "file": {
+          "id": "cmihhk31l00dcm00ifwucjnq5",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251106989-ba528533-e198-4c86-86e0-67293eec801e.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251106989-ba528533-e198-4c86-86e0-67293eec801e.pdf",
+          "contentType": "application/pdf",
+          "size": 413885,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:07.689Z",
+          "updatedAt": "2025-12-24T13:57:55.245Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251106989-ba528533-e198-4c86-86e0-67293eec801e.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=efff57dc792153b91960b1552a9530fa211c935f3d7dbca3da0f2358866c4cd7&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "3ad85644-11a9-4106-b33e-4502a4959fd4",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 5,
+    "title": "Metal",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:06.716Z",
+    "updatedAt": "2025-11-27T13:45:06.716Z",
+    "files": [
+      {
+        "id": "ce9165cf-3fd9-4c41-993a-ca7aa0096930",
+        "chapterId": "3ad85644-11a9-4106-b33e-4502a4959fd4",
+        "fileId": "cmihhk62f00dem00i445j8dty",
+        "title": "Metal",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:11.610Z",
+        "updatedAt": "2025-11-27T13:45:11.610Z",
+        "file": {
+          "id": "cmihhk62f00dem00i445j8dty",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251106985-2c9903aa-fba3-413e-8f43-b28e00fa4844.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251106985-2c9903aa-fba3-413e-8f43-b28e00fa4844.pdf",
+          "contentType": "application/pdf",
+          "size": 269118,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:11.607Z",
+          "updatedAt": "2025-12-24T13:57:55.101Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251106985-2c9903aa-fba3-413e-8f43-b28e00fa4844.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=160c047d32771a29b8825188f8bf2b3007e3bf3b52f1371a2de3a11dcd4924b3&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "553d8eed-b072-4833-8f09-10a755af8070",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 6,
+    "title": "Paper and wood",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:13.117Z",
+    "updatedAt": "2025-11-27T13:45:13.117Z",
+    "files": [
+      {
+        "id": "f650249e-b1bb-4adb-aa62-9235df3f2bda",
+        "chapterId": "553d8eed-b072-4833-8f09-10a755af8070",
+        "fileId": "cmihhk8j900dgm00iq6pskr4t",
+        "title": "Paper and wood",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:14.807Z",
+        "updatedAt": "2025-11-27T13:45:14.807Z",
+        "file": {
+          "id": "cmihhk8j900dgm00iq6pskr4t",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251113417-251033ac-dce8-48e2-9577-4eee6c3bcbb1.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251113417-251033ac-dce8-48e2-9577-4eee6c3bcbb1.pdf",
+          "contentType": "application/pdf",
+          "size": 267280,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:14.805Z",
+          "updatedAt": "2025-12-24T13:57:55.106Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251113417-251033ac-dce8-48e2-9577-4eee6c3bcbb1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T142543Z&X-Amz-Expires=180000&X-Amz-Signature=9d29b32d0bb2a27d7e13018c48f3656d6cef8cb8a006386444ca79fb8c8cd3ac&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  },
+  {
+    "id": "89c26a12-b7b0-424d-9db2-8b71e3836cf4",
+    "studyMaterialId": "de454d5e-1051-4231-8ed1-415e48a701a0",
+    "parentChapterId": null,
+    "orderIndex": 7,
+    "title": "Rubber and Plastic",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2025-11-27T13:45:13.118Z",
+    "updatedAt": "2025-11-27T13:45:13.118Z",
+    "files": [
+      {
+        "id": "aecf64ea-1b8a-4afe-98fe-f257522a3e68",
+        "chapterId": "89c26a12-b7b0-424d-9db2-8b71e3836cf4",
+        "fileId": "cmihhk8j000dfm00iph11qmgk",
+        "title": "Rubber and Plastic",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2025-11-27T13:45:14.799Z",
+        "updatedAt": "2025-11-27T13:45:14.799Z",
+        "file": {
+          "id": "cmihhk8j000dfm00iph11qmgk",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1764251113427-a7f00804-0579-40ec-b824-a090ccafaee0.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1764251113427-a7f00804-0579-40ec-b824-a090ccafaee0.pdf",
+          "contentType": "application/pdf",
+          "size": 280639,
+          "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2025-11-27T13:45:14.797Z",
+          "updatedAt": "2025-12-24T13:57:55.103Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1764251113427-a7f00804-0579-40ec-b824-a090ccafaee0.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260927%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260927T135111Z&X-Amz-Expires=180000&X-Amz-Signature=0614e7b0f793916eb6416a701c3da3ae526a2d0c15ef215d4025feb5fdf7bfff&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "de454d5e-1051-4231-8ed1-415e48a701a0",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": [
+        {
+          "tenantId": "c1eb660f-6198-4220-bdf4-45d2b22e840a"
+        },
+        {
+          "tenantId": "0caf9910-7ae9-46d8-b5de-0f238155fc00"
+        },
+        {
+          "tenantId": "b7fe5c28-9ee2-4342-96bf-7f0cc5ea14a6"
+        }
+      ]
+    },
+    "isLocked": false
+  }
+]

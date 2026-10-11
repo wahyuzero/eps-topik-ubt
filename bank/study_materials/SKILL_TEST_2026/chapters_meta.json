@@ -1,0 +1,443 @@
+[
+  {
+    "id": "8d86292b-30a0-4ffe-8aa7-f72dd379e12e",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 0,
+    "title": "0. 면접평가",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:42.813Z",
+    "updatedAt": "2026-06-16T03:40:42.813Z",
+    "files": [
+      {
+        "id": "bb2768bc-9d5b-49b5-89e2-15db75f8e40b",
+        "chapterId": "8d86292b-30a0-4ffe-8aa7-f72dd379e12e",
+        "fileId": "cmqg3h2km0007o70h3uxzbosn",
+        "title": "0. 면접평가",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:45.007Z",
+        "updatedAt": "2026-06-16T03:40:45.007Z",
+        "file": {
+          "id": "cmqg3h2km0007o70h3uxzbosn",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581243261-bb9d5883-1afe-47e5-bb2f-b534eb3a0458.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581243261-bb9d5883-1afe-47e5-bb2f-b534eb3a0458.pdf",
+          "contentType": "application/pdf",
+          "size": 1963698,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:44.998Z",
+          "updatedAt": "2026-06-16T03:40:44.998Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581243261-bb9d5883-1afe-47e5-bb2f-b534eb3a0458.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=53a55f260e9f42ff82db7de265910eed492840e72c03d306af574ba903a0b1bc&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "b17d4d11-feb3-4cfa-bd8a-885cf7e3220b",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 1,
+    "title": "2. 제조업 & 서비스업 Ⅰ",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:42.813Z",
+    "updatedAt": "2026-06-16T03:40:42.813Z",
+    "files": [
+      {
+        "id": "ecd02c5a-ab8f-41a8-9579-2a71ce753c9a",
+        "chapterId": "b17d4d11-feb3-4cfa-bd8a-885cf7e3220b",
+        "fileId": "cmqg3h5ua0009o70hqwa49e9b",
+        "title": "2. 제조업 & 서비스업 Ⅰ",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:49.241Z",
+        "updatedAt": "2026-06-16T03:40:49.241Z",
+        "file": {
+          "id": "cmqg3h5ua0009o70hqwa49e9b",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581244361-6a5b3b8e-e24e-409b-8bb2-e024c3c8e340.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581244361-6a5b3b8e-e24e-409b-8bb2-e024c3c8e340.pdf",
+          "contentType": "application/pdf",
+          "size": 9369674,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:49.234Z",
+          "updatedAt": "2026-06-16T03:40:49.234Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581244361-6a5b3b8e-e24e-409b-8bb2-e024c3c8e340.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=d7c213360968729c0f6acb01338f9c4c43bd7cc527aee573b4e314aa4e89839e&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "d29bd038-30b8-48ae-9e3a-3b2be6b7a651",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 2,
+    "title": "3. 농축산업",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:42.814Z",
+    "updatedAt": "2026-06-16T03:40:42.814Z",
+    "files": [
+      {
+        "id": "4c7071b0-c36e-4126-86bd-bae17da84c7b",
+        "chapterId": "d29bd038-30b8-48ae-9e3a-3b2be6b7a651",
+        "fileId": "cmqg3h5fx0008o70hem3yixy9",
+        "title": "3. 농축산업",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:48.721Z",
+        "updatedAt": "2026-06-16T03:40:48.721Z",
+        "file": {
+          "id": "cmqg3h5fx0008o70hem3yixy9",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581244409-406a87a7-022b-41fd-a125-b51f84de92ef.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581244409-406a87a7-022b-41fd-a125-b51f84de92ef.pdf",
+          "contentType": "application/pdf",
+          "size": 10288154,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:48.717Z",
+          "updatedAt": "2026-06-16T03:40:48.717Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581244409-406a87a7-022b-41fd-a125-b51f84de92ef.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=cfcc35228dbbd3c781a1811d3f4c2041f037369ef684091abfdad7ae3c5f4130&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "f5c3c1a3-4b67-4a4d-8ecf-5fbfccb302a9",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 3,
+    "title": "4. 건설업",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:50.757Z",
+    "updatedAt": "2026-06-16T03:40:50.757Z",
+    "files": [
+      {
+        "id": "ce30cb7f-928d-47c3-9908-b68ce05488d5",
+        "chapterId": "f5c3c1a3-4b67-4a4d-8ecf-5fbfccb302a9",
+        "fileId": "cmqg3h9xo000bo70h7v1epny2",
+        "title": "4. 건설업",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:54.545Z",
+        "updatedAt": "2026-06-16T03:40:54.545Z",
+        "file": {
+          "id": "cmqg3h9xo000bo70h7v1epny2",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581251585-054e5bd7-1bb9-4221-ae99-17d802a40061.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581251585-054e5bd7-1bb9-4221-ae99-17d802a40061.pdf",
+          "contentType": "application/pdf",
+          "size": 10631339,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:54.540Z",
+          "updatedAt": "2026-06-16T03:40:54.540Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581251585-054e5bd7-1bb9-4221-ae99-17d802a40061.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=af2a17e0e18ea4531b6e462d7fdd6c068907d19202eb73447323a0a700f877c0&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "df194dce-345d-4770-830e-d92ffb0f8939",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 4,
+    "title": "5. 어업",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:50.759Z",
+    "updatedAt": "2026-06-16T03:40:50.759Z",
+    "files": [
+      {
+        "id": "587a06ab-cb20-4815-858b-69b8148bc862",
+        "chapterId": "df194dce-345d-4770-830e-d92ffb0f8939",
+        "fileId": "cmqg3harf000co70h8ybiljiu",
+        "title": "5. 어업",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:55.629Z",
+        "updatedAt": "2026-06-16T03:40:55.629Z",
+        "file": {
+          "id": "cmqg3harf000co70h8ybiljiu",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581251654-518d1fc3-999a-45b3-b8f6-fa5a549bb612.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581251654-518d1fc3-999a-45b3-b8f6-fa5a549bb612.pdf",
+          "contentType": "application/pdf",
+          "size": 8652222,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:55.611Z",
+          "updatedAt": "2026-06-16T03:40:55.611Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581251654-518d1fc3-999a-45b3-b8f6-fa5a549bb612.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=664a06158744ff63849718b99d127fe1aa97df45459c164e9e3b06a65d6dcf0f&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "1e12f1cf-1a14-4cd4-8bee-843f6d460c68",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 5,
+    "title": "6. 서비스업 Ⅱ",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:50.759Z",
+    "updatedAt": "2026-06-16T03:40:50.759Z",
+    "files": [
+      {
+        "id": "8f81d1df-c70b-4d31-b1cd-9a7200204b07",
+        "chapterId": "1e12f1cf-1a14-4cd4-8bee-843f6d460c68",
+        "fileId": "cmqg3h9wm000ao70h80b6ej7e",
+        "title": "6. 서비스업 Ⅱ",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:40:54.516Z",
+        "updatedAt": "2026-06-16T03:40:54.516Z",
+        "file": {
+          "id": "cmqg3h9wm000ao70h80b6ej7e",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581251548-3ee5776a-c989-4e60-9815-8af9feaea039.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581251548-3ee5776a-c989-4e60-9815-8af9feaea039.pdf",
+          "contentType": "application/pdf",
+          "size": 8321091,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:40:54.502Z",
+          "updatedAt": "2026-06-16T03:40:54.502Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581251548-3ee5776a-c989-4e60-9815-8af9feaea039.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=58e22c2f18bbc1240b5f6976c906f701d127d386af93daec5095bce288bdb438&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "774b3555-3143-4000-815f-51e6d7c1053d",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 6,
+    "title": "7. 광업",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:57.150Z",
+    "updatedAt": "2026-06-16T03:40:57.150Z",
+    "files": [
+      {
+        "id": "c363efc2-0b4e-40de-b8ac-ac900679407a",
+        "chapterId": "774b3555-3143-4000-815f-51e6d7c1053d",
+        "fileId": "cmqg3hism000fo70haywlz2qu",
+        "title": "7. 광업",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:41:06.030Z",
+        "updatedAt": "2026-06-16T03:41:06.030Z",
+        "file": {
+          "id": "cmqg3hism000fo70haywlz2qu",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581257656-29f47455-88a5-493d-92e2-f5a93e371fd1.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581257656-29f47455-88a5-493d-92e2-f5a93e371fd1.pdf",
+          "contentType": "application/pdf",
+          "size": 7600567,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:41:06.023Z",
+          "updatedAt": "2026-06-16T03:41:06.023Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581257656-29f47455-88a5-493d-92e2-f5a93e371fd1.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=a9f8dc7e466f289e9763f1b5b109e1d581555703c286e2ff63e4339b38d2ab8b&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "b0fddd3a-60c6-43ad-8ad7-38ff9d18d46c",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 7,
+    "title": "8. 임업",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:57.152Z",
+    "updatedAt": "2026-06-16T03:40:57.152Z",
+    "files": [
+      {
+        "id": "c1e27b29-9cad-4b5a-a84f-56475b3ae89d",
+        "chapterId": "b0fddd3a-60c6-43ad-8ad7-38ff9d18d46c",
+        "fileId": "cmqg3hf30000do70hpn3yu9uj",
+        "title": "8. 임업",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:41:01.216Z",
+        "updatedAt": "2026-06-16T03:41:01.216Z",
+        "file": {
+          "id": "cmqg3hf30000do70hpn3yu9uj",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581258084-91f09ae5-e6cd-45fd-bb8e-e56bdf48b436.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581258084-91f09ae5-e6cd-45fd-bb8e-e56bdf48b436.pdf",
+          "contentType": "application/pdf",
+          "size": 9879443,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:41:01.211Z",
+          "updatedAt": "2026-06-16T03:41:01.211Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581258084-91f09ae5-e6cd-45fd-bb8e-e56bdf48b436.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=983dc6cb2c6b6e9982b81312a95118159815c7c51a7d5e9e01d09d725a18e4e6&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  },
+  {
+    "id": "c4d4cc31-9671-4be9-b3cc-6d00c92c87e7",
+    "studyMaterialId": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+    "parentChapterId": null,
+    "orderIndex": 8,
+    "title": "1. 면접평가 질문",
+    "description": null,
+    "isFree": false,
+    "createdAt": "2026-06-16T03:40:57.149Z",
+    "updatedAt": "2026-06-16T03:40:57.149Z",
+    "files": [
+      {
+        "id": "c234510b-74da-4505-a8ab-2b35be023f36",
+        "chapterId": "c4d4cc31-9671-4be9-b3cc-6d00c92c87e7",
+        "fileId": "cmqg3hiqh000eo70h66yguear",
+        "title": "1. 면접평가 질문",
+        "fileType": "PDF",
+        "orderIndex": 0,
+        "duration": null,
+        "createdAt": "2026-06-16T03:41:05.952Z",
+        "updatedAt": "2026-06-16T03:41:05.952Z",
+        "file": {
+          "id": "cmqg3hiqh000eo70h66yguear",
+          "bucket": "korean-prod",
+          "objectName": "external-transfers/1781581258752-0231a3dc-7ec2-44f1-9ff9-7510af11522b.pdf",
+          "url": "https://sin1.contabostorage.com/dbf7d9ac82c74cc6a8c1ab4dea882cbe:korean-prod/external-transfers/1781581258752-0231a3dc-7ec2-44f1-9ff9-7510af11522b.pdf",
+          "contentType": "application/pdf",
+          "size": 28012469,
+          "tenantId": null,
+          "userId": null,
+          "uploadedByRole": null,
+          "isPublic": false,
+          "createdAt": "2026-06-16T03:41:05.945Z",
+          "updatedAt": "2026-06-16T03:41:05.945Z",
+          "presignedUrl": "https://73885e69a45d2760a0dbc7c339801c3e.r2.cloudflarestorage.com/korean-prod/external-transfers/1781581258752-0231a3dc-7ec2-44f1-9ff9-7510af11522b.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=03581e4544f2fc13d89c8cdd174c8e4e%2F20260928%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20260928T135751Z&X-Amz-Expires=180000&X-Amz-Signature=ead93676caed46e6e47924da5502a67057e96181ce556c40f15659cbc37477b2&X-Amz-SignedHeaders=host&x-id=GetObject"
+        },
+        "isLocked": false
+      }
+    ],
+    "subChapters": [],
+    "studyMaterial": {
+      "id": "666aeeed-515c-4a6e-aec1-5c49e629e180",
+      "accessType": "FREE_FOR_ALL",
+      "price": 0,
+      "tenantId": "7739592a-1450-40a8-9b83-2c72bf470887",
+      "sharedWith": []
+    },
+    "isLocked": false
+  }
+]

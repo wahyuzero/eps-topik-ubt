@@ -1,0 +1,1506 @@
+{
+  "title": "EPS-TOPIK Question Bank & Study Materials (Complete Offline Archive)",
+  "createdAt": "2026-09-29 14:27:33",
+  "vocabulary": {
+    "file": "vocabulary/all_vocabulary.json",
+    "count": 6008
+  },
+  "studyMaterials": [
+    {
+      "name": "CBT_-_Job_releted_questions",
+      "path": "study_materials/CBT_-_Job_releted_questions",
+      "totalChapters": 8,
+      "chapters": [
+        {
+          "title": "Chemical",
+          "files": 1
+        },
+        {
+          "title": "electronic and electricity",
+          "files": 1
+        },
+        {
+          "title": "Fibre and Sewing",
+          "files": 1
+        },
+        {
+          "title": "Food and beverage",
+          "files": 1
+        },
+        {
+          "title": "Machine moulding",
+          "files": 1
+        },
+        {
+          "title": "Metal",
+          "files": 1
+        },
+        {
+          "title": "Paper and wood",
+          "files": 1
+        },
+        {
+          "title": "Rubber and Plastic",
+          "files": 1
+        }
+      ]
+    },
+    {
+      "name": "EPS_TOPIK_2026",
+      "path": "study_materials/EPS_TOPIK_2026",
+      "totalChapters": 67,
+      "chapters": [
+        {
+          "title": "0. 교재구성표",
+          "files": 1
+        },
+        {
+          "title": "0. 한글익히기 I",
+          "files": 9
+        },
+        {
+          "title": "0. 한글익히기 II",
+          "files": 13
+        },
+        {
+          "title": "0. 한글익히기 III",
+          "files": 7
+        },
+        {
+          "title": "0. 인사",
+          "files": 2
+        },
+        {
+          "title": "Chapter - 01 (자기소개)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 02 (생활용품)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 03 (위치와 장소)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 04 (동작과 사물)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 05 (날짜와 요일)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 06 (하루 일과)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 07 (계절과 날씨)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 08 (가족과 친구)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 09 (음식 주문)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 10 (물건 구입)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 11 (집안일)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 12 (대중교통)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 13 (주말 활동)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 14 (길 찾기)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 15 (옷차림)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 16 (집 구하기)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 17 (휴가)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 18 (취미)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 19 (요리)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 20 (인터넷과 스마트폰)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 21 (병원)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 22 (약국)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 23 (우체국)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 24 (은행)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 25 (외국인 근로자 지원 기관)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 26 (한국의 주거 문화와 음식 문화)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 27 (한국의 기념일)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 28 (한국의 명절)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 29 (한국의 예절)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 30 (한국의 대중문화)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 31 (복장과 근무 태도)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 32 (회사 시설 이용)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 33 (동료와의 관계)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 34 (성희롱 및 성추행 예방)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 35 (작업장 관리)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 36 (출하 관리)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 37 (기계 가공)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 38 (기계 조립)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 39 (금속 가공)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 40 (플라스틱 고무 성형)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 41 (섬유 제조)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 42 (가구 제작)",
+          "files": 8
+        },
+        {
+          "title": "Chapter - 43 (건축 시공)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 44 (토목 시공)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 45 (농작물 재배)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 46 (사육 관리)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 47 (연안 어업과 양식)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 48 (선체 건조)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 49 (광물 자원 개발 생산)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 50 (산림 자원 조성)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 51 (숙박 서비스)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 52 (음식 조리)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 53 (산업 안전 및 보건 표지)",
+          "files": 6
+        },
+        {
+          "title": "Chapter - 54 (산업 안전 및 보건 수칙)",
+          "files": 6
+        },
+        {
+          "title": "Chapter - 55 (산업 안전 및 위생 장비)",
+          "files": 6
+        },
+        {
+          "title": "Chapter - 56 (산업 재해 및 응급 처치)",
+          "files": 6
+        },
+        {
+          "title": "Chapter - 57 (고용허가제)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 58 (근로기준법)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 59 (출입국관리법)",
+          "files": 7
+        },
+        {
+          "title": "Chapter - 60 (근로자 보험)",
+          "files": 7
+        },
+        {
+          "title": "Unit Answer ",
+          "files": 1
+        },
+        {
+          "title": "Script Audio",
+          "files": 1
+        }
+      ]
+    },
+    {
+      "name": "SKILL_TEST_2026",
+      "path": "study_materials/SKILL_TEST_2026",
+      "totalChapters": 9,
+      "chapters": [
+        {
+          "title": "0. 면접평가",
+          "files": 1
+        },
+        {
+          "title": "2. 제조업 & 서비스업 Ⅰ",
+          "files": 1
+        },
+        {
+          "title": "3. 농축산업",
+          "files": 1
+        },
+        {
+          "title": "4. 건설업",
+          "files": 1
+        },
+        {
+          "title": "5. 어업",
+          "files": 1
+        },
+        {
+          "title": "6. 서비스업 Ⅱ",
+          "files": 1
+        },
+        {
+          "title": "7. 광업",
+          "files": 1
+        },
+        {
+          "title": "8. 임업",
+          "files": 1
+        },
+        {
+          "title": "1. 면접평가 질문",
+          "files": 1
+        }
+      ]
+    },
+    {
+      "name": "korean_to_Bahasa_Indonesia",
+      "path": "study_materials/korean_to_Bahasa_Indonesia",
+      "totalChapters": 60,
+      "chapters": [
+        {
+          "title": "Chapter - 1",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 2",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 3",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 4",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 5",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 6",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 7",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 8",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 9",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 10",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 11",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 12",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 13",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 14",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 15",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 16",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 17",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 18",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 19",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 20",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 21",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 22",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 23",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 24",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 25",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 26",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 27",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 28",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 29",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 30",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 31",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 32",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 33",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 34",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 35",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 36",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 37",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 38",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 39",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 40",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 41",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 42",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 43",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 44",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 45",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 46",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 47",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 48",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 49",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 50",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 51",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 52",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 53",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 54",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 55",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 56",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 57",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 58",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 59",
+          "files": 1
+        },
+        {
+          "title": "Chapter - 60",
+          "files": 1
+        }
+      ]
+    }
+  ],
+  "exams": [
+    {
+      "id": "40255133-acb7-4c7c-9077-7a7937357857",
+      "title": "2026 UBT - 01",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/03_2026_UBT_-_01",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "d00e7e40-8fae-44ca-a3ed-faee553c3bf0",
+      "title": "2026 UBT - 02",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/04_2026_UBT_-_02",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "b9564dd4-ff37-43c8-9e04-972d915caad1",
+      "title": "2026 UBT - 03",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/05_2026_UBT_-_03",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "0264b233-c7bb-4e37-a59c-cbce144adc7b",
+      "title": "2026 UBT - 04",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/06_2026_UBT_-_04",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "69e2ce9b-c3af-4722-9ef8-872b39b36b9d",
+      "title": "2026 UBT - 05",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/07_2026_UBT_-_05",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "1ead15ad-13dc-4a93-abdd-9ed24bd042c1",
+      "title": "2026 UBT - 06",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/08_2026_UBT_-_06",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "6cb9082c-5b65-4a74-a8c2-6880ae99198e",
+      "title": "2026 UBT - 07",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/09_2026_UBT_-_07",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "4fd7c42e-9f75-40f3-a4dc-84ab4eac1a18",
+      "title": "2026 UBT - 08",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/10_2026_UBT_-_08",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "918f8c7f-9413-482e-85d0-b79eff795e1b",
+      "title": "2026 UBT - 09",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/11_2026_UBT_-_09",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "7b89a092-aafa-4f06-a4c3-2b0eaa13a199",
+      "title": "2026 UBT - 10",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/12_2026_UBT_-_10",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "ec875f5b-3f1f-486c-a37b-dc757990a004",
+      "title": "2026 UBT - 11",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/13_2026_UBT_-_11",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "6ea5d30b-3558-407d-b357-6759aff14b4f",
+      "title": "2026 UBT - 12",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/14_2026_UBT_-_12",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "398949ac-547d-4afc-bc72-7b1ed1b31dfa",
+      "title": "2026 UBT - 13",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/15_2026_UBT_-_13",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "4b3641b0-cf1e-4fda-ae8e-aaf7026e15f4",
+      "title": "2026 UBT - 14",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/16_2026_UBT_-_14",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "ac32fcdf-dc35-4445-89e8-4ae2cc972d5a",
+      "title": "2026 UBT - 15",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/17_2026_UBT_-_15",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "fb31fc93-6787-4927-83f5-1fef69dc705b",
+      "title": "2026 UBT - 16",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/18_2026_UBT_-_16",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "af8464b8-9d61-417b-af1f-9389c9914fda",
+      "title": "2026 UBT - 17",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/19_2026_UBT_-_17",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "9596aefd-fefc-4553-b664-d1994310ceea",
+      "title": "2026 UBT - 18",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/20_2026_UBT_-_18",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "8427ae53-1c9f-4c4f-a974-e315bd653d5e",
+      "title": "2026 UBT - 19",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/21_2026_UBT_-_19",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "a7ca5c6a-6b28-47cc-8779-754d76e3b155",
+      "title": "2026 UBT - 20",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/22_2026_UBT_-_20",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "36e24ff1-a873-4167-9bfe-ee485a6173e3",
+      "title": "2026 UBT - 21",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/23_2026_UBT_-_21",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "8c777814-b446-403d-8347-4deb8b4299d8",
+      "title": "2026 UBT - 22",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/24_2026_UBT_-_22",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "e68cad34-5a99-4416-a211-2899264824d8",
+      "title": "2026 UBT - 23",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/25_2026_UBT_-_23",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "eff9b287-c78c-40df-a506-705d6cfd6036",
+      "title": "2026 UBT - 24",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/26_2026_UBT_-_24",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "d7ff64c5-04f3-436a-b6b5-535e9bbe32a5",
+      "title": "2026 UBT - 25",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/27_2026_UBT_-_25",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "28dcaf38-cb90-4a5c-9007-c72636352b65",
+      "title": "2026 UBT - 26",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/28_2026_UBT_-_26",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "e364c2f3-999d-4d68-a41d-0a5ffca7dbf8",
+      "title": "2026 UBT - 27",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/29_2026_UBT_-_27",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "f99acaee-c8d1-40a9-864a-2c6047f733f8",
+      "title": "2026 UBT - 28",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/30_2026_UBT_-_28",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "f1d26d91-94bc-405f-8d1d-593f920bf7e1",
+      "title": "2026 UBT - 29",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/31_2026_UBT_-_29",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "7be43166-13d4-469c-b022-a777cd4514c4",
+      "title": "2026 UBT - 30",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/32_2026_UBT_-_30",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "a7893bf1-3a6a-4d69-82dd-929bde847b58",
+      "title": "2026 UBT - 31",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/33_2026_UBT_-_31",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "dcf087fa-36f3-4fd1-97d2-80e08678946e",
+      "title": "2026 UBT - 32",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/34_2026_UBT_-_32",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "80b1705f-d139-44bf-9d08-92de02069e8c",
+      "title": "2026 UBT - 33",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/35_2026_UBT_-_33",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "be2d24ff-ca49-4e3f-bc23-c6cb97ecd184",
+      "title": "2026 UBT - 34",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/36_2026_UBT_-_34",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "3091c90a-7bf0-444a-bd39-128d2b16221f",
+      "title": "2026 UBT - 35",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/37_2026_UBT_-_35",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "5c10a528-6dd3-47dc-baaf-e418757d1eda",
+      "title": "2026 UBT - 36",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/38_2026_UBT_-_36",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "a8f6a593-641e-421c-82a7-56142f858530",
+      "title": "2026 UBT - 37",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/39_2026_UBT_-_37",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "1e6087a1-b81b-4b7a-849b-3db548a3f9a4",
+      "title": "2026 UBT - 38",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/40_2026_UBT_-_38",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "2a41235e-a154-47dd-9da1-3155c16169b3",
+      "title": "2026 UBT - 39",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/41_2026_UBT_-_39",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "29ced750-96ee-4604-a3d4-e28cd1520e2b",
+      "title": "2026 UBT - 40",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/42_2026_UBT_-_40",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "56b54a5c-96fd-4eaf-8666-b5b4c82b19b0",
+      "title": "2026 UBT - 41",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/43_2026_UBT_-_41",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "45c5fac6-9fb1-49cd-a103-2e538bf65757",
+      "title": "2026 UBT - 42",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/44_2026_UBT_-_42",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "2c1847e8-4556-4ed7-833c-3ebf0d9cc9cb",
+      "title": "2026 UBT - 43",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/45_2026_UBT_-_43",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "5a45e219-8768-4f62-9be9-a74540cf74fd",
+      "title": "2026 UBT - 44",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/46_2026_UBT_-_44",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "4731bc35-fc7e-4884-b84b-023e99b41b05",
+      "title": "2026 UBT - 45",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/47_2026_UBT_-_45",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "21b4008e-014c-4afc-a136-bb753a396acf",
+      "title": "2026 UBT - 46",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/48_2026_UBT_-_46",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "c8d73e64-400e-4a6c-8a08-a06ed3fc74d6",
+      "title": "2026 UBT - 47",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/49_2026_UBT_-_47",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "3f42c3f0-aa8f-437b-a421-c89e626a396b",
+      "title": "2026 UBT - 48",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/50_2026_UBT_-_48",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "cc297740-099a-4c3f-9cac-9c8b3ac09d78",
+      "title": "2026 UBT - 49",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/51_2026_UBT_-_49",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "e473a620-4a2e-4a0f-bc86-cc9e7645bde1",
+      "title": "2026 UBT - 50",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/52_2026_UBT_-_50",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "d174e70c-d6f2-4243-bf82-26b1bd16eb3a",
+      "title": "2026 UBT - 51",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/53_2026_UBT_-_51",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "f7e15793-989c-4e48-9a6b-c8625abf7993",
+      "title": "2026 UBT - 52",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/54_2026_UBT_-_52",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "216ae9e9-c62a-43a2-9e60-cca44985ca1d",
+      "title": "2026 UBT - 53",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/55_2026_UBT_-_53",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "028fc125-be3b-4005-8474-33e5de5dca0b",
+      "title": "2026 UBT - 54",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/56_2026_UBT_-_54",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "bbd4304f-1e20-4416-8f5a-d8742d8cd517",
+      "title": "2026 UBT - 55",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/57_2026_UBT_-_55",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "d76f4c0d-58d1-4ebd-903b-5b5097227561",
+      "title": "2026 UBT - 56",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/58_2026_UBT_-_56",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "2ad7cb06-d703-43b9-b27b-16e0f58bf50f",
+      "title": "2026 UBT - 57",
+      "category": "2026_UBT_Mock_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/2026_UBT_Mock_Tests/59_2026_UBT_-_57",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "e66786ca-bc26-489e-be2b-e547aa286787",
+      "title": "Chapter 01~02",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/60_Chapter_01~02",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "93d860c7-2fd0-40f4-8c9c-7b9eb62092d2",
+      "title": "Chapter 03~04",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/61_Chapter_03~04",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "a76aaa84-5aa1-43d4-82a9-bbe4e7d4a42f",
+      "title": "Chapter 05~06",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/62_Chapter_05~06",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "82535dc1-e1d4-4643-bd1c-83124d2b0fc2",
+      "title": "Chapter 07~08",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/63_Chapter_07~08",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "7df4bce6-283f-480c-bd14-3d3b6f43a657",
+      "title": "Chapter 09~10",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/64_Chapter_09~10",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "9917f00b-ed00-42c5-b8ea-202cfabc9f47",
+      "title": "Chapter 11~12",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/65_Chapter_11~12",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "8c638f96-9491-4a98-86bb-1dac13830625",
+      "title": "Chapter 13~14",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/66_Chapter_13~14",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "f7b28f01-ed5a-494a-9c6d-d4fe8fa45bf0",
+      "title": "Chapter 15~16",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/67_Chapter_15~16",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "05228992-3f30-4f23-a06a-920a710fa591",
+      "title": "Chapter 17~18",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/68_Chapter_17~18",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "09c2049d-c2fe-4be1-b6f8-4d24054674b9",
+      "title": "Chapter 19~20",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/69_Chapter_19~20",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "0cb72645-4987-4ff3-8377-3c8308778d89",
+      "title": "Chapter 21~22",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/70_Chapter_21~22",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "cbf83e34-64ca-42cd-8cb1-50fd710fb5ff",
+      "title": "Chapter 23~24",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/71_Chapter_23~24",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "c918eba1-37ef-4282-8bfc-cf4da6171c63",
+      "title": "Chapter 25~26",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/72_Chapter_25~26",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "dd2a7bcc-bb83-4847-8ab0-9f6ab4223799",
+      "title": "Chapter 27~28",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/73_Chapter_27~28",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "0e415fe3-f6e7-481d-bf6e-d494a32b055c",
+      "title": "Chapter 29~30",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/74_Chapter_29~30",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "5bcedc63-4714-49a1-b0bf-cedb5514f6b8",
+      "title": "Chapter 31~32",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/75_Chapter_31~32",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "e6b9de02-4dd0-40c2-9f4d-dc2fdb8ba071",
+      "title": "Chapter 33~34",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/76_Chapter_33~34",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "9a39e723-6157-4b33-b657-531a2374746c",
+      "title": "Chapter 35~36",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/77_Chapter_35~36",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "8017efb6-cce7-432f-b5a6-f9785ce427c6",
+      "title": "Chapter 37~38",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/78_Chapter_37~38",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "2abcd91f-2370-4395-b422-69cadbeae63d",
+      "title": "Chapter 39~40",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/79_Chapter_39~40",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "835c995e-5fd0-4d94-bed6-6fde53aac856",
+      "title": "Chapter 41~42",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/80_Chapter_41~42",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "7ec7986f-bbc3-4c66-a163-05cc7067205d",
+      "title": "Chapter 43~44",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/81_Chapter_43~44",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "d09ee09f-b3a1-4e87-b49b-56c0993e8fe2",
+      "title": "Chapter 45~46",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/82_Chapter_45~46",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "abd7af54-d48a-4586-aa71-d950cde81cdd",
+      "title": "Chapter 47~48",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/83_Chapter_47~48",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "9ab7edb5-9b15-4c3e-be03-5eb55869bb56",
+      "title": "Chapter 49~50",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/84_Chapter_49~50",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "c9deadc4-d5f1-4816-be02-0967367e1899",
+      "title": "Chapter 51~52",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/85_Chapter_51~52",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "b51f2000-5614-43c3-9185-f2a125c8d028",
+      "title": "Chapter 53~54",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/86_Chapter_53~54",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "c4ca54c2-e853-4465-9313-35a4a36231ef",
+      "title": "Chapter 55~56",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/87_Chapter_55~56",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "89f4e32b-9ef4-4495-83c8-855fafca7b8e",
+      "title": "Chapter 57~58",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/88_Chapter_57~58",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "b312c6fb-656c-4065-bbd7-43a4f9f069c4",
+      "title": "Chapter 59~60",
+      "category": "Chapter_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Chapter_Tests/89_Chapter_59~60",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "b19826e1-5755-4c9f-9fd2-d99c71172d7e",
+      "title": "1. Skill Test - 제조업 면접",
+      "category": "Skill_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Skill_Tests/01_1._Skill_Test_-_제조업_면접",
+      "hasAudio": true,
+      "hasImages": true
+    },
+    {
+      "id": "2662437d-f267-4842-a986-dd2f1a23c949",
+      "title": "1. Skill Test 1",
+      "category": "Skill_Tests",
+      "duration": 50,
+      "questionsCount": 40,
+      "path": "exams/Skill_Tests/02_1._Skill_Test_1",
+      "hasAudio": true,
+      "hasImages": true
+    }
+  ]
+}

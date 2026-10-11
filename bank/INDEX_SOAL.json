@@ -1,0 +1,3085 @@
+{
+  "metadata": {
+    "title": "Master Index Bank Soal EPS-TOPIK UBT & Materi Belajar",
+    "standard": "HRD Korea Official EPS-TOPIK UBT Standard",
+    "version": "1.0.0",
+    "generatedAt": "2026-10-01 21:08:39",
+    "language": "ko-ID",
+    "baseDirectory": "/home/wxsys/Project/APK/EPS_TOPIK_BANK"
+  },
+  "statistics": {
+    "totalExams": 89,
+    "totalQuestions": 3560,
+    "totalReadingQuestions": 1740,
+    "totalListeningQuestions": 1820,
+    "examMedia": {
+      "totalImages": 6685,
+      "totalAudioFiles": 1820
+    },
+    "studyMaterials": {
+      "totalSections": 4,
+      "totalChapters": 144,
+      "totalPdfs": 144,
+      "totalAudioFiles": 384
+    },
+    "vocabulary": {
+      "totalWords": 6008,
+      "wordTypesBreakdown": {
+        "VERB": 1684,
+        "PHRASE": 2304,
+        "NOUN": 1990,
+        "ADJECTIVE": 29,
+        "ADVERB": 1
+      },
+      "difficultyBreakdown": {
+        "ADVANCED": 2655,
+        "BEGINNER": 2093,
+        "INTERMEDIATE": 1260
+      }
+    },
+    "grandTotalMediaFiles": 9033
+  },
+  "categoriesSummary": [
+    {
+      "category": "2026_UBT_Mock_Tests",
+      "name": "2026 UBT Mock Tests",
+      "description": "Simulasi UBT model terbaru 2026 format standar HRD Korea (20 Reading + 20 Listening)",
+      "examCount": 57,
+      "questionsPerExam": 40,
+      "totalQuestions": 2280
+    },
+    {
+      "category": "Chapter_Tests",
+      "name": "Chapter Tests (Soal per Bab)",
+      "description": "Latihan soal UBT per bab buku standar HRD Korea (Bab 1-2 s/d Bab 59-60)",
+      "examCount": 30,
+      "questionsPerExam": 40,
+      "totalQuestions": 1200
+    },
+    {
+      "category": "Skill_Tests",
+      "name": "Skill Tests & Interview",
+      "description": "Soal latihan audio instruksi wawancara dan perintah kerja fisik (40 Listening)",
+      "examCount": 2,
+      "questionsPerExam": 40,
+      "totalQuestions": 80
+    }
+  ],
+  "exams": [
+    {
+      "index": 1,
+      "id": "40255133-acb7-4c7c-9077-7a7937357857",
+      "title": "2026 UBT - 01",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "03_2026_UBT_-_01",
+      "relativePath": "exams/2026_UBT_Mock_Tests/03_2026_UBT_-_01",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/03_2026_UBT_-_01/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/03_2026_UBT_-_01/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/03_2026_UBT_-_01/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 2,
+      "id": "d00e7e40-8fae-44ca-a3ed-faee553c3bf0",
+      "title": "2026 UBT - 02",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "04_2026_UBT_-_02",
+      "relativePath": "exams/2026_UBT_Mock_Tests/04_2026_UBT_-_02",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/04_2026_UBT_-_02/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/04_2026_UBT_-_02/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/04_2026_UBT_-_02/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 3,
+      "id": "b9564dd4-ff37-43c8-9e04-972d915caad1",
+      "title": "2026 UBT - 03",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "05_2026_UBT_-_03",
+      "relativePath": "exams/2026_UBT_Mock_Tests/05_2026_UBT_-_03",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/05_2026_UBT_-_03/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/05_2026_UBT_-_03/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/05_2026_UBT_-_03/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 4,
+      "id": "0264b233-c7bb-4e37-a59c-cbce144adc7b",
+      "title": "2026 UBT - 04",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "06_2026_UBT_-_04",
+      "relativePath": "exams/2026_UBT_Mock_Tests/06_2026_UBT_-_04",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/06_2026_UBT_-_04/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 61,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/06_2026_UBT_-_04/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/06_2026_UBT_-_04/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 5,
+      "id": "69e2ce9b-c3af-4722-9ef8-872b39b36b9d",
+      "title": "2026 UBT - 05",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "07_2026_UBT_-_05",
+      "relativePath": "exams/2026_UBT_Mock_Tests/07_2026_UBT_-_05",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/07_2026_UBT_-_05/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/07_2026_UBT_-_05/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/07_2026_UBT_-_05/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 6,
+      "id": "1ead15ad-13dc-4a93-abdd-9ed24bd042c1",
+      "title": "2026 UBT - 06",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "08_2026_UBT_-_06",
+      "relativePath": "exams/2026_UBT_Mock_Tests/08_2026_UBT_-_06",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/08_2026_UBT_-_06/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/08_2026_UBT_-_06/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/08_2026_UBT_-_06/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 7,
+      "id": "6cb9082c-5b65-4a74-a8c2-6880ae99198e",
+      "title": "2026 UBT - 07",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "09_2026_UBT_-_07",
+      "relativePath": "exams/2026_UBT_Mock_Tests/09_2026_UBT_-_07",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/09_2026_UBT_-_07/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/09_2026_UBT_-_07/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/09_2026_UBT_-_07/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 8,
+      "id": "4fd7c42e-9f75-40f3-a4dc-84ab4eac1a18",
+      "title": "2026 UBT - 08",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "10_2026_UBT_-_08",
+      "relativePath": "exams/2026_UBT_Mock_Tests/10_2026_UBT_-_08",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/10_2026_UBT_-_08/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 75,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/10_2026_UBT_-_08/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/10_2026_UBT_-_08/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 9,
+      "id": "918f8c7f-9413-482e-85d0-b79eff795e1b",
+      "title": "2026 UBT - 09",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "11_2026_UBT_-_09",
+      "relativePath": "exams/2026_UBT_Mock_Tests/11_2026_UBT_-_09",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/11_2026_UBT_-_09/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 67,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/11_2026_UBT_-_09/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/11_2026_UBT_-_09/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 10,
+      "id": "7b89a092-aafa-4f06-a4c3-2b0eaa13a199",
+      "title": "2026 UBT - 10",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "12_2026_UBT_-_10",
+      "relativePath": "exams/2026_UBT_Mock_Tests/12_2026_UBT_-_10",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/12_2026_UBT_-_10/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/12_2026_UBT_-_10/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/12_2026_UBT_-_10/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 11,
+      "id": "ec875f5b-3f1f-486c-a37b-dc757990a004",
+      "title": "2026 UBT - 11",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "13_2026_UBT_-_11",
+      "relativePath": "exams/2026_UBT_Mock_Tests/13_2026_UBT_-_11",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/13_2026_UBT_-_11/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 71,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/13_2026_UBT_-_11/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/13_2026_UBT_-_11/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 12,
+      "id": "6ea5d30b-3558-407d-b357-6759aff14b4f",
+      "title": "2026 UBT - 12",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "14_2026_UBT_-_12",
+      "relativePath": "exams/2026_UBT_Mock_Tests/14_2026_UBT_-_12",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/14_2026_UBT_-_12/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/14_2026_UBT_-_12/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/14_2026_UBT_-_12/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 13,
+      "id": "398949ac-547d-4afc-bc72-7b1ed1b31dfa",
+      "title": "2026 UBT - 13",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "15_2026_UBT_-_13",
+      "relativePath": "exams/2026_UBT_Mock_Tests/15_2026_UBT_-_13",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/15_2026_UBT_-_13/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/15_2026_UBT_-_13/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/15_2026_UBT_-_13/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 14,
+      "id": "4b3641b0-cf1e-4fda-ae8e-aaf7026e15f4",
+      "title": "2026 UBT - 14",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "16_2026_UBT_-_14",
+      "relativePath": "exams/2026_UBT_Mock_Tests/16_2026_UBT_-_14",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/16_2026_UBT_-_14/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 61,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/16_2026_UBT_-_14/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/16_2026_UBT_-_14/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 15,
+      "id": "ac32fcdf-dc35-4445-89e8-4ae2cc972d5a",
+      "title": "2026 UBT - 15",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "17_2026_UBT_-_15",
+      "relativePath": "exams/2026_UBT_Mock_Tests/17_2026_UBT_-_15",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/17_2026_UBT_-_15/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 72,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/17_2026_UBT_-_15/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/17_2026_UBT_-_15/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 16,
+      "id": "fb31fc93-6787-4927-83f5-1fef69dc705b",
+      "title": "2026 UBT - 16",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "18_2026_UBT_-_16",
+      "relativePath": "exams/2026_UBT_Mock_Tests/18_2026_UBT_-_16",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/18_2026_UBT_-_16/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 72,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/18_2026_UBT_-_16/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/18_2026_UBT_-_16/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 17,
+      "id": "af8464b8-9d61-417b-af1f-9389c9914fda",
+      "title": "2026 UBT - 17",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "19_2026_UBT_-_17",
+      "relativePath": "exams/2026_UBT_Mock_Tests/19_2026_UBT_-_17",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/19_2026_UBT_-_17/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 79,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/19_2026_UBT_-_17/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/19_2026_UBT_-_17/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 18,
+      "id": "9596aefd-fefc-4553-b664-d1994310ceea",
+      "title": "2026 UBT - 18",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "20_2026_UBT_-_18",
+      "relativePath": "exams/2026_UBT_Mock_Tests/20_2026_UBT_-_18",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/20_2026_UBT_-_18/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/20_2026_UBT_-_18/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/20_2026_UBT_-_18/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 19,
+      "id": "8427ae53-1c9f-4c4f-a974-e315bd653d5e",
+      "title": "2026 UBT - 19",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "21_2026_UBT_-_19",
+      "relativePath": "exams/2026_UBT_Mock_Tests/21_2026_UBT_-_19",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/21_2026_UBT_-_19/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 65,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/21_2026_UBT_-_19/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/21_2026_UBT_-_19/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 20,
+      "id": "a7ca5c6a-6b28-47cc-8779-754d76e3b155",
+      "title": "2026 UBT - 20",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "22_2026_UBT_-_20",
+      "relativePath": "exams/2026_UBT_Mock_Tests/22_2026_UBT_-_20",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/22_2026_UBT_-_20/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/22_2026_UBT_-_20/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/22_2026_UBT_-_20/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 21,
+      "id": "36e24ff1-a873-4167-9bfe-ee485a6173e3",
+      "title": "2026 UBT - 21",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "23_2026_UBT_-_21",
+      "relativePath": "exams/2026_UBT_Mock_Tests/23_2026_UBT_-_21",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/23_2026_UBT_-_21/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/23_2026_UBT_-_21/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/23_2026_UBT_-_21/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 22,
+      "id": "8c777814-b446-403d-8347-4deb8b4299d8",
+      "title": "2026 UBT - 22",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "24_2026_UBT_-_22",
+      "relativePath": "exams/2026_UBT_Mock_Tests/24_2026_UBT_-_22",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/24_2026_UBT_-_22/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 75,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/24_2026_UBT_-_22/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/24_2026_UBT_-_22/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 23,
+      "id": "e68cad34-5a99-4416-a211-2899264824d8",
+      "title": "2026 UBT - 23",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "25_2026_UBT_-_23",
+      "relativePath": "exams/2026_UBT_Mock_Tests/25_2026_UBT_-_23",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/25_2026_UBT_-_23/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/25_2026_UBT_-_23/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/25_2026_UBT_-_23/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 24,
+      "id": "eff9b287-c78c-40df-a506-705d6cfd6036",
+      "title": "2026 UBT - 24",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "26_2026_UBT_-_24",
+      "relativePath": "exams/2026_UBT_Mock_Tests/26_2026_UBT_-_24",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/26_2026_UBT_-_24/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 65,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/26_2026_UBT_-_24/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/26_2026_UBT_-_24/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 25,
+      "id": "d7ff64c5-04f3-436a-b6b5-535e9bbe32a5",
+      "title": "2026 UBT - 25",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "27_2026_UBT_-_25",
+      "relativePath": "exams/2026_UBT_Mock_Tests/27_2026_UBT_-_25",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/27_2026_UBT_-_25/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/27_2026_UBT_-_25/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/27_2026_UBT_-_25/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 26,
+      "id": "28dcaf38-cb90-4a5c-9007-c72636352b65",
+      "title": "2026 UBT - 26",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "28_2026_UBT_-_26",
+      "relativePath": "exams/2026_UBT_Mock_Tests/28_2026_UBT_-_26",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/28_2026_UBT_-_26/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 71,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/28_2026_UBT_-_26/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/28_2026_UBT_-_26/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 27,
+      "id": "e364c2f3-999d-4d68-a41d-0a5ffca7dbf8",
+      "title": "2026 UBT - 27",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "29_2026_UBT_-_27",
+      "relativePath": "exams/2026_UBT_Mock_Tests/29_2026_UBT_-_27",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/29_2026_UBT_-_27/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 75,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/29_2026_UBT_-_27/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/29_2026_UBT_-_27/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 28,
+      "id": "f99acaee-c8d1-40a9-864a-2c6047f733f8",
+      "title": "2026 UBT - 28",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "30_2026_UBT_-_28",
+      "relativePath": "exams/2026_UBT_Mock_Tests/30_2026_UBT_-_28",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/30_2026_UBT_-_28/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/30_2026_UBT_-_28/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/30_2026_UBT_-_28/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 29,
+      "id": "f1d26d91-94bc-405f-8d1d-593f920bf7e1",
+      "title": "2026 UBT - 29",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "31_2026_UBT_-_29",
+      "relativePath": "exams/2026_UBT_Mock_Tests/31_2026_UBT_-_29",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/31_2026_UBT_-_29/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 66,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/31_2026_UBT_-_29/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/31_2026_UBT_-_29/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 30,
+      "id": "7be43166-13d4-469c-b022-a777cd4514c4",
+      "title": "2026 UBT - 30",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "32_2026_UBT_-_30",
+      "relativePath": "exams/2026_UBT_Mock_Tests/32_2026_UBT_-_30",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/32_2026_UBT_-_30/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/32_2026_UBT_-_30/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/32_2026_UBT_-_30/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 31,
+      "id": "a7893bf1-3a6a-4d69-82dd-929bde847b58",
+      "title": "2026 UBT - 31",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "33_2026_UBT_-_31",
+      "relativePath": "exams/2026_UBT_Mock_Tests/33_2026_UBT_-_31",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/33_2026_UBT_-_31/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 65,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/33_2026_UBT_-_31/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/33_2026_UBT_-_31/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 32,
+      "id": "dcf087fa-36f3-4fd1-97d2-80e08678946e",
+      "title": "2026 UBT - 32",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "34_2026_UBT_-_32",
+      "relativePath": "exams/2026_UBT_Mock_Tests/34_2026_UBT_-_32",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/34_2026_UBT_-_32/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 71,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/34_2026_UBT_-_32/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/34_2026_UBT_-_32/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 33,
+      "id": "80b1705f-d139-44bf-9d08-92de02069e8c",
+      "title": "2026 UBT - 33",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "35_2026_UBT_-_33",
+      "relativePath": "exams/2026_UBT_Mock_Tests/35_2026_UBT_-_33",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/35_2026_UBT_-_33/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/35_2026_UBT_-_33/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/35_2026_UBT_-_33/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 34,
+      "id": "be2d24ff-ca49-4e3f-bc23-c6cb97ecd184",
+      "title": "2026 UBT - 34",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "36_2026_UBT_-_34",
+      "relativePath": "exams/2026_UBT_Mock_Tests/36_2026_UBT_-_34",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/36_2026_UBT_-_34/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 69,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/36_2026_UBT_-_34/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/36_2026_UBT_-_34/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 35,
+      "id": "3091c90a-7bf0-444a-bd39-128d2b16221f",
+      "title": "2026 UBT - 35",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "37_2026_UBT_-_35",
+      "relativePath": "exams/2026_UBT_Mock_Tests/37_2026_UBT_-_35",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/37_2026_UBT_-_35/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/37_2026_UBT_-_35/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/37_2026_UBT_-_35/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 36,
+      "id": "5c10a528-6dd3-47dc-baaf-e418757d1eda",
+      "title": "2026 UBT - 36",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "38_2026_UBT_-_36",
+      "relativePath": "exams/2026_UBT_Mock_Tests/38_2026_UBT_-_36",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/38_2026_UBT_-_36/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 68,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/38_2026_UBT_-_36/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/38_2026_UBT_-_36/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 37,
+      "id": "a8f6a593-641e-421c-82a7-56142f858530",
+      "title": "2026 UBT - 37",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "39_2026_UBT_-_37",
+      "relativePath": "exams/2026_UBT_Mock_Tests/39_2026_UBT_-_37",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/39_2026_UBT_-_37/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/39_2026_UBT_-_37/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/39_2026_UBT_-_37/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 38,
+      "id": "1e6087a1-b81b-4b7a-849b-3db548a3f9a4",
+      "title": "2026 UBT - 38",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "40_2026_UBT_-_38",
+      "relativePath": "exams/2026_UBT_Mock_Tests/40_2026_UBT_-_38",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/40_2026_UBT_-_38/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/40_2026_UBT_-_38/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/40_2026_UBT_-_38/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 39,
+      "id": "2a41235e-a154-47dd-9da1-3155c16169b3",
+      "title": "2026 UBT - 39",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "41_2026_UBT_-_39",
+      "relativePath": "exams/2026_UBT_Mock_Tests/41_2026_UBT_-_39",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/41_2026_UBT_-_39/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 62,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/41_2026_UBT_-_39/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/41_2026_UBT_-_39/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 40,
+      "id": "29ced750-96ee-4604-a3d4-e28cd1520e2b",
+      "title": "2026 UBT - 40",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "42_2026_UBT_-_40",
+      "relativePath": "exams/2026_UBT_Mock_Tests/42_2026_UBT_-_40",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/42_2026_UBT_-_40/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/42_2026_UBT_-_40/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/42_2026_UBT_-_40/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 41,
+      "id": "56b54a5c-96fd-4eaf-8666-b5b4c82b19b0",
+      "title": "2026 UBT - 41",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "43_2026_UBT_-_41",
+      "relativePath": "exams/2026_UBT_Mock_Tests/43_2026_UBT_-_41",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/43_2026_UBT_-_41/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/43_2026_UBT_-_41/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/43_2026_UBT_-_41/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 42,
+      "id": "45c5fac6-9fb1-49cd-a103-2e538bf65757",
+      "title": "2026 UBT - 42",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "44_2026_UBT_-_42",
+      "relativePath": "exams/2026_UBT_Mock_Tests/44_2026_UBT_-_42",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/44_2026_UBT_-_42/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 71,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/44_2026_UBT_-_42/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/44_2026_UBT_-_42/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 43,
+      "id": "2c1847e8-4556-4ed7-833c-3ebf0d9cc9cb",
+      "title": "2026 UBT - 43",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "45_2026_UBT_-_43",
+      "relativePath": "exams/2026_UBT_Mock_Tests/45_2026_UBT_-_43",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/45_2026_UBT_-_43/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/45_2026_UBT_-_43/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/45_2026_UBT_-_43/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 44,
+      "id": "5a45e219-8768-4f62-9be9-a74540cf74fd",
+      "title": "2026 UBT - 44",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "46_2026_UBT_-_44",
+      "relativePath": "exams/2026_UBT_Mock_Tests/46_2026_UBT_-_44",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/46_2026_UBT_-_44/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 65,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/46_2026_UBT_-_44/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/46_2026_UBT_-_44/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 45,
+      "id": "4731bc35-fc7e-4884-b84b-023e99b41b05",
+      "title": "2026 UBT - 45",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "47_2026_UBT_-_45",
+      "relativePath": "exams/2026_UBT_Mock_Tests/47_2026_UBT_-_45",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/47_2026_UBT_-_45/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/47_2026_UBT_-_45/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/47_2026_UBT_-_45/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 46,
+      "id": "21b4008e-014c-4afc-a136-bb753a396acf",
+      "title": "2026 UBT - 46",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "48_2026_UBT_-_46",
+      "relativePath": "exams/2026_UBT_Mock_Tests/48_2026_UBT_-_46",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/48_2026_UBT_-_46/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 72,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/48_2026_UBT_-_46/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/48_2026_UBT_-_46/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 47,
+      "id": "c8d73e64-400e-4a6c-8a08-a06ed3fc74d6",
+      "title": "2026 UBT - 47",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "49_2026_UBT_-_47",
+      "relativePath": "exams/2026_UBT_Mock_Tests/49_2026_UBT_-_47",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/49_2026_UBT_-_47/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 75,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/49_2026_UBT_-_47/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/49_2026_UBT_-_47/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 48,
+      "id": "3f42c3f0-aa8f-437b-a421-c89e626a396b",
+      "title": "2026 UBT - 48",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "50_2026_UBT_-_48",
+      "relativePath": "exams/2026_UBT_Mock_Tests/50_2026_UBT_-_48",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/50_2026_UBT_-_48/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 70,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/50_2026_UBT_-_48/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/50_2026_UBT_-_48/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 49,
+      "id": "cc297740-099a-4c3f-9cac-9c8b3ac09d78",
+      "title": "2026 UBT - 49",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "51_2026_UBT_-_49",
+      "relativePath": "exams/2026_UBT_Mock_Tests/51_2026_UBT_-_49",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/51_2026_UBT_-_49/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 66,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/51_2026_UBT_-_49/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/51_2026_UBT_-_49/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 50,
+      "id": "e473a620-4a2e-4a0f-bc86-cc9e7645bde1",
+      "title": "2026 UBT - 50",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "52_2026_UBT_-_50",
+      "relativePath": "exams/2026_UBT_Mock_Tests/52_2026_UBT_-_50",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/52_2026_UBT_-_50/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 77,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/52_2026_UBT_-_50/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/52_2026_UBT_-_50/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 51,
+      "id": "d174e70c-d6f2-4243-bf82-26b1bd16eb3a",
+      "title": "2026 UBT - 51",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "53_2026_UBT_-_51",
+      "relativePath": "exams/2026_UBT_Mock_Tests/53_2026_UBT_-_51",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/53_2026_UBT_-_51/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/53_2026_UBT_-_51/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/53_2026_UBT_-_51/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 52,
+      "id": "f7e15793-989c-4e48-9a6b-c8625abf7993",
+      "title": "2026 UBT - 52",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "54_2026_UBT_-_52",
+      "relativePath": "exams/2026_UBT_Mock_Tests/54_2026_UBT_-_52",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/54_2026_UBT_-_52/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/54_2026_UBT_-_52/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/54_2026_UBT_-_52/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 53,
+      "id": "216ae9e9-c62a-43a2-9e60-cca44985ca1d",
+      "title": "2026 UBT - 53",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "55_2026_UBT_-_53",
+      "relativePath": "exams/2026_UBT_Mock_Tests/55_2026_UBT_-_53",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/55_2026_UBT_-_53/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 74,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/55_2026_UBT_-_53/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/55_2026_UBT_-_53/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 54,
+      "id": "028fc125-be3b-4005-8474-33e5de5dca0b",
+      "title": "2026 UBT - 54",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "56_2026_UBT_-_54",
+      "relativePath": "exams/2026_UBT_Mock_Tests/56_2026_UBT_-_54",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/56_2026_UBT_-_54/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 65,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/56_2026_UBT_-_54/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/56_2026_UBT_-_54/audio"
+      },
+      "firstReadingHeading": "[1~3] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~24] 들은 것을 고르십시오."
+    },
+    {
+      "index": 55,
+      "id": "bbd4304f-1e20-4416-8f5a-d8742d8cd517",
+      "title": "2026 UBT - 55",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "57_2026_UBT_-_55",
+      "relativePath": "exams/2026_UBT_Mock_Tests/57_2026_UBT_-_55",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/57_2026_UBT_-_55/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 71,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/57_2026_UBT_-_55/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/57_2026_UBT_-_55/audio"
+      },
+      "firstReadingHeading": "[1~2] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 56,
+      "id": "d76f4c0d-58d1-4ebd-903b-5b5097227561",
+      "title": "2026 UBT - 56",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "58_2026_UBT_-_56",
+      "relativePath": "exams/2026_UBT_Mock_Tests/58_2026_UBT_-_56",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/58_2026_UBT_-_56/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 68,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/58_2026_UBT_-_56/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/58_2026_UBT_-_56/audio"
+      },
+      "firstReadingHeading": "다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 57,
+      "id": "2ad7cb06-d703-43b9-b27b-16e0f58bf50f",
+      "title": "2026 UBT - 57",
+      "category": "2026_UBT_Mock_Tests",
+      "categoryLabel": "2026 UBT Mock Test (Simulasi UBT Resmi)",
+      "folderName": "59_2026_UBT_-_57",
+      "relativePath": "exams/2026_UBT_Mock_Tests/59_2026_UBT_-_57",
+      "examJsonPath": "exams/2026_UBT_Mock_Tests/59_2026_UBT_-_57/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 75,
+        "imagesPath": "exams/2026_UBT_Mock_Tests/59_2026_UBT_-_57/images",
+        "audioCount": 20,
+        "audioPath": "exams/2026_UBT_Mock_Tests/59_2026_UBT_-_57/audio"
+      },
+      "firstReadingHeading": "\t[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.\t\t",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 58,
+      "id": "e66786ca-bc26-489e-be2b-e547aa286787",
+      "title": "Chapter 01~02",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "60_Chapter_01~02",
+      "relativePath": "exams/Chapter_Tests/60_Chapter_01~02",
+      "examJsonPath": "exams/Chapter_Tests/60_Chapter_01~02/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 87,
+        "imagesPath": "exams/Chapter_Tests/60_Chapter_01~02/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/60_Chapter_01~02/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 59,
+      "id": "93d860c7-2fd0-40f4-8c9c-7b9eb62092d2",
+      "title": "Chapter 03~04",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "61_Chapter_03~04",
+      "relativePath": "exams/Chapter_Tests/61_Chapter_03~04",
+      "examJsonPath": "exams/Chapter_Tests/61_Chapter_03~04/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 85,
+        "imagesPath": "exams/Chapter_Tests/61_Chapter_03~04/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/61_Chapter_03~04/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 60,
+      "id": "a76aaa84-5aa1-43d4-82a9-bbe4e7d4a42f",
+      "title": "Chapter 05~06",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "62_Chapter_05~06",
+      "relativePath": "exams/Chapter_Tests/62_Chapter_05~06",
+      "examJsonPath": "exams/Chapter_Tests/62_Chapter_05~06/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 85,
+        "imagesPath": "exams/Chapter_Tests/62_Chapter_05~06/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/62_Chapter_05~06/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 61,
+      "id": "82535dc1-e1d4-4643-bd1c-83124d2b0fc2",
+      "title": "Chapter 07~08",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "63_Chapter_07~08",
+      "relativePath": "exams/Chapter_Tests/63_Chapter_07~08",
+      "examJsonPath": "exams/Chapter_Tests/63_Chapter_07~08/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/63_Chapter_07~08/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/63_Chapter_07~08/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 글을 읽고 무엇에 대한 그림인지 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 62,
+      "id": "7df4bce6-283f-480c-bd14-3d3b6f43a657",
+      "title": "Chapter 09~10",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "64_Chapter_09~10",
+      "relativePath": "exams/Chapter_Tests/64_Chapter_09~10",
+      "examJsonPath": "exams/Chapter_Tests/64_Chapter_09~10/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/64_Chapter_09~10/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/64_Chapter_09~10/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 글을 읽고 무엇에 대한 그림인지 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 63,
+      "id": "9917f00b-ed00-42c5-b8ea-202cfabc9f47",
+      "title": "Chapter 11~12",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "65_Chapter_11~12",
+      "relativePath": "exams/Chapter_Tests/65_Chapter_11~12",
+      "examJsonPath": "exams/Chapter_Tests/65_Chapter_11~12/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/65_Chapter_11~12/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/65_Chapter_11~12/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 64,
+      "id": "8c638f96-9491-4a98-86bb-1dac13830625",
+      "title": "Chapter 13~14",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "66_Chapter_13~14",
+      "relativePath": "exams/Chapter_Tests/66_Chapter_13~14",
+      "examJsonPath": "exams/Chapter_Tests/66_Chapter_13~14/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/66_Chapter_13~14/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/66_Chapter_13~14/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 65,
+      "id": "f7b28f01-ed5a-494a-9c6d-d4fe8fa45bf0",
+      "title": "Chapter 15~16",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "67_Chapter_15~16",
+      "relativePath": "exams/Chapter_Tests/67_Chapter_15~16",
+      "examJsonPath": "exams/Chapter_Tests/67_Chapter_15~16/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 81,
+        "imagesPath": "exams/Chapter_Tests/67_Chapter_15~16/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/67_Chapter_15~16/audio"
+      },
+      "firstReadingHeading": "[ 1 – 4 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 66,
+      "id": "05228992-3f30-4f23-a06a-920a710fa591",
+      "title": "Chapter 17~18",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "68_Chapter_17~18",
+      "relativePath": "exams/Chapter_Tests/68_Chapter_17~18",
+      "examJsonPath": "exams/Chapter_Tests/68_Chapter_17~18/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/68_Chapter_17~18/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/68_Chapter_17~18/audio"
+      },
+      "firstReadingHeading": "[ 1 – 4 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 67,
+      "id": "09c2049d-c2fe-4be1-b6f8-4d24054674b9",
+      "title": "Chapter 19~20",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "69_Chapter_19~20",
+      "relativePath": "exams/Chapter_Tests/69_Chapter_19~20",
+      "examJsonPath": "exams/Chapter_Tests/69_Chapter_19~20/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/69_Chapter_19~20/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/69_Chapter_19~20/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 68,
+      "id": "0cb72645-4987-4ff3-8377-3c8308778d89",
+      "title": "Chapter 21~22",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "70_Chapter_21~22",
+      "relativePath": "exams/Chapter_Tests/70_Chapter_21~22",
+      "examJsonPath": "exams/Chapter_Tests/70_Chapter_21~22/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/70_Chapter_21~22/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/70_Chapter_21~22/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 다음 글을 읽고 무엇에 대한 글인지 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 69,
+      "id": "cbf83e34-64ca-42cd-8cb1-50fd710fb5ff",
+      "title": "Chapter 23~24",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "71_Chapter_23~24",
+      "relativePath": "exams/Chapter_Tests/71_Chapter_23~24",
+      "examJsonPath": "exams/Chapter_Tests/71_Chapter_23~24/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 81,
+        "imagesPath": "exams/Chapter_Tests/71_Chapter_23~24/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/71_Chapter_23~24/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 70,
+      "id": "c918eba1-37ef-4282-8bfc-cf4da6171c63",
+      "title": "Chapter 25~26",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "72_Chapter_25~26",
+      "relativePath": "exams/Chapter_Tests/72_Chapter_25~26",
+      "examJsonPath": "exams/Chapter_Tests/72_Chapter_25~26/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/72_Chapter_25~26/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/72_Chapter_25~26/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 71,
+      "id": "dd2a7bcc-bb83-4847-8ab0-9f6ab4223799",
+      "title": "Chapter 27~28",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "73_Chapter_27~28",
+      "relativePath": "exams/Chapter_Tests/73_Chapter_27~28",
+      "examJsonPath": "exams/Chapter_Tests/73_Chapter_27~28/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 81,
+        "imagesPath": "exams/Chapter_Tests/73_Chapter_27~28/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/73_Chapter_27~28/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 72,
+      "id": "0e415fe3-f6e7-481d-bf6e-d494a32b055c",
+      "title": "Chapter 29~30",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "74_Chapter_29~30",
+      "relativePath": "exams/Chapter_Tests/74_Chapter_29~30",
+      "examJsonPath": "exams/Chapter_Tests/74_Chapter_29~30/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/74_Chapter_29~30/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/74_Chapter_29~30/audio"
+      },
+      "firstReadingHeading": "[ 1 – 2 ] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 73,
+      "id": "5bcedc63-4714-49a1-b0bf-cedb5514f6b8",
+      "title": "Chapter 31~32",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "75_Chapter_31~32",
+      "relativePath": "exams/Chapter_Tests/75_Chapter_31~32",
+      "examJsonPath": "exams/Chapter_Tests/75_Chapter_31~32/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/75_Chapter_31~32/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/75_Chapter_31~32/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 글을 읽고 무엇에 대한 그림인지 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 74,
+      "id": "e6b9de02-4dd0-40c2-9f4d-dc2fdb8ba071",
+      "title": "Chapter 33~34",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "76_Chapter_33~34",
+      "relativePath": "exams/Chapter_Tests/76_Chapter_33~34",
+      "examJsonPath": "exams/Chapter_Tests/76_Chapter_33~34/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 81,
+        "imagesPath": "exams/Chapter_Tests/76_Chapter_33~34/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/76_Chapter_33~34/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 75,
+      "id": "9a39e723-6157-4b33-b657-531a2374746c",
+      "title": "Chapter 35~36",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "77_Chapter_35~36",
+      "relativePath": "exams/Chapter_Tests/77_Chapter_35~36",
+      "examJsonPath": "exams/Chapter_Tests/77_Chapter_35~36/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/77_Chapter_35~36/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/77_Chapter_35~36/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 76,
+      "id": "8017efb6-cce7-432f-b5a6-f9785ce427c6",
+      "title": "Chapter 37~38",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "78_Chapter_37~38",
+      "relativePath": "exams/Chapter_Tests/78_Chapter_37~38",
+      "examJsonPath": "exams/Chapter_Tests/78_Chapter_37~38/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/78_Chapter_37~38/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/78_Chapter_37~38/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 77,
+      "id": "2abcd91f-2370-4395-b422-69cadbeae63d",
+      "title": "Chapter 39~40",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "79_Chapter_39~40",
+      "relativePath": "exams/Chapter_Tests/79_Chapter_39~40",
+      "examJsonPath": "exams/Chapter_Tests/79_Chapter_39~40/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/79_Chapter_39~40/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/79_Chapter_39~40/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 78,
+      "id": "835c995e-5fd0-4d94-bed6-6fde53aac856",
+      "title": "Chapter 41~42",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "80_Chapter_41~42",
+      "relativePath": "exams/Chapter_Tests/80_Chapter_41~42",
+      "examJsonPath": "exams/Chapter_Tests/80_Chapter_41~42/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 81,
+        "imagesPath": "exams/Chapter_Tests/80_Chapter_41~42/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/80_Chapter_41~42/audio"
+      },
+      "firstReadingHeading": "[ 1 – 4 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 79,
+      "id": "7ec7986f-bbc3-4c66-a163-05cc7067205d",
+      "title": "Chapter 43~44",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "81_Chapter_43~44",
+      "relativePath": "exams/Chapter_Tests/81_Chapter_43~44",
+      "examJsonPath": "exams/Chapter_Tests/81_Chapter_43~44/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/81_Chapter_43~44/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/81_Chapter_43~44/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 80,
+      "id": "d09ee09f-b3a1-4e87-b49b-56c0993e8fe2",
+      "title": "Chapter 45~46",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "82_Chapter_45~46",
+      "relativePath": "exams/Chapter_Tests/82_Chapter_45~46",
+      "examJsonPath": "exams/Chapter_Tests/82_Chapter_45~46/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/82_Chapter_45~46/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/82_Chapter_45~46/audio"
+      },
+      "firstReadingHeading": "[1 ~ 2] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 81,
+      "id": "abd7af54-d48a-4586-aa71-d950cde81cdd",
+      "title": "Chapter 47~48",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "83_Chapter_47~48",
+      "relativePath": "exams/Chapter_Tests/83_Chapter_47~48",
+      "examJsonPath": "exams/Chapter_Tests/83_Chapter_47~48/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/83_Chapter_47~48/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/83_Chapter_47~48/audio"
+      },
+      "firstReadingHeading": "[1 ~ 2] 그림을 보고 알맞은 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 82,
+      "id": "9ab7edb5-9b15-4c3e-be03-5eb55869bb56",
+      "title": "Chapter 49~50",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "84_Chapter_49~50",
+      "relativePath": "exams/Chapter_Tests/84_Chapter_49~50",
+      "examJsonPath": "exams/Chapter_Tests/84_Chapter_49~50/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/84_Chapter_49~50/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/84_Chapter_49~50/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 83,
+      "id": "c9deadc4-d5f1-4816-be02-0967367e1899",
+      "title": "Chapter 51~52",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "85_Chapter_51~52",
+      "relativePath": "exams/Chapter_Tests/85_Chapter_51~52",
+      "examJsonPath": "exams/Chapter_Tests/85_Chapter_51~52/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/85_Chapter_51~52/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/85_Chapter_51~52/audio"
+      },
+      "firstReadingHeading": "[ 1– 2 ] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 84,
+      "id": "b51f2000-5614-43c3-9185-f2a125c8d028",
+      "title": "Chapter 53~54",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "86_Chapter_53~54",
+      "relativePath": "exams/Chapter_Tests/86_Chapter_53~54",
+      "examJsonPath": "exams/Chapter_Tests/86_Chapter_53~54/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 84,
+        "imagesPath": "exams/Chapter_Tests/86_Chapter_53~54/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/86_Chapter_53~54/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 내용과 관계있는 그림을 고르십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 85,
+      "id": "c4ca54c2-e853-4465-9313-35a4a36231ef",
+      "title": "Chapter 55~56",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "87_Chapter_55~56",
+      "relativePath": "exams/Chapter_Tests/87_Chapter_55~56",
+      "examJsonPath": "exams/Chapter_Tests/87_Chapter_55~56/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 80,
+        "imagesPath": "exams/Chapter_Tests/87_Chapter_55~56/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/87_Chapter_55~56/audio"
+      },
+      "firstReadingHeading": "[1 - 2] 다음 질문에 답하십시오.",
+      "firstListeningHeading": "[ 21 – 24 ] 들은 것을 고르십시오."
+    },
+    {
+      "index": 86,
+      "id": "89f4e32b-9ef4-4495-83c8-855fafca7b8e",
+      "title": "Chapter 57~58",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "88_Chapter_57~58",
+      "relativePath": "exams/Chapter_Tests/88_Chapter_57~58",
+      "examJsonPath": "exams/Chapter_Tests/88_Chapter_57~58/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/Chapter_Tests/88_Chapter_57~58/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/88_Chapter_57~58/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 87,
+      "id": "b312c6fb-656c-4065-bbd7-43a4f9f069c4",
+      "title": "Chapter 59~60",
+      "category": "Chapter_Tests",
+      "categoryLabel": "Chapter Test (Latihan Soal per Bab Buku Standar)",
+      "folderName": "89_Chapter_59~60",
+      "relativePath": "exams/Chapter_Tests/89_Chapter_59~60",
+      "examJsonPath": "exams/Chapter_Tests/89_Chapter_59~60/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 20,
+        "listening": 20
+      },
+      "media": {
+        "imagesCount": 73,
+        "imagesPath": "exams/Chapter_Tests/89_Chapter_59~60/images",
+        "audioCount": 20,
+        "audioPath": "exams/Chapter_Tests/89_Chapter_59~60/audio"
+      },
+      "firstReadingHeading": "[1~4] 다음 그림을 보고 맞는 단어나 문장을 고르십시오.",
+      "firstListeningHeading": "[21~22] 들은 것을 고르십시오."
+    },
+    {
+      "index": 88,
+      "id": "b19826e1-5755-4c9f-9fd2-d99c71172d7e",
+      "title": "1. Skill Test - 제조업 면접",
+      "category": "Skill_Tests",
+      "categoryLabel": "Skill Test (Tes Keterampilan & Wawancara)",
+      "folderName": "01_1._Skill_Test_-_제조업_면접",
+      "relativePath": "exams/Skill_Tests/01_1._Skill_Test_-_제조업_면접",
+      "examJsonPath": "exams/Skill_Tests/01_1._Skill_Test_-_제조업_면접/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 0,
+        "listening": 40
+      },
+      "media": {
+        "imagesCount": 40,
+        "imagesPath": "exams/Skill_Tests/01_1._Skill_Test_-_제조업_면접/images",
+        "audioCount": 40,
+        "audioPath": "exams/Skill_Tests/01_1._Skill_Test_-_제조업_면접/audio"
+      },
+      "firstReadingHeading": "",
+      "firstListeningHeading": ""
+    },
+    {
+      "index": 89,
+      "id": "2662437d-f267-4842-a986-dd2f1a23c949",
+      "title": "1. Skill Test 1",
+      "category": "Skill_Tests",
+      "categoryLabel": "Skill Test (Tes Keterampilan & Wawancara)",
+      "folderName": "02_1._Skill_Test_1",
+      "relativePath": "exams/Skill_Tests/02_1._Skill_Test_1",
+      "examJsonPath": "exams/Skill_Tests/02_1._Skill_Test_1/exam.json",
+      "durationMinutes": 50,
+      "totalMarks": 200,
+      "questions": {
+        "total": 40,
+        "reading": 0,
+        "listening": 40
+      },
+      "media": {
+        "imagesCount": 160,
+        "imagesPath": "exams/Skill_Tests/02_1._Skill_Test_1/images",
+        "audioCount": 40,
+        "audioPath": "exams/Skill_Tests/02_1._Skill_Test_1/audio"
+      },
+      "firstReadingHeading": "",
+      "firstListeningHeading": ""
+    }
+  ],
+  "studyMaterials": [
+    {
+      "identifier": "korean_to_Bahasa_Indonesia",
+      "title": "Buku EPS-TOPIK Terjemahan Bahasa Indonesia (60 Bab)",
+      "category": "Textbook Indonesian",
+      "path": "study_materials/korean_to_Bahasa_Indonesia",
+      "totalChapters": 60,
+      "totalPdfs": 60,
+      "totalAudio": 0,
+      "chaptersSummary": [
+        {
+          "chapter": "01_Chapter_-_1",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "02_Chapter_-_2",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "03_Chapter_-_3",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "04_Chapter_-_4",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "05_Chapter_-_5",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "06_Chapter_-_6",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "07_Chapter_-_7",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "08_Chapter_-_8",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "09_Chapter_-_9",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "10_Chapter_-_10",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "11_Chapter_-_11",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "12_Chapter_-_12",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "13_Chapter_-_13",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "14_Chapter_-_14",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "15_Chapter_-_15",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "16_Chapter_-_16",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "17_Chapter_-_17",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "18_Chapter_-_18",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "19_Chapter_-_19",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "20_Chapter_-_20",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "21_Chapter_-_21",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "22_Chapter_-_22",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "23_Chapter_-_23",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "24_Chapter_-_24",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "25_Chapter_-_25",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "26_Chapter_-_26",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "27_Chapter_-_27",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "28_Chapter_-_28",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "29_Chapter_-_29",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "30_Chapter_-_30",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "31_Chapter_-_31",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "32_Chapter_-_32",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "33_Chapter_-_33",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "34_Chapter_-_34",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "35_Chapter_-_35",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "36_Chapter_-_36",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "37_Chapter_-_37",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "38_Chapter_-_38",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "39_Chapter_-_39",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "40_Chapter_-_40",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "41_Chapter_-_41",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "42_Chapter_-_42",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "43_Chapter_-_43",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "44_Chapter_-_44",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "45_Chapter_-_45",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "46_Chapter_-_46",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "47_Chapter_-_47",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "48_Chapter_-_48",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "49_Chapter_-_49",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "50_Chapter_-_50",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "51_Chapter_-_51",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "52_Chapter_-_52",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "53_Chapter_-_53",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "54_Chapter_-_54",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "55_Chapter_-_55",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "56_Chapter_-_56",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "57_Chapter_-_57",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "58_Chapter_-_58",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "59_Chapter_-_59",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "60_Chapter_-_60",
+          "pdfCount": 1,
+          "mp3Count": 0
+        }
+      ]
+    },
+    {
+      "identifier": "EPS_TOPIK_2026",
+      "title": "Buku EPS-TOPIK Standar 2026 (67 Bab + Audio Listening)",
+      "category": "Textbook 2026 & Audio",
+      "path": "study_materials/EPS_TOPIK_2026",
+      "totalChapters": 67,
+      "totalPdfs": 67,
+      "totalAudio": 384,
+      "chaptersSummary": [
+        {
+          "chapter": "01_0._교재구성표",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "02_0._한글익히기_I",
+          "pdfCount": 1,
+          "mp3Count": 8
+        },
+        {
+          "chapter": "03_0._한글익히기_II",
+          "pdfCount": 1,
+          "mp3Count": 12
+        },
+        {
+          "chapter": "04_0._한글익히기_III",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "05_0._인사",
+          "pdfCount": 1,
+          "mp3Count": 1
+        },
+        {
+          "chapter": "06_Chapter_-_01_(자기소개)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "07_Chapter_-_02_(생활용품)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "08_Chapter_-_03_(위치와_장소)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "09_Chapter_-_04_(동작과_사물)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "10_Chapter_-_05_(날짜와_요일)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "11_Chapter_-_06_(하루_일과)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "12_Chapter_-_07_(계절과_날씨)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "13_Chapter_-_08_(가족과_친구)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "14_Chapter_-_09_(음식_주문)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "15_Chapter_-_10_(물건_구입)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "16_Chapter_-_11_(집안일)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "17_Chapter_-_12_(대중교통)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "18_Chapter_-_13_(주말_활동)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "19_Chapter_-_14_(길_찾기)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "20_Chapter_-_15_(옷차림)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "21_Chapter_-_16_(집_구하기)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "22_Chapter_-_17_(휴가)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "23_Chapter_-_18_(취미)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "24_Chapter_-_19_(요리)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "25_Chapter_-_20_(인터넷과_스마트폰)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "26_Chapter_-_21_(병원)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "27_Chapter_-_22_(약국)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "28_Chapter_-_23_(우체국)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "29_Chapter_-_24_(은행)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "30_Chapter_-_25_(외국인_근로자_지원_기관)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "31_Chapter_-_26_(한국의_주거_문화와_음식_문화)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "32_Chapter_-_27_(한국의_기념일)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "33_Chapter_-_28_(한국의_명절)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "34_Chapter_-_29_(한국의_예절)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "35_Chapter_-_30_(한국의_대중문화)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "36_Chapter_-_31_(복장과_근무_태도)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "37_Chapter_-_32_(회사_시설_이용)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "38_Chapter_-_33_(동료와의_관계)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "39_Chapter_-_34_(성희롱_및_성추행_예방)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "40_Chapter_-_35_(작업장_관리)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "41_Chapter_-_36_(출하_관리)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "42_Chapter_-_37_(기계_가공)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "43_Chapter_-_38_(기계_조립)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "44_Chapter_-_39_(금속_가공)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "45_Chapter_-_40_(플라스틱_고무_성형)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "46_Chapter_-_41_(섬유_제조)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "47_Chapter_-_42_(가구_제작)",
+          "pdfCount": 1,
+          "mp3Count": 7
+        },
+        {
+          "chapter": "48_Chapter_-_43_(건축_시공)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "49_Chapter_-_44_(토목_시공)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "50_Chapter_-_45_(농작물_재배)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "51_Chapter_-_46_(사육_관리)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "52_Chapter_-_47_(연안_어업과_양식)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "53_Chapter_-_48_(선체_건조)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "54_Chapter_-_49_(광물_자원_개발_생산)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "55_Chapter_-_50_(산림_자원_조성)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "56_Chapter_-_51_(숙박_서비스)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "57_Chapter_-_52_(음식_조리)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "58_Chapter_-_53_(산업_안전_및_보건_표지)",
+          "pdfCount": 1,
+          "mp3Count": 5
+        },
+        {
+          "chapter": "59_Chapter_-_54_(산업_안전_및_보건_수칙)",
+          "pdfCount": 1,
+          "mp3Count": 5
+        },
+        {
+          "chapter": "60_Chapter_-_55_(산업_안전_및_위생_장비)",
+          "pdfCount": 1,
+          "mp3Count": 5
+        },
+        {
+          "chapter": "61_Chapter_-_56_(산업_재해_및_응급_처치)",
+          "pdfCount": 1,
+          "mp3Count": 5
+        },
+        {
+          "chapter": "62_Chapter_-_57_(고용허가제)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "63_Chapter_-_58_(근로기준법)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "64_Chapter_-_59_(출입국관리법)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "65_Chapter_-_60_(근로자_보험)",
+          "pdfCount": 1,
+          "mp3Count": 6
+        },
+        {
+          "chapter": "66_Unit_Answer",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "67_Script_Audio",
+          "pdfCount": 1,
+          "mp3Count": 0
+        }
+      ]
+    },
+    {
+      "identifier": "SKILL_TEST_2026",
+      "title": "Modul Skill Test & Wawancara 2026 (9 Bab)",
+      "category": "Skill Test",
+      "path": "study_materials/SKILL_TEST_2026",
+      "totalChapters": 9,
+      "totalPdfs": 9,
+      "totalAudio": 0,
+      "chaptersSummary": [
+        {
+          "chapter": "01_0._면접평가",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "02_2._제조업_&_서비스업_Ⅰ",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "03_3._농축산업",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "04_4._건설업",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "05_5._어업",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "06_6._서비스업_Ⅱ",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "07_7._광업",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "08_8._임업",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "09_1._면접평가_질문",
+          "pdfCount": 1,
+          "mp3Count": 0
+        }
+      ]
+    },
+    {
+      "identifier": "CBT_-_Job_releted_questions",
+      "title": "CBT Soal Khusus Kejuruan / Job-Related Questions (8 Bidang)",
+      "category": "Job-Related CBT",
+      "path": "study_materials/CBT_-_Job_releted_questions",
+      "totalChapters": 8,
+      "totalPdfs": 8,
+      "totalAudio": 0,
+      "chaptersSummary": [
+        {
+          "chapter": "01_Chemical",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "02_electronic_and_electricity",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "03_Fibre_and_Sewing",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "04_Food_and_beverage",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "05_Machine_moulding",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "06_Metal",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "07_Paper_and_wood",
+          "pdfCount": 1,
+          "mp3Count": 0
+        },
+        {
+          "chapter": "08_Rubber_and_Plastic",
+          "pdfCount": 1,
+          "mp3Count": 0
+        }
+      ]
+    }
+  ],
+  "vocabulary": {
+    "file": "vocabulary/all_vocabulary.json",
+    "count": 6008,
+    "fields": [
+      "korean",
+      "indonesian",
+      "wordType",
+      "difficulty",
+      "examples",
+      "notes"
+    ],
+    "wordTypes": {
+      "VERB": 1684,
+      "PHRASE": 2304,
+      "NOUN": 1990,
+      "ADJECTIVE": 29,
+      "ADVERB": 1
+    },
+    "difficulties": {
+      "ADVANCED": 2655,
+      "BEGINNER": 2093,
+      "INTERMEDIATE": 1260
+    }
+  }
+}

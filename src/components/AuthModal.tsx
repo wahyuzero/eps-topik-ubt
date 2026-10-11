@@ -9,6 +9,7 @@ const AuthModalContent: React.FC = () => {
     closeAuthModal,
     login,
     register,
+    isRegistrationEnabled,
   } = useAuth();
 
   const [tab, setTab] = useState<'login' | 'register'>(authModalMode);
@@ -33,6 +34,11 @@ const AuthModalContent: React.FC = () => {
 
   const handleRegisterSubmit = (e: React.FormEvent) => {
     e.preventDefault();
+    if (!isRegistrationEnabled) {
+      soundFX.playWarning();
+      setError('Pendaftaran akun baru sedang dinonaktifkan oleh Administrator.');
+      return;
+    }
     setError(null);
     const res = register(name, email, password, role);
     if (res.success) {
@@ -72,8 +78,6 @@ const AuthModalContent: React.FC = () => {
           </p>
         </div>
 
-
-
         {/* Tabs: Login / Register */}
         <div className="grid grid-cols-2 p-1 bg-slate-950 rounded-xl border border-slate-800 text-xs font-bold">
           <button
@@ -98,13 +102,18 @@ const AuthModalContent: React.FC = () => {
               setTab('register');
               setError(null);
             }}
-            className={`py-2 rounded-lg transition-all cursor-pointer ${
+            className={`py-2 rounded-lg transition-all cursor-pointer flex items-center justify-center gap-1.5 ${
               tab === 'register'
                 ? 'bg-blue-600 text-white shadow-sm'
                 : 'text-slate-400 hover:text-slate-200'
             }`}
           >
-            Daftar (Register)
+            <span>Daftar (Register)</span>
+            {!isRegistrationEnabled && (
+              <span className="text-[9px] px-1.5 py-0.2 rounded bg-amber-500/20 text-amber-300 border border-amber-500/30 font-semibold flex items-center gap-0.5">
+                <Lock className="w-2.5 h-2.5" /> Ditutup
+              </span>
+            )}
           </button>
         </div>
 
@@ -170,7 +179,42 @@ const AuthModalContent: React.FC = () => {
         )}
 
         {/* Register Form */}
-        {tab === 'register' && (
+        {tab === 'register' && !isRegistrationEnabled && (
+          <div className="flex flex-col items-center gap-3 py-4 text-center">
+            <div className="w-14 h-14 rounded-2xl bg-amber-500/10 border border-amber-500/30 flex items-center justify-center text-amber-400">
+              <Lock className="w-7 h-7" />
+            </div>
+            <h3 className="font-extrabold text-base text-white">
+              Pendaftaran Mandiri Ditutup
+            </h3>
+            <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
+              Administrator LPK saat ini sedang menonaktifkan pendaftaran akun mandiri. Calon murid didaftarkan secara resmi oleh pihak pengelola LPK.
+            </p>
+            <div className="p-3 bg-slate-950/80 border border-slate-800 rounded-xl text-left w-full text-xs text-slate-300 flex flex-col gap-1 mt-1">
+              <div className="font-bold text-slate-200 flex items-center gap-1.5">
+                <Shield className="w-3.5 h-3.5 text-blue-400" />
+                <span>Butuh Akun Siswa?</span>
+              </div>
+              <p className="text-[11px] text-slate-400">
+                Silakan hubungi Guru / Administrator LPK Anda untuk mendapatkan kredensial akun ujian resmi.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={() => {
+                soundFX.playNav();
+                setTab('login');
+                setError(null);
+              }}
+              className="mt-2 w-full py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs flex items-center justify-center gap-1.5 transition-all active:scale-95 cursor-pointer shadow-md shadow-blue-900/30"
+            >
+              <span>Beralih ke Halaman Masuk (Login)</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </button>
+          </div>
+        )}
+
+        {tab === 'register' && isRegistrationEnabled && (
           <form onSubmit={handleRegisterSubmit} className="flex flex-col gap-3">
             <div>
               <label className="block text-[11px] font-bold text-slate-300 mb-1">

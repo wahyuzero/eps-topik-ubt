@@ -223,6 +223,32 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
   const [authModalMode, setAuthModalMode] = useState<'login' | 'register'>('login');
 
+  // 6. Registration toggle state (default to true: open)
+  const [isRegistrationEnabled, setIsRegistrationEnabled] = useState<boolean>(() => {
+    try {
+      const saved = localStorage.getItem('ubt_registration_enabled');
+      if (saved !== null) {
+        return JSON.parse(saved);
+      }
+    } catch {
+      // fallback
+    }
+    return true;
+  });
+
+  const toggleRegistrationEnabled = () => {
+    setIsRegistrationEnabled((prev) => {
+      const next = !prev;
+      localStorage.setItem('ubt_registration_enabled', JSON.stringify(next));
+      return next;
+    });
+  };
+
+  const setRegistrationEnabled = (enabled: boolean) => {
+    setIsRegistrationEnabled(enabled);
+    localStorage.setItem('ubt_registration_enabled', JSON.stringify(enabled));
+  };
+
   // Seed history if empty or uninitialized
   useEffect(() => {
     try {
@@ -323,6 +349,13 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
 
   // User self-registration: creates user and immediately logs them in
   const register = (name: string, email: string, pass: string, regRole: UserRole = 'student') => {
+    if (!isRegistrationEnabled) {
+      return {
+        success: false,
+        error: 'Pendaftaran akun baru saat ini sedang dinonaktifkan oleh Administrator.',
+      };
+    }
+
     const trimmedName = name.trim();
     const trimmedEmail = email.trim().toLowerCase();
 
@@ -354,23 +387,101 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return { success: true };
   };
 
-
-
   const logout = () => {
     setCurrentUser(null);
     localStorage.removeItem('ubt_auth_user');
   };
 
-  const updateUserRole = (userId: string, newRole: UserRole) => {
-    setUsers((prev) =>
-      prev.map((u) => (u.id === userId ? { ...u, role: newRole } : u))
-    );
+  const updateUser = (
+    userId: string,
+    updates: { name?: string; email?: string; role?: UserRole; password?: string }
+  ): { success: boolean; error?: string } => {
+    const targetUser = users.find((u) => u.id === userId);
+    if (!targetUser) return { success: false, error: 'Pengguna tidak ditemukan.' };
 
-    if (currentUser?.id === userId) {
-      const updatedCurrent = { ...currentUser, role: newRole };
-      setCurrentUser(updatedCurrent);
-      localStorage.setItem('ubt_auth_user', JSON.stringify(updatedCurrent));
+    const trimmedName = updates.name !== undefined ? updates.name.trim() : targetUser.name;
+    const oldEmail = targetUser.email.toLowerCase();
+    const newEmail = updates.email !== undefined ? updates.email.trim().toLowerCase() : oldEmail;
+
+    if (!trimmedName || !newEmail) {
+      return { success: false, error: 'Nama dan email tidak boleh kosong.' };
     }
+
+    // Check if new email is taken by another user
+    if (newEmail !== oldEmail && users.some((u) => u.id !== userId && u.email.toLowerCase() === newEmail)) {
+      return { success: false, error: 'Alamat email sudah terdaftar untuk akun lain.' };
+    }
+
+    const updatedUser: User = {
+      ...targetUser,
+      name: trimmedName,
+      email: newEmail,
+      role: updates.role || targetUser.role,
+    };
+
+    setUsers((prev) => prev.map((u) => (u.id === userId ? updatedUser : u)));
+
+    // If current logged-in user is updated, update active session
+    if (currentUser?.id === userId) {
+      setCurrentUser(updatedUser);
+      localStorage.setItem('ubt_auth_user', JSON.stringify(updatedUser));
+    }
+
+    // Update password if specified or if email changed
+    setPasswords((prev) => {
+      const copy = { ...prev };
+      const currentPass = copy[oldEmail] || 'siswa123';
+      if (newEmail !== oldEmail) {
+        delete copy[oldEmail];
+      }
+      copy[newEmail] = updates.password ? updates.password : currentPass;
+      return copy;
+    });
+
+    // If email or name changed, also update matching exam history records
+    if (newEmail !== oldEmail || trimmedName !== targetUser.name) {
+      try {
+        const savedHistory = localStorage.getItem('ubt_exam_history');
+        if (savedHistory) {
+          const parsed: ExamResult[] = JSON.parse(savedHistory);
+          const updatedHistory = parsed.map((item) => {
+            if (item.userId === userId || (item.userEmail && item.userEmail.toLowerCase() === oldEmail)) {
+              return {
+                ...item,
+                userEmail: newEmail,
+                studentName: trimmedName,
+              };
+            }
+            return item;
+          });
+          localStorage.setItem('ubt_exam_history', JSON.stringify(updatedHistory));
+          window.dispatchEvent(new Event('ubt-history-updated'));
+        }
+      } catch {
+        // ignore
+      }
+    }
+
+    return { success: true };
+  };
+
+  const setUserPassword = (userId: string, newPassword: string): { success: boolean; error?: string } => {
+    const targetUser = users.find((u) => u.id === userId);
+    if (!targetUser) return { success: false, error: 'Pengguna tidak ditemukan.' };
+    if (!newPassword || newPassword.trim().length < 4) {
+      return { success: false, error: 'Password minimal 4 karakter.' };
+    }
+
+    setPasswords((prev) => ({
+      ...prev,
+      [targetUser.email.toLowerCase()]: newPassword,
+    }));
+
+    return { success: true };
+  };
+
+  const updateUserRole = (userId: string, newRole: UserRole) => {
+    updateUser(userId, { role: newRole });
   };
 
   const resetStudentProgress = (userId: string) => {
@@ -464,9 +575,14 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         authModalMode,
         openAuthModal,
         closeAuthModal,
+        isRegistrationEnabled,
+        toggleRegistrationEnabled,
+        setRegistrationEnabled,
         login,
         register,
         addUser,
+        updateUser,
+        setUserPassword,
         logout,
         updateUserRole,
         resetStudentProgress,

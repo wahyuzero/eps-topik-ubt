@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useAuth } from '../context/authContext';
-import type { ExamManifestItem, ExamResult, UserRole } from '../types';
+import type { ExamManifestItem, ExamResult, UserRole, User } from '../types';
 import {
   Shield,
   Users,
@@ -21,6 +21,11 @@ import {
   Clock,
   UserPlus,
   TrendingUp,
+  Pencil,
+  Power,
+  ToggleLeft,
+  ToggleRight,
+  KeyRound,
 } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
 
@@ -45,6 +50,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
     isExamLocked,
     setAllExamsLocked,
     addUser,
+    updateUser,
+    isRegistrationEnabled,
+    toggleRegistrationEnabled,
   } = useAuth();
 
   const [activeAdminTab, setActiveAdminTab] = useState<'scores' | 'exams' | 'users'>('scores');
@@ -57,6 +65,7 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   const [examLockFilter, setExamLockFilter] = useState<'ALL' | 'LOCKED' | 'UNLOCKED'>('ALL');
 
   const [userSearch, setUserSearch] = useState('');
+  const [userRoleFilter, setUserRoleFilter] = useState<'ALL' | 'student' | 'admin'>('ALL');
 
   // Add user modal state
   const [showAddUserModal, setShowAddUserModal] = useState(false);
@@ -65,6 +74,14 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
   const [newUserPass, setNewUserPass] = useState('siswa123');
   const [newUserRole, setNewUserRole] = useState<UserRole>('student');
   const [addUserMsg, setAddUserMsg] = useState<{ text: string; error: boolean } | null>(null);
+
+  // Edit user modal state
+  const [editingUser, setEditingUser] = useState<User | null>(null);
+  const [editName, setEditName] = useState('');
+  const [editEmail, setEditEmail] = useState('');
+  const [editRole, setEditRole] = useState<UserRole>('student');
+  const [editPassword, setEditPassword] = useState('');
+  const [editUserMsg, setEditUserMsg] = useState<{ text: string; error: boolean } | null>(null);
 
   // Read exam history from localStorage with reactive state
   const [history, setHistory] = useState<ExamResult[]>(() => {
@@ -149,10 +166,13 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
 
   // Filtered Users
   const filteredUsers = users.filter((u) => {
-    return (
+    const matchSearch =
       u.name.toLowerCase().includes(userSearch.toLowerCase()) ||
-      u.email.toLowerCase().includes(userSearch.toLowerCase())
-    );
+      u.email.toLowerCase().includes(userSearch.toLowerCase());
+    if (!matchSearch) return false;
+    if (userRoleFilter === 'student') return u.role === 'student';
+    if (userRoleFilter === 'admin') return u.role === 'admin';
+    return true;
   });
 
   // Export CSV function
@@ -205,6 +225,41 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
     } else {
       soundFX.playWarning();
       setAddUserMsg({ text: res.error || 'Gagal membuat akun.', error: true });
+    }
+  };
+
+  const handleOpenEditUser = (user: User) => {
+    soundFX.playSelect();
+    setEditingUser(user);
+    setEditName(user.name);
+    setEditEmail(user.email);
+    setEditRole(user.role);
+    setEditPassword('');
+    setEditUserMsg(null);
+  };
+
+  const handleSaveEditUser = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!editingUser) return;
+    setEditUserMsg(null);
+
+    const res = updateUser(editingUser.id, {
+      name: editName,
+      email: editEmail,
+      role: editRole,
+      password: editPassword.trim() ? editPassword.trim() : undefined,
+    });
+
+    if (res.success) {
+      soundFX.playComplete();
+      setEditUserMsg({ text: 'Data pengguna berhasil diperbarui!', error: false });
+      setTimeout(() => {
+        setEditingUser(null);
+        setEditUserMsg(null);
+      }, 1000);
+    } else {
+      soundFX.playWarning();
+      setEditUserMsg({ text: res.error || 'Gagal memperbarui pengguna.', error: true });
     }
   };
 
@@ -659,9 +714,69 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
       {/* TAB 3: MANAJEMEN AKUN SISWA */}
       {activeAdminTab === 'users' && (
         <div className="flex flex-col gap-4 animate-in fade-in duration-200">
+          {/* Registration Control Banner Card */}
+          <div className="bg-slate-900 border border-slate-800 rounded-2xl p-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 shadow-lg">
+            <div className="flex items-start gap-3.5">
+              <div
+                className={`w-11 h-11 rounded-2xl flex items-center justify-center shrink-0 border ${
+                  isRegistrationEnabled
+                    ? 'bg-emerald-500/20 text-emerald-400 border-emerald-500/30'
+                    : 'bg-rose-500/20 text-rose-400 border-rose-500/30'
+                }`}
+              >
+                <Power className="w-5 h-5" />
+              </div>
+              <div>
+                <div className="flex items-center gap-2">
+                  <h3 className="font-extrabold text-sm sm:text-base text-white">
+                    Pendaftaran Akun Publik
+                  </h3>
+                  <span
+                    className={`px-2.5 py-0.5 rounded-full text-[10px] font-black border ${
+                      isRegistrationEnabled
+                        ? 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                        : 'bg-rose-500/20 text-rose-300 border-rose-500/40'
+                    }`}
+                  >
+                    {isRegistrationEnabled ? '🟢 DIBUKA' : '🔴 DITUTUP'}
+                  </span>
+                </div>
+                <p className="text-xs text-slate-400 mt-1 max-w-2xl leading-relaxed">
+                  {isRegistrationEnabled
+                    ? 'Pengunjung umum dapat mendaftar akun baru secara mandiri di halaman depan. Anda dapat menutup pendaftaran jika kuota siswa penuh atau ingin membatasi akses khusus.'
+                    : 'Pendaftaran umum di halaman utama dinonaktifkan. Pengunjung tidak bisa mendaftar mandiri. Admin tetap dapat membuatkan akun siswa secara manual melalui tombol "Tambah Siswa / Admin Baru".'}
+                </p>
+              </div>
+            </div>
+
+            <button
+              onClick={() => {
+                soundFX.playSelect();
+                toggleRegistrationEnabled();
+              }}
+              className={`px-4 py-2.5 rounded-xl font-bold text-xs flex items-center gap-2 transition-all active:scale-95 cursor-pointer shrink-0 border shadow-md ${
+                isRegistrationEnabled
+                  ? 'bg-rose-600/20 hover:bg-rose-600/30 text-rose-300 border-rose-500/40'
+                  : 'bg-emerald-600 hover:bg-emerald-500 text-white border-emerald-500/40'
+              }`}
+            >
+              {isRegistrationEnabled ? (
+                <>
+                  <ToggleRight className="w-4 h-4 text-rose-400" />
+                  <span>Tutup Pendaftaran Publik</span>
+                </>
+              ) : (
+                <>
+                  <ToggleLeft className="w-4 h-4 text-white" />
+                  <span>Buka Pendaftaran Publik</span>
+                </>
+              )}
+            </button>
+          </div>
+
           {/* Controls Bar */}
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-3 bg-slate-900 border border-slate-800 p-4 rounded-2xl">
-            <div className="relative w-full sm:w-80">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-3 bg-slate-900 border border-slate-800 p-4 rounded-2xl">
+            <div className="relative w-full lg:w-80">
               <Search className="w-4 h-4 text-slate-500 absolute left-3.5 top-1/2 -translate-y-1/2" />
               <input
                 type="text"
@@ -672,16 +787,46 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
               />
             </div>
 
-            <button
-              onClick={() => {
-                soundFX.playSelect();
-                setShowAddUserModal(true);
-              }}
-              className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition-all active:scale-95 cursor-pointer shadow-md shadow-blue-900/20 shrink-0"
-            >
-              <UserPlus className="w-4 h-4" />
-              <span>Tambah Siswa / Admin Baru</span>
-            </button>
+            {/* Filter by Role & Add User Button */}
+            <div className="flex items-center gap-2 w-full lg:w-auto justify-between lg:justify-end flex-wrap">
+              <div className="flex items-center gap-1 bg-slate-950 p-1 rounded-xl border border-slate-800 text-xs font-bold">
+                <button
+                  onClick={() => setUserRoleFilter('ALL')}
+                  className={`px-3 py-1 rounded-lg transition-colors ${
+                    userRoleFilter === 'ALL' ? 'bg-blue-600 text-white' : 'text-slate-400 hover:text-white'
+                  }`}
+                >
+                  Semua ({users.length})
+                </button>
+                <button
+                  onClick={() => setUserRoleFilter('student')}
+                  className={`px-3 py-1 rounded-lg transition-colors ${
+                    userRoleFilter === 'student' ? 'bg-blue-600 text-white' : 'text-slate-400 hover:text-white'
+                  }`}
+                >
+                  Murid ({users.filter((u) => u.role === 'student').length})
+                </button>
+                <button
+                  onClick={() => setUserRoleFilter('admin')}
+                  className={`px-3 py-1 rounded-lg transition-colors ${
+                    userRoleFilter === 'admin' ? 'bg-amber-600 text-white' : 'text-slate-400 hover:text-white'
+                  }`}
+                >
+                  Admin ({users.filter((u) => u.role === 'admin').length})
+                </button>
+              </div>
+
+              <button
+                onClick={() => {
+                  soundFX.playSelect();
+                  setShowAddUserModal(true);
+                }}
+                className="flex items-center gap-1.5 px-4 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition-all active:scale-95 cursor-pointer shadow-md shadow-blue-900/20 shrink-0"
+              >
+                <UserPlus className="w-4 h-4" />
+                <span>Tambah Pengguna Baru</span>
+              </button>
+            </div>
           </div>
 
           {/* User List Table */}
@@ -738,6 +883,16 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
                         </td>
                         <td className="px-4 py-3.5 text-right">
                           <div className="flex items-center justify-end gap-1.5 flex-wrap">
+                            {/* Edit User Button */}
+                            <button
+                              onClick={() => handleOpenEditUser(u)}
+                              className="px-2.5 py-1.5 rounded-lg bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/30 text-[11px] font-bold transition-all active:scale-95 cursor-pointer flex items-center gap-1"
+                              title="Edit Profil & Password"
+                            >
+                              <Pencil className="w-3 h-3 text-blue-400" />
+                              <span>Edit</span>
+                            </button>
+
                             {/* Toggle Role Button */}
                             <button
                               onClick={() => {
@@ -894,6 +1049,128 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
               >
                 Simpan Akun
               </button>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Edit User Modal */}
+      {editingUser && (
+        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 animate-in fade-in">
+          <div className="bg-slate-900 border border-slate-700 rounded-3xl p-6 max-w-md w-full shadow-2xl flex flex-col gap-4 text-white">
+            <div className="flex items-center justify-between">
+              <div className="flex items-center gap-2">
+                <div className="w-8 h-8 rounded-lg bg-blue-600/20 text-blue-400 flex items-center justify-center border border-blue-500/30">
+                  <Pencil className="w-4 h-4" />
+                </div>
+                <div>
+                  <h3 className="text-base font-black text-white">Edit Pengguna</h3>
+                  <div className="text-[10px] text-slate-400">ID: {editingUser.id}</div>
+                </div>
+              </div>
+              <button
+                onClick={() => setEditingUser(null)}
+                className="text-slate-400 hover:text-white p-1 rounded-lg hover:bg-slate-800 transition-colors"
+              >
+                ✕
+              </button>
+            </div>
+
+            {editUserMsg && (
+              <div
+                className={`p-3 rounded-xl text-xs font-bold border ${
+                  editUserMsg.error
+                    ? 'bg-rose-500/20 text-rose-300 border-rose-500/40'
+                    : 'bg-emerald-500/20 text-emerald-300 border-emerald-500/40'
+                }`}
+              >
+                {editUserMsg.text}
+              </div>
+            )}
+
+            <form onSubmit={handleSaveEditUser} className="flex flex-col gap-3">
+              <div>
+                <label className="block text-[11px] font-bold text-slate-300 mb-1">Nama Lengkap</label>
+                <input
+                  type="text"
+                  required
+                  value={editName}
+                  onChange={(e) => setEditName(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[11px] font-bold text-slate-300 mb-1">Email</label>
+                <input
+                  type="email"
+                  required
+                  value={editEmail}
+                  onChange={(e) => setEditEmail(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[11px] font-bold text-slate-300 mb-1">Peran (Role)</label>
+                <div className="grid grid-cols-2 gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setEditRole('student')}
+                    className={`py-2 rounded-xl text-xs font-bold border transition-colors ${
+                      editRole === 'student'
+                        ? 'bg-blue-600/20 text-blue-300 border-blue-500'
+                        : 'bg-slate-950 text-slate-400 border-slate-800 hover:border-slate-700'
+                    }`}
+                  >
+                    Murid / Siswa
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setEditRole('admin')}
+                    className={`py-2 rounded-xl text-xs font-bold border transition-colors ${
+                      editRole === 'admin'
+                        ? 'bg-amber-500/20 text-amber-300 border-amber-500'
+                        : 'bg-slate-950 text-slate-400 border-slate-800 hover:border-slate-700'
+                    }`}
+                  >
+                    Admin LPK
+                  </button>
+                </div>
+              </div>
+
+              <div>
+                <label className="block text-[11px] font-bold text-slate-300 mb-1 flex items-center justify-between">
+                  <span className="flex items-center gap-1">
+                    <KeyRound className="w-3 h-3 text-amber-400" />
+                    <span>Ubah Kata Sandi Baru (Opsional)</span>
+                  </span>
+                  <span className="text-[10px] text-slate-500 font-normal">Kosongkan jika tetap</span>
+                </label>
+                <input
+                  type="password"
+                  placeholder="Masukkan kata sandi baru (min. 4 karakter)"
+                  value={editPassword}
+                  onChange={(e) => setEditPassword(e.target.value)}
+                  className="w-full bg-slate-950 border border-slate-800 rounded-xl px-3 py-2 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
+                />
+              </div>
+
+              <div className="mt-2 flex items-center gap-2">
+                <button
+                  type="button"
+                  onClick={() => setEditingUser(null)}
+                  className="w-1/3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold text-xs transition-all active:scale-95 cursor-pointer"
+                >
+                  Batal
+                </button>
+                <button
+                  type="submit"
+                  className="w-2/3 py-2.5 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs shadow-md shadow-blue-900/30 transition-all active:scale-95 cursor-pointer"
+                >
+                  Simpan Perubahan
+                </button>
+              </div>
             </form>
           </div>
         </div>

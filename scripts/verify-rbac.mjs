@@ -196,4 +196,94 @@ assert.strictEqual(grade(11, 10).passed, false, '21 correct (105/200) must FAIL'
 assert.strictEqual(grade(20, 20).totalScore, 200, '40 correct must be 200/200');
 console.log('✓ 9. Passing benchmark (110/200) and score grading verified');
 
-console.log('\n=== ALL 9 DEEP RBAC & UBT SIMULATOR CHECKS PASSED ===');
+// 10. Test Enable/Disable Public Registration Toggle
+let isRegistrationEnabled = false;
+
+function selfRegister(name, email, pass, role = 'student') {
+  if (!isRegistrationEnabled) {
+    return {
+      success: false,
+      error: 'Pendaftaran akun baru saat ini sedang dinonaktifkan oleh Administrator.',
+    };
+  }
+  return addUser(name, email, pass, role);
+}
+
+// When registration is disabled, self-registration fails
+const blockedReg = selfRegister('Rudi Hartono', 'rudi@epstopik.com', 'rudi123');
+assert.strictEqual(blockedReg.success, false);
+assert.match(blockedReg.error, /dinonaktifkan/);
+
+// But admin manual addUser still succeeds!
+const adminManualAdd = addUser('Rudi Hartono', 'rudi@epstopik.com', 'rudi123', 'student');
+assert.strictEqual(adminManualAdd.success, true);
+assert.strictEqual(systemUsers.some((u) => u.email === 'rudi@epstopik.com'), true);
+
+// When registration is re-enabled, self-registration works
+isRegistrationEnabled = true;
+const allowedReg = selfRegister('Maya Anggraeni', 'maya@epstopik.com', 'maya123');
+assert.strictEqual(allowedReg.success, true);
+assert.strictEqual(systemUsers.some((u) => u.email === 'maya@epstopik.com'), true);
+console.log('✓ 10. Registration enable/disable toggle & admin bypass verified');
+
+// 11. Test Admin updateUser & Synchronized Exam History
+let mockHistory = [
+  { id: 'h1', userId: 'user-student-1', userEmail: 'siswa@epstopik.com', studentName: 'Budi Santoso', totalScore: 165 },
+];
+
+function updateUser(userId, updates) {
+  const targetUser = systemUsers.find((u) => u.id === userId);
+  if (!targetUser) return { success: false, error: 'Pengguna tidak ditemukan.' };
+
+  const trimmedName = updates.name !== undefined ? updates.name.trim() : targetUser.name;
+  const oldEmail = targetUser.email.toLowerCase();
+  const newEmail = updates.email !== undefined ? updates.email.trim().toLowerCase() : oldEmail;
+
+  if (newEmail !== oldEmail && systemUsers.some((u) => u.id !== userId && u.email.toLowerCase() === newEmail)) {
+    return { success: false, error: 'Alamat email sudah terdaftar untuk akun lain.' };
+  }
+
+  targetUser.name = trimmedName;
+  targetUser.email = newEmail;
+  if (updates.role) targetUser.role = updates.role;
+
+  if (updates.password) {
+    if (newEmail !== oldEmail) delete systemPasswords[oldEmail];
+    systemPasswords[newEmail] = updates.password;
+  }
+
+  // Sync exam history
+  mockHistory = mockHistory.map((h) => {
+    if (h.userId === userId || (h.userEmail && h.userEmail.toLowerCase() === oldEmail)) {
+      return { ...h, userEmail: newEmail, studentName: trimmedName };
+    }
+    return h;
+  });
+
+  return { success: true, user: targetUser };
+}
+
+// Test email conflict
+const conflictRes = updateUser('user-student-1', { email: 'admin@epstopik.com' });
+assert.strictEqual(conflictRes.success, false);
+assert.match(conflictRes.error, /sudah terdaftar/);
+
+// Test successful update of student name, email, role, and password
+const updateRes = updateUser('user-student-1', {
+  name: 'Budi Santoso S.Kom',
+  email: 'budi.baru@epstopik.com',
+  role: 'admin',
+  password: 'newpassword123',
+});
+assert.strictEqual(updateRes.success, true);
+assert.strictEqual(updateRes.user.name, 'Budi Santoso S.Kom');
+assert.strictEqual(updateRes.user.email, 'budi.baru@epstopik.com');
+assert.strictEqual(updateRes.user.role, 'admin');
+assert.strictEqual(systemPasswords['budi.baru@epstopik.com'], 'newpassword123');
+
+// Verify synchronized history
+assert.strictEqual(mockHistory[0].studentName, 'Budi Santoso S.Kom');
+assert.strictEqual(mockHistory[0].userEmail, 'budi.baru@epstopik.com');
+console.log('✓ 11. Admin updateUser (name, email, role, pass & history sync) verified');
+
+console.log('\n=== ALL 11 DEEP RBAC & USER MANAGEMENT CHECKS PASSED ===');

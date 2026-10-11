@@ -10,11 +10,12 @@ import {
   ArrowRight,
   LogIn,
   UserPlus,
+  Lock,
 } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
 
 export const LandingPage: React.FC = () => {
-  const { openAuthModal } = useAuth();
+  const { openAuthModal, isRegistrationEnabled } = useAuth();
 
   return (
     <div className="min-h-screen bg-slate-950 text-white flex flex-col selection:bg-blue-500 selection:text-white">
@@ -51,16 +52,30 @@ export const LandingPage: React.FC = () => {
             <span>Masuk</span>
           </button>
 
-          <button
-            onClick={() => {
-              soundFX.playNav();
-              openAuthModal('register');
-            }}
-            className="flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs sm:text-sm font-bold shadow-md shadow-blue-600/25 transition-all active:scale-95 cursor-pointer"
-          >
-            <UserPlus className="w-4 h-4" />
-            <span>Daftar Akun</span>
-          </button>
+          {isRegistrationEnabled ? (
+            <button
+              onClick={() => {
+                soundFX.playNav();
+                openAuthModal('register');
+              }}
+              className="flex items-center gap-1.5 px-3.5 sm:px-4 py-2 rounded-xl bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-500 hover:to-indigo-500 text-white text-xs sm:text-sm font-bold shadow-md shadow-blue-600/25 transition-all active:scale-95 cursor-pointer"
+            >
+              <UserPlus className="w-4 h-4" />
+              <span>Daftar Akun</span>
+            </button>
+          ) : (
+            <button
+              onClick={() => {
+                soundFX.playNav();
+                openAuthModal('register');
+              }}
+              className="flex items-center gap-1.5 px-3 sm:px-3.5 py-2 rounded-xl bg-slate-900/90 border border-amber-500/30 text-amber-300 text-xs sm:text-sm font-bold transition-all active:scale-95 cursor-pointer hover:bg-slate-850"
+              title="Pendaftaran publik saat ini ditutup oleh Administrator"
+            >
+              <Lock className="w-3.5 h-3.5 text-amber-400" />
+              <span>Pendaftaran Ditutup</span>
+            </button>
+          )}
         </div>
       </header>
 
@@ -95,15 +110,22 @@ export const LandingPage: React.FC = () => {
             <ArrowRight className="w-4 h-4" />
           </button>
 
-          <button
-            onClick={() => {
-              soundFX.playNav();
-              openAuthModal('register');
-            }}
-            className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-bold text-sm transition-all active:scale-95 cursor-pointer"
-          >
-            <span>Daftar Akun Baru (Siswa / LPK)</span>
-          </button>
+          {isRegistrationEnabled ? (
+            <button
+              onClick={() => {
+                soundFX.playNav();
+                openAuthModal('register');
+              }}
+              className="w-full sm:w-auto px-6 py-3.5 rounded-2xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-slate-200 font-bold text-sm transition-all active:scale-95 cursor-pointer"
+            >
+              <span>Daftar Akun Baru (Siswa / LPK)</span>
+            </button>
+          ) : (
+            <div className="w-full sm:w-auto px-5 py-3.5 rounded-2xl bg-slate-900/80 border border-slate-800 text-slate-400 text-xs font-semibold flex items-center justify-center gap-2">
+              <Lock className="w-3.5 h-3.5 text-amber-400 shrink-0" />
+              <span>Pendaftaran publik ditutup oleh Admin LPK</span>
+            </div>
+          )}
         </div>
 
         {/* Highlight Stats Row */}

@@ -52,7 +52,7 @@ export const VocabularyView: React.FC = () => {
 
   // Load vocabulary from /bank/vocabulary/all_vocabulary.json
   useEffect(() => {
-    fetch('/bank/vocabulary/all_vocabulary.json')
+    fetch('/bank/vocabulary/all_vocabulary.json', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data: VocabularyWord[]) => {
         setWords(data);

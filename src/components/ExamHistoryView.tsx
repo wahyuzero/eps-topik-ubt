@@ -9,11 +9,9 @@ import {
   Clock,
   Eye,
   Trash2,
-  GraduationCap,
   Sparkles,
   Search,
   BookOpen,
-  LogIn,
 } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
 
@@ -30,7 +28,7 @@ export const ExamHistoryView: React.FC<ExamHistoryViewProps> = ({
   onClearHistory,
   onOpenOdapNote,
 }) => {
-  const { currentUser, isAdmin, isGuest, quickLogin, openAuthModal } = useAuth();
+  const { currentUser, isAdmin } = useAuth();
   const [searchQuery, setSearchQuery] = useState('');
   const [statusFilter, setStatusFilter] = useState<'ALL' | 'PASSED' | 'FAILED'>('ALL');
 
@@ -88,40 +86,7 @@ export const ExamHistoryView: React.FC<ExamHistoryViewProps> = ({
 
   return (
     <div className="flex flex-col gap-6 max-w-5xl mx-auto p-4 sm:p-6 animate-in fade-in duration-300">
-      {/* Guest notice */}
-      {isGuest && (
-        <div className="bg-blue-950/40 border border-blue-500/30 rounded-2xl p-4 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-3 shadow-lg">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-xl bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0 border border-blue-500/30">
-              <GraduationCap className="w-5 h-5" />
-            </div>
-            <div>
-              <div className="font-bold text-sm text-white">Mode Tamu (Belum Login)</div>
-              <p className="text-xs text-slate-400">
-                Masuk dengan akun siswa untuk menyimpan rapor nilai secara permanen dan melihat analitik belajar.
-              </p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2 w-full sm:w-auto">
-            <button
-              onClick={() => {
-                soundFX.playSelect();
-                quickLogin('student');
-              }}
-              className="flex-1 sm:flex-none px-3.5 py-2 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs transition-colors cursor-pointer text-center"
-            >
-              Masuk Siswa: Budi
-            </button>
-            <button
-              onClick={() => openAuthModal('login')}
-              className="flex-1 sm:flex-none px-3.5 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-bold text-xs transition-colors cursor-pointer text-center flex items-center justify-center gap-1"
-            >
-              <LogIn className="w-3.5 h-3.5" />
-              <span>Login / Daftar</span>
-            </button>
-          </div>
-        </div>
-      )}
+
 
       {/* Admin View Notice */}
       {isAdmin && (

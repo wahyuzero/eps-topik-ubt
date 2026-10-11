@@ -46,7 +46,7 @@ export const QuickVocabDrawer: React.FC<QuickVocabDrawerProps> = ({ isOpen, onCl
   // Load and pre-index 6,008 master vocabulary entries once
   useEffect(() => {
     if (!isOpen || indexedWords.length > 0) return;
-    fetch('/bank/vocabulary/all_vocabulary.json')
+    fetch('/bank/vocabulary/all_vocabulary.json', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data: VocabularyWord[]) => {
         const indexed: IndexedVocabWord[] = data.map((w) => {

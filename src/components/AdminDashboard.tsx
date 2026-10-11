@@ -37,7 +37,6 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
     currentUser,
     isAdmin,
     users,
-    quickLogin,
     updateUserRole,
     resetStudentProgress,
     deleteUser,
@@ -104,16 +103,9 @@ export const AdminDashboard: React.FC<AdminDashboardProps> = ({
         <p className="text-sm text-slate-400 max-w-md">
           Halaman ini khusus untuk manajemen siswa, pemantauan rapor nilai kelas, dan pengaturan akses paket ujian UBT.
         </p>
-        <button
-          onClick={() => {
-            soundFX.playSelect();
-            quickLogin('admin');
-          }}
-          className="mt-2 px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 text-slate-950 font-black text-sm shadow-lg shadow-amber-500/20 transition-all active:scale-95 cursor-pointer flex items-center gap-2"
-        >
-          <Shield className="w-4 h-4" />
-          <span>Masuk sebagai Admin LPK (Pak Guru Kim)</span>
-        </button>
+        <div className="mt-2 text-xs text-slate-500">
+          Silakan hubungi administrator institusi jika Anda membutuhkan hak akses instruktur.
+        </div>
       </div>
     );
   }

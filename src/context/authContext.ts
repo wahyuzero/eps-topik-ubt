@@ -16,7 +16,6 @@ export interface AuthContextType {
   login: (email: string, password: string) => { success: boolean; error?: string };
   register: (name: string, email: string, password: string, role?: UserRole) => { success: boolean; error?: string };
   addUser: (name: string, email: string, password: string, role?: UserRole) => { success: boolean; error?: string };
-  quickLogin: (type: 'student' | 'admin' | 'guest') => void;
   logout: () => void;
   updateUserRole: (userId: string, newRole: UserRole) => void;
   resetStudentProgress: (userId: string) => void;

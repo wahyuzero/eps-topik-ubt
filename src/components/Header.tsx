@@ -16,9 +16,7 @@ import {
   ChevronDown,
   LogOut,
   LogIn,
-  GraduationCap,
   User as UserIcon,
-  RefreshCw,
 } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
 import { mobileDevice } from '../utils/hapticsAndWakeLock';
@@ -62,7 +60,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenColorVision,
   onOpenQuickVocab,
 }) => {
-  const { currentUser, role, isAdmin, isGuest, logout, quickLogin, openAuthModal } = useAuth();
+  const { currentUser, isAdmin, logout, openAuthModal } = useAuth();
   const [isWakeLockOn, setIsWakeLockOn] = useState<boolean>(false);
   const [isMuted, setIsMuted] = useState<boolean>(soundFX.isMuted());
   const [isProfileMenuOpen, setIsProfileMenuOpen] = useState<boolean>(false);
@@ -418,70 +416,7 @@ export const Header: React.FC<HeaderProps> = ({
                     </button>
                   )}
 
-                  {/* Switch Demo Account Section */}
-                  <div className="flex flex-col gap-1.5 pt-1 border-t border-slate-800">
-                    <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider flex items-center gap-1">
-                      <RefreshCw className="w-3 h-3 text-slate-500" />
-                      <span>Ganti Akun / Switch Demo</span>
-                    </span>
 
-                    <button
-                      onClick={() => {
-                        soundFX.playSelect();
-                        quickLogin('student');
-                        setIsProfileMenuOpen(false);
-                      }}
-                      className={`py-1.5 px-2.5 rounded-lg text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
-                        role === 'student' && currentUser?.email === 'siswa@epstopik.com'
-                          ? 'bg-blue-600/30 text-blue-300 border border-blue-500/40'
-                          : 'bg-slate-950 hover:bg-slate-800 text-slate-300'
-                      }`}
-                    >
-                      <span className="flex items-center gap-1.5 truncate">
-                        <GraduationCap className="w-3.5 h-3.5 text-blue-400 shrink-0" />
-                        <span className="truncate">Siswa: Budi Santoso</span>
-                      </span>
-                      <span className="text-[9px] text-slate-500 shrink-0">Murid</span>
-                    </button>
-
-                    <button
-                      onClick={() => {
-                        soundFX.playSelect();
-                        quickLogin('admin');
-                        setIsProfileMenuOpen(false);
-                      }}
-                      className={`py-1.5 px-2.5 rounded-lg text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
-                        isAdmin
-                          ? 'bg-amber-500/30 text-amber-300 border border-amber-500/40'
-                          : 'bg-slate-950 hover:bg-slate-800 text-slate-300'
-                      }`}
-                    >
-                      <span className="flex items-center gap-1.5 truncate">
-                        <Shield className="w-3.5 h-3.5 text-amber-400 shrink-0" />
-                        <span className="truncate">Admin: Pak Guru Kim</span>
-                      </span>
-                      <span className="text-[9px] text-slate-500 shrink-0">Admin LPK</span>
-                    </button>
-
-                    <button
-                      onClick={() => {
-                        soundFX.playSelect();
-                        quickLogin('guest');
-                        setIsProfileMenuOpen(false);
-                      }}
-                      className={`py-1.5 px-2.5 rounded-lg text-xs font-semibold flex items-center justify-between transition-colors cursor-pointer ${
-                        isGuest
-                          ? 'bg-slate-800 text-white border border-slate-700'
-                          : 'bg-slate-950 hover:bg-slate-800 text-slate-400 hover:text-slate-200'
-                      }`}
-                    >
-                      <span className="flex items-center gap-1.5 truncate">
-                        <UserIcon className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                        <span className="truncate">Mode Tamu (Guest)</span>
-                      </span>
-                      <span className="text-[9px] text-slate-500 shrink-0">Tanpa Akun</span>
-                    </button>
-                  </div>
 
                   {/* Login / Register / Logout Actions */}
                   <div className="flex flex-col gap-1 pt-1.5 border-t border-slate-800">

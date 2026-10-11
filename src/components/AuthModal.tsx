@@ -9,7 +9,6 @@ const AuthModalContent: React.FC = () => {
     closeAuthModal,
     login,
     register,
-    quickLogin,
   } = useAuth();
 
   const [tab, setTab] = useState<'login' | 'register'>(authModalMode);
@@ -73,43 +72,7 @@ const AuthModalContent: React.FC = () => {
           </p>
         </div>
 
-        {/* Quick Demo Login Buttons */}
-        <div className="flex flex-col gap-2 p-3 bg-slate-950/80 border border-slate-800 rounded-2xl">
-          <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider text-center">
-            ⚡ Quick Demo Login (1-Klik Masuk)
-          </span>
-          <div className="grid grid-cols-2 gap-2">
-            <button
-              type="button"
-              onClick={() => {
-                soundFX.playSelect();
-                quickLogin('student');
-              }}
-              className="flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-blue-600/20 hover:bg-blue-600/30 text-blue-300 border border-blue-500/30 text-xs font-bold transition-all active:scale-95 cursor-pointer text-left"
-            >
-              <GraduationCap className="w-4 h-4 text-blue-400 shrink-0" />
-              <div className="leading-tight truncate">
-                <div className="text-[11px] font-bold">Masuk Siswa</div>
-                <div className="text-[9px] text-blue-400/80 truncate">Budi Santoso</div>
-              </div>
-            </button>
 
-            <button
-              type="button"
-              onClick={() => {
-                soundFX.playSelect();
-                quickLogin('admin');
-              }}
-              className="flex items-center justify-center gap-1.5 px-3 py-2.5 rounded-xl bg-amber-500/20 hover:bg-amber-500/30 text-amber-300 border border-amber-500/30 text-xs font-bold transition-all active:scale-95 cursor-pointer text-left"
-            >
-              <Shield className="w-4 h-4 text-amber-400 shrink-0" />
-              <div className="leading-tight truncate">
-                <div className="text-[11px] font-bold">Masuk Admin LPK</div>
-                <div className="text-[9px] text-amber-400/80 truncate">Pak Guru Kim</div>
-              </div>
-            </button>
-          </div>
-        </div>
 
         {/* Tabs: Login / Register */}
         <div className="grid grid-cols-2 p-1 bg-slate-950 rounded-xl border border-slate-800 text-xs font-bold">
@@ -171,7 +134,7 @@ const AuthModalContent: React.FC = () => {
                 <input
                   type="email"
                   required
-                  placeholder="admin@epstopik.com / siswa@epstopik.com"
+                  placeholder="Masukkan alamat email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-9 pr-3 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
@@ -188,14 +151,11 @@ const AuthModalContent: React.FC = () => {
                 <input
                   type="password"
                   required
-                  placeholder="!4421Ngadmin / siswa123"
+                  placeholder="Masukkan kata sandi"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="w-full bg-slate-950 border border-slate-800 rounded-xl pl-9 pr-3 py-2.5 text-xs text-white placeholder-slate-500 focus:outline-none focus:border-blue-500"
                 />
-              </div>
-              <div className="flex justify-between items-center mt-1 text-[10px] text-slate-400">
-                <span>Default: !4421Ngadmin / siswa123</span>
               </div>
             </div>
 

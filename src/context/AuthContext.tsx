@@ -189,7 +189,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return DEFAULT_PASSWORDS;
   });
 
-  // 3. Current active user (default to Budi Santoso student for immediate testability)
+  // 3. Current active user (default to null if not logged in)
   const [currentUser, setCurrentUser] = useState<User | null>(() => {
     try {
       const saved = localStorage.getItem('ubt_auth_user');
@@ -200,9 +200,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     } catch {
       // fallback
     }
-    const defaultStudent = DEFAULT_USERS[1]; // Budi Santoso
-    localStorage.setItem('ubt_auth_user', JSON.stringify(defaultStudent));
-    return defaultStudent;
+    return null;
   });
 
   // 4. Locked Exam IDs (default lock: 2026 UBT - 05)
@@ -356,21 +354,7 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
     return { success: true };
   };
 
-  const quickLogin = (type: 'student' | 'admin' | 'guest') => {
-    if (type === 'guest') {
-      setCurrentUser(null);
-      localStorage.removeItem('ubt_auth_user');
-      setIsAuthModalOpen(false);
-      return;
-    }
 
-    const targetEmail = type === 'admin' ? 'admin@epstopik.com' : 'siswa@epstopik.com';
-    const targetUser = users.find((u) => u.email === targetEmail) || (type === 'admin' ? DEFAULT_USERS[0] : DEFAULT_USERS[1]);
-
-    setCurrentUser(targetUser);
-    localStorage.setItem('ubt_auth_user', JSON.stringify(targetUser));
-    setIsAuthModalOpen(false);
-  };
 
   const logout = () => {
     setCurrentUser(null);
@@ -485,7 +469,6 @@ export const AuthProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
         login,
         register,
         addUser,
-        quickLogin,
         logout,
         updateUserRole,
         resetStudentProgress,

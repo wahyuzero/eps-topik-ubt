@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import type { ExamManifestItem } from '../types';
 import { useAuth } from '../context/authContext';
-import { Search, Play, Trophy, Clock, CheckCircle, FileText, Sparkles, Eye, Lock, Unlock, LogIn, GraduationCap, X } from 'lucide-react';
+import { Search, Play, Trophy, Clock, CheckCircle, FileText, Sparkles, Eye, Lock, Unlock } from 'lucide-react';
 import { soundFX } from '../utils/soundEffects';
 
 interface ExamSelectorProps {
@@ -19,10 +19,9 @@ export const ExamSelector: React.FC<ExamSelectorProps> = ({
   examScores,
   onOpenColorVision,
 }) => {
-  const { isExamLocked, isAdmin, isGuest, quickLogin, openAuthModal } = useAuth();
+  const { isExamLocked, isAdmin } = useAuth();
   const [searchQuery, setSearchQuery] = useState('');
   const [activeCategory, setActiveCategory] = useState<'ALL' | 'UBT' | 'CHAPTER' | 'SKILL'>('ALL');
-  const [guestPromptExam, setGuestPromptExam] = useState<ExamManifestItem | null>(null);
 
   const filteredExams = exams.filter((ex) => {
     const matchesSearch = ex.title.toLowerCase().includes(searchQuery.toLowerCase());
@@ -44,12 +43,6 @@ export const ExamSelector: React.FC<ExamSelectorProps> = ({
     // If locked and not admin, cannot start
     if (locked && !isAdmin) {
       soundFX.playWarning();
-      return;
-    }
-
-    // If guest, show prompt dialog to save score or continue as guest
-    if (isGuest) {
-      setGuestPromptExam(exam);
       return;
     }
 
@@ -288,73 +281,6 @@ export const ExamSelector: React.FC<ExamSelectorProps> = ({
         })}
       </div>
 
-      {/* Guest Login Suggestion Modal */}
-      {guestPromptExam && (
-        <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-md flex items-center justify-center p-4 animate-in fade-in">
-          <div className="bg-slate-900 border border-slate-700 rounded-3xl p-6 sm:p-7 max-w-md w-full shadow-2xl flex flex-col gap-4 text-white relative">
-            <button
-              onClick={() => setGuestPromptExam(null)}
-              className="absolute top-4 right-4 p-2 text-slate-400 hover:text-white rounded-full bg-slate-800"
-            >
-              <X className="w-4 h-4" />
-            </button>
-
-            <div className="w-12 h-12 rounded-2xl bg-blue-600/20 text-blue-400 flex items-center justify-center border border-blue-500/30">
-              <GraduationCap className="w-6 h-6" />
-            </div>
-
-            <div>
-              <h3 className="text-lg font-black text-white">Simpan Nilai ke Rapor Anda?</h3>
-              <p className="text-xs text-slate-400 mt-1 leading-relaxed">
-                Anda sedang dalam mode Tamu (Belum Login). Masuk sekarang agar riwayat pengerjaan{' '}
-                <strong className="text-white">{guestPromptExam.title}</strong> otomatis tercatat di Rapor Siswa.
-              </p>
-            </div>
-
-            <div className="flex flex-col gap-2 mt-1">
-              {/* Quick Login Student */}
-              <button
-                onClick={() => {
-                  quickLogin('student');
-                  const examToStart = guestPromptExam;
-                  setGuestPromptExam(null);
-                  soundFX.playNav();
-                  onSelectExam(examToStart);
-                }}
-                className="w-full py-2.5 px-4 rounded-xl bg-blue-600 hover:bg-blue-500 text-white font-bold text-xs flex items-center justify-center gap-2 shadow-md transition-all active:scale-95 cursor-pointer"
-              >
-                <GraduationCap className="w-4 h-4" />
-                <span>Masuk Cepat: Siswa (Budi Santoso) & Mulai</span>
-              </button>
-
-              {/* Login / Register with credentials */}
-              <button
-                onClick={() => {
-                  setGuestPromptExam(null);
-                  openAuthModal('login');
-                }}
-                className="w-full py-2.5 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 font-bold text-xs flex items-center justify-center gap-2 transition-all cursor-pointer"
-              >
-                <LogIn className="w-4 h-4 text-blue-400" />
-                <span>Masuk dengan Akun Lain / Daftar Baru</span>
-              </button>
-
-              {/* Continue as guest */}
-              <button
-                onClick={() => {
-                  const examToStart = guestPromptExam;
-                  setGuestPromptExam(null);
-                  soundFX.playNav();
-                  onSelectExam(examToStart);
-                }}
-                className="w-full py-2 px-4 rounded-xl text-slate-400 hover:text-white font-bold text-xs text-center transition-colors cursor-pointer"
-              >
-                Lanjut sebagai Tamu (Mode Latihan Tanpa Rapor)
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };

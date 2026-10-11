@@ -10,6 +10,7 @@ import { VocabularyView } from './components/VocabularyView';
 import { ExamHistoryView } from './components/ExamHistoryView';
 import { AdminDashboard } from './components/AdminDashboard';
 import { AuthModal } from './components/AuthModal';
+import { LandingPage } from './components/LandingPage';
 import { AuthProvider } from './context/AuthContext';
 import { useAuth } from './context/authContext';
 import { ColorVisionModal, type ColorVisionPlate } from './components/ColorVisionModal';
@@ -105,7 +106,7 @@ const UbtApp: React.FC = () => {
 
   // Load exam list from bank or fallback
   useEffect(() => {
-    fetch('/bank/manifest.json')
+    fetch('/bank/manifest.json', { cache: 'no-store' })
       .then((res) => res.json())
       .then((data) => {
         if (data.exams && data.exams.length > 0) {
@@ -165,7 +166,7 @@ const UbtApp: React.FC = () => {
 
     // Try to fetch exam.json from public/bank
     const jsonPath = `/bank/${exam.path}/exam.json`;
-    fetch(jsonPath)
+    fetch(jsonPath, { cache: 'no-store' })
       .then((res) => {
         if (!res.ok) throw new Error('Not cached locally yet');
         return res.json();
@@ -203,7 +204,7 @@ const UbtApp: React.FC = () => {
     let currentExamList = examList;
     if (currentExamList.length === 0) {
       try {
-        const res = await fetch('/bank/manifest.json');
+        const res = await fetch('/bank/manifest.json', { cache: 'no-store' });
         const data = await res.json();
         if (data.exams && data.exams.length > 0) {
           currentExamList = data.exams;
@@ -245,7 +246,7 @@ const UbtApp: React.FC = () => {
 
     const jsonPath = `/bank/${targetExam.path}/exam.json`;
     try {
-      const res = await fetch(jsonPath);
+      const res = await fetch(jsonPath, { cache: 'no-store' });
       if (!res.ok) throw new Error('Not cached locally yet');
       const data = await res.json();
       if (data.questions && data.questions.length > 0) {
@@ -405,6 +406,16 @@ const UbtApp: React.FC = () => {
   const wrongCount = questions.filter(
     (q) => answers[q.questionNumber] !== undefined && answers[q.questionNumber] !== correctAnswersMap[q.questionNumber]
   ).length;
+
+  // Guard: If not logged in, render the dedicated public landing / index page
+  if (!currentUser) {
+    return (
+      <div className="min-h-screen bg-slate-950 text-white flex flex-col font-sans selection:bg-blue-600 selection:text-white">
+        <LandingPage />
+        <AuthModal />
+      </div>
+    );
+  }
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-blue-600 selection:text-white">
